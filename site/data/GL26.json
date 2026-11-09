@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:39+00:00",
+  "generated_at": "2026-11-09T22:45+00:00",
   "season": {
     "id": "GL26",
     "year": 2026,
@@ -775,7 +775,7 @@
       },
       "status": "live",
       "result": {
-        "value": 7555.6602
+        "value": 7549.9399
       },
       "points_awarded": {
         "robert": 0,
@@ -789,28 +789,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 755.6602000000003
+          "distance": 749.9399000000003
         },
         "carlos": {
-          "distance": 244.33979999999974
+          "distance": 250.0600999999997
         },
         "jack": {
-          "distance": 395.33979999999974
+          "distance": 401.0600999999997
         },
         "bob": {
-          "distance": 145.66020000000026
+          "distance": 139.9399000000003
         },
         "pablo": {
-          "distance": 245.33979999999974
+          "distance": 251.0600999999997
         },
         "max": {
-          "distance": 1055.6602000000003
+          "distance": 1049.9399000000003
         },
         "tony": {
-          "distance": 2755.6602000000003
+          "distance": 2749.9399000000003
         },
         "jose": {
-          "distance": 1055.6602000000003
+          "distance": 1049.9399000000003
         }
       },
       "picks": {
@@ -827,7 +827,7 @@
       "market": {
         "symbol": "^GSPC",
         "start": 6929.9399,
-        "latest": 7555.6602
+        "latest": 7549.9399
       }
     },
     {
@@ -923,7 +923,7 @@
       },
       "status": "live",
       "result": {
-        "value": 87.03
+        "value": 86.38
       },
       "points_awarded": {
         "robert": 3,
@@ -937,28 +937,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 9.030000000000001
+          "distance": 8.379999999999995
         },
         "carlos": {
-          "distance": 27.03
+          "distance": 26.379999999999995
         },
         "jack": {
-          "distance": 35.53
+          "distance": 34.879999999999995
         },
         "bob": {
-          "distance": 31.03
+          "distance": 30.379999999999995
         },
         "pablo": {
-          "distance": 35.03
+          "distance": 34.379999999999995
         },
         "max": {
-          "distance": 32.03
+          "distance": 31.379999999999995
         },
         "tony": {
-          "distance": 27.03
+          "distance": 26.379999999999995
         },
         "jose": {
-          "distance": 4.030000000000001
+          "distance": 3.3799999999999955
         }
       },
       "picks": {
@@ -975,7 +975,7 @@
       "market": {
         "symbol": "CL=F",
         "start": 56.74,
-        "latest": 87.03
+        "latest": 86.38
       }
     },
     {
@@ -997,7 +997,7 @@
       },
       "status": "live",
       "result": {
-        "value": 74768.1719
+        "value": 75173.3984
       },
       "points_awarded": {
         "robert": 0,
@@ -1011,28 +1011,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 105231.8281
+          "distance": 104826.6016
         },
         "carlos": {
-          "distance": 25231.8281
+          "distance": 24826.601599999995
         },
         "jack": {
-          "distance": 75231.8281
+          "distance": 74826.6016
         },
         "bob": {
-          "distance": 53231.8281
+          "distance": 52826.601599999995
         },
         "pablo": {
-          "distance": 13768.171900000001
+          "distance": 14173.398400000005
         },
         "max": {
-          "distance": 16231.828099999999
+          "distance": 15826.601599999995
         },
         "tony": {
-          "distance": 14768.171900000001
+          "distance": 15173.398400000005
         },
         "jose": {
-          "distance": 65231.8281
+          "distance": 64826.601599999995
         }
       },
       "picks": {
@@ -1049,7 +1049,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": 87301.4297,
-        "latest": 74768.1719
+        "latest": 75173.3984
       }
     },
     {
@@ -1156,7 +1156,7 @@
       },
       "status": "live",
       "result": {
-        "value": 396.8
+        "value": 397.62
       },
       "points_awarded": {
         "robert": 0,
@@ -1170,28 +1170,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 107.80000000000001
+          "distance": 108.62
         },
         "carlos": {
-          "distance": 43.19999999999999
+          "distance": 42.379999999999995
         },
         "jack": {
-          "distance": 11.199999999999989
+          "distance": 10.379999999999995
         },
         "bob": {
-          "distance": 3.1999999999999886
+          "distance": 2.3799999999999955
         },
         "pablo": {
-          "distance": 34.19999999999999
+          "distance": 33.379999999999995
         },
         "max": {
-          "distance": 26.80000000000001
+          "distance": 27.620000000000005
         },
         "tony": {
-          "distance": 91.80000000000001
+          "distance": 92.62
         },
         "jose": {
-          "distance": 256.8
+          "distance": 257.62
         }
       },
       "picks": {
@@ -1208,7 +1208,7 @@
       "market": {
         "symbol": "UNH",
         "start": 331.83,
-        "latest": 396.8
+        "latest": 397.62
       }
     },
     {
@@ -1230,7 +1230,7 @@
       },
       "status": "live",
       "result": {
-        "value": 63.98
+        "value": 63.95
       },
       "points_awarded": {
         "robert": 0,
@@ -1244,28 +1244,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 76.02000000000001
+          "distance": 76.05
         },
         "carlos": {
-          "distance": 46.02
+          "distance": 46.05
         },
         "jack": {
-          "distance": 54.02
+          "distance": 54.05
         },
         "bob": {
-          "distance": 23.020000000000003
+          "distance": 23.049999999999997
         },
         "pablo": {
-          "distance": 17.020000000000003
+          "distance": 17.049999999999997
         },
         "max": {
-          "distance": 45.02
+          "distance": 45.05
         },
         "tony": {
-          "distance": 21.020000000000003
+          "distance": 21.049999999999997
         },
         "jose": {
-          "distance": 66.02000000000001
+          "distance": 66.05
         }
       },
       "picks": {
@@ -1282,7 +1282,7 @@
       "market": {
         "symbol": "NFLX",
         "start": 94.47,
-        "latest": 63.98
+        "latest": 63.95
       }
     },
     {
@@ -1304,7 +1304,7 @@
       },
       "status": "live",
       "result": {
-        "value": 350.97
+        "value": 350.69
       },
       "points_awarded": {
         "robert": 0,
@@ -1318,28 +1318,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 80.97000000000003
+          "distance": 80.69
         },
         "carlos": {
-          "distance": 35.97000000000003
+          "distance": 35.69
         },
         "jack": {
-          "distance": 35.97000000000003
+          "distance": 35.69
         },
         "bob": {
-          "distance": 17.970000000000027
+          "distance": 17.689999999999998
         },
         "pablo": {
-          "distance": 31.970000000000027
+          "distance": 31.689999999999998
         },
         "max": {
-          "distance": 60.97000000000003
+          "distance": 60.69
         },
         "tony": {
-          "distance": 120.97000000000003
+          "distance": 120.69
         },
         "jose": {
-          "distance": 110.97000000000003
+          "distance": 110.69
         }
       },
       "picks": {
@@ -1356,7 +1356,7 @@
       "market": {
         "symbol": "AAPL",
         "start": 273.4,
-        "latest": 350.97
+        "latest": 350.69
       }
     },
     {
@@ -1378,7 +1378,7 @@
       },
       "status": "live",
       "result": {
-        "value": 172.55
+        "value": 172.38
       },
       "points_awarded": {
         "robert": 1,
@@ -1392,28 +1392,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 47.44999999999999
+          "distance": 47.620000000000005
         },
         "carlos": {
-          "distance": 122.44999999999999
+          "distance": 122.62
         },
         "jack": {
-          "distance": 68.44999999999999
+          "distance": 68.62
         },
         "bob": {
-          "distance": 47.44999999999999
+          "distance": 47.620000000000005
         },
         "pablo": {
-          "distance": 76.44999999999999
+          "distance": 76.62
         },
         "max": {
-          "distance": 27.44999999999999
+          "distance": 27.620000000000005
         },
         "tony": {
-          "distance": 17.44999999999999
+          "distance": 17.620000000000005
         },
         "jose": {
-          "distance": 67.44999999999999
+          "distance": 67.62
         }
       },
       "picks": {
@@ -1430,7 +1430,7 @@
       "market": {
         "symbol": "BA",
         "start": 216.44,
-        "latest": 172.55
+        "latest": 172.38
       }
     },
     {
@@ -1452,7 +1452,7 @@
       },
       "status": "live",
       "result": {
-        "value": 1065.37
+        "value": 1066.1801
       },
       "points_awarded": {
         "robert": 5,
@@ -1466,28 +1466,28 @@
       },
       "detail": {
         "robert": {
-          "distance": 15.36999999999989
+          "distance": 16.18010000000004
         },
         "carlos": {
-          "distance": 115.36999999999989
+          "distance": 116.18010000000004
         },
         "jack": {
-          "distance": 66.36999999999989
+          "distance": 67.18010000000004
         },
         "bob": {
-          "distance": 145.3699999999999
+          "distance": 146.18010000000004
         },
         "pablo": {
-          "distance": 66.36999999999989
+          "distance": 67.18010000000004
         },
         "max": {
-          "distance": 140.3699999999999
+          "distance": 141.18010000000004
         },
         "tony": {
-          "distance": 333.3699999999999
+          "distance": 334.18010000000004
         },
         "jose": {
-          "distance": 165.3699999999999
+          "distance": 166.18010000000004
         }
       },
       "picks": {
@@ -1504,7 +1504,7 @@
       "market": {
         "symbol": "COST",
         "start": 873.35,
-        "latest": 1065.37
+        "latest": 1066.1801
       }
     }
   ],
@@ -1592,6 +1592,6 @@
       "rank": 8
     }
   ],
-  "prices_as_of": "2026-11-09T21:00+00:00",
+  "prices_as_of": "2026-11-09T22:45+00:00",
   "prices_start_date": "2025-12-26"
 }
