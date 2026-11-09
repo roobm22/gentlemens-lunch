@@ -19,6 +19,8 @@
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   function parseDate(s) { if (!s) return null; const [y, m, d] = s.slice(0, 10).split("-").map(Number); return new Date(y, m - 1, d); }
   function fmtDate(s) { const d = parseDate(s); return d ? `${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}` : ""; }
+  const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  function fmtDay(s) { const d = parseDate(s); return d ? `${DAYS[d.getDay()]}, ${fmtDate(s)}` : ""; }
   function fmtStamp(iso) {
     if (!iso) return "";
     const d = new Date(iso);
@@ -60,7 +62,8 @@
     if (!list.length) return cat.status === "pending" ? "" : "Nobody scored";
     return list.map(([id, p]) => `${esc(playerName(id))} +${p}`).join(", ");
   }
-  const isActive = () => state.data.season.status === "active" || state.data.season.status === "picks_open";
+  const isActive = () => state.data.season.status === "active";
+  const isPreview = () => state.data.season.status === "planning" || state.data.season.status === "picks_open";
 
   // ---------------------------------------------------------------- routing
   function readHash() {
@@ -85,11 +88,13 @@
   function renderShell() {
     const sel = $("#season");
     sel.innerHTML = state.index.seasons
-      .map((s) => `<option value="${esc(s.id)}"${s.id === state.season ? " selected" : ""}>${esc(s.id)}${s.status === "final" ? " (final)" : s.id === state.index.active ? " (current)" : ""}</option>`)
+      .map((s) => `<option value="${esc(s.id)}"${s.id === state.season ? " selected" : ""}>${esc(s.id)}${s.status === "final" ? " (final)" : s.status === "planning" || s.status === "picks_open" ? " (preview)" : s.id === state.index.active ? " (current)" : ""}</option>`)
       .join("");
     $("#tabs").innerHTML = TABS.map(([id, label]) => `<button class="tab" role="tab" data-tab="${id}" aria-selected="${id === state.tab}">${label}</button>`).join("");
     const s = state.data.season;
-    $("#sub").textContent = `${s.year} season · ${s.status === "final" ? "settled" : "settles"} ${fmtDate(s.settlement_date)}`;
+    $("#sub").textContent = isPreview()
+      ? `${s.year} season · picks due ${fmtDate(s.picks_close)}`
+      : `${s.year} season · ${s.status === "final" ? "settled" : "settles"} ${fmtDate(s.settlement_date)}`;
     const parts = [`Updated ${fmtStamp(state.data.generated_at)}`];
     if (state.data.prices_as_of && isActive()) parts.push(`market prices as of ${fmtStamp(state.data.prices_as_of)}`);
     $("#foot").innerHTML = esc(parts.join(" · ")) + ". Questions? Ask Robert.";
@@ -97,13 +102,55 @@
 
   function render() {
     renderShell();
-    const view = { standings, picks, schedule, markets, historyTab, rules }[state.tab === "history" ? "historyTab" : state.tab];
+    let view = { standings, picks, schedule, markets, historyTab, rules }[state.tab === "history" ? "historyTab" : state.tab];
+    if (isPreview()) {
+      if (state.tab === "standings") view = () => underConstruction("Standings", "The leaderboard goes up once picks close. Nobody has any points yet, so technically everyone is tied for first.");
+      if (state.tab === "markets") view = () => underConstruction("Markets", "Starting prices get locked in when picks close. Until then, today's prices are on the Picks tab.");
+      if (state.tab === "picks") view = previewPicks;
+    }
     $("#view").innerHTML = view();
     writeHash();
   }
 
+  // ---------------------------------------------------------------- next-season preview
+  const CONE = `<svg class="construction" viewBox="0 0 240 120" aria-hidden="true">
+    <defs><pattern id="stripes" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="20" fill="#f28c28"/><rect x="10" width="10" height="20" fill="#fff"/></pattern></defs>
+    <rect x="20" y="22" width="150" height="26" rx="4" fill="url(#stripes)" stroke="#1f2420" stroke-width="2"/>
+    <rect x="34" y="48" width="8" height="58" fill="#5d645d"/><rect x="148" y="48" width="8" height="58" fill="#5d645d"/>
+    <rect x="24" y="104" width="28" height="6" rx="2" fill="#1f2420"/><rect x="138" y="104" width="28" height="6" rx="2" fill="#1f2420"/>
+    <path d="M200 30 L222 106 H178 Z" fill="#f28c28" stroke="#1f2420" stroke-width="2"/>
+    <path d="M193 54 H207 L211 68 H189 Z" fill="#fff"/><path d="M186 80 H214 L218 94 H182 Z" fill="#fff"/>
+    <rect x="170" y="104" width="60" height="7" rx="2" fill="#1f2420"/></svg>`;
+
+  function underConstruction(what, msg) {
+    const s = state.data.season;
+    return `<div class="card uc">${CONE}<h2>${esc(what)}: under construction</h2>
+      <p>${esc(msg)}</p>
+      <p class="meta">Picks are due ${esc(fmtDay(s.picks_close))} at 11:59 pm ET.</p></div>`;
+  }
+
+  function previewPicks() {
+    const d = state.data;
+    const s = d.season;
+    const sheet = d.sheet_url ? ` <a href="${esc(d.sheet_url)}" target="_blank" rel="noopener">Printable picks sheet</a>` : "";
+    const banner = `<div class="card leader preview-banner">${JACKET}<div><div class="eyebrow">Coming soon</div>
+      <div class="who">${esc(s.title)} picks</div>
+      <p>Here's this year's lineup. The picks form goes live <b>no later than this year's lunch</b>, and the survey closes
+      <b>${esc(fmtDay(s.picks_close))} at 11:59 pm ET</b>.${sheet}</p></div></div>`;
+    const groups = [...new Set(d.categories.map((c) => c.group))];
+    let n = 0;
+    const body = groups.map((g) => `<h2>${esc(g)}</h2><div class="card"><ul class="rows tpl">${d.categories.filter((c) => c.group === g).map((c) => {
+      n += 1;
+      const today = (d.today || {})[c.id];
+      return `<li><span class="num">${n}</span><span><b>${esc(c.name)}</b><span class="sub2">${esc(c.question)}</span>
+        ${today ? `<span class="sub2">${c.type === "closest" || c.type === "ranking" ? "Today" : "FYI"}: ${esc(today)}</span>` : ""}</span><span class="meta">${pointsLabel(c)}</span></li>`;
+    }).join("")}</ul></div>`).join("");
+    return banner + body;
+  }
+
   // ---------------------------------------------------------------- standings
-  const JACKET = `<svg class="jacket" viewBox="0 0 64 64" aria-hidden="true"><path d="M22 6l10 8 10-8 12 6 6 20-8 3v23H12V35l-8-3 6-20z" fill="#a3162b"/><path d="M32 14l-6 18 6 26 6-26z" fill="#7d0f20"/><path d="M26 6l6 8 6-8" fill="none" stroke="#f7f4ec" stroke-width="2"/><circle cx="32" cy="38" r="1.6" fill="#e9c46a"/><circle cx="32" cy="45" r="1.6" fill="#e9c46a"/></svg>`;
+  const JACKET = `<svg class="jacket" viewBox="0 0 64 64" aria-hidden="true"><path d="M22 6l10 8 10-8 12 6 6 20-8 3v23H12V35l-8-3 6-20z" fill="#7b1e30"/><path d="M32 14l-6 18 6 26 6-26z" fill="#561421"/><path d="M26 6l6 8 6-8" fill="none" stroke="#f7f4ec" stroke-width="2"/><circle cx="32" cy="38" r="1.6" fill="#e9c46a"/><circle cx="32" cy="45" r="1.6" fill="#e9c46a"/></svg>`;
 
   function standings() {
     const d = state.data;
@@ -224,7 +271,8 @@
     const done = cats.filter((c) => c.status === "final").sort((a, b) => (b.date || "").localeCompare(a.date || ""));
     const open = cats.filter((c) => c.status !== "final").sort((a, b) => (a.date || "").localeCompare(b.date || ""));
     let html = "";
-    if (open.length) html += `<h2>Still to be decided</h2><div class="card"><ul class="sched">${open.map(schedItem).join("")}</ul></div>`;
+    if (isPreview()) html += `<p class="note">Here's what's on the calendar for ${esc(state.data.season.year)}. Dates are approximate until each event is scheduled.</p>`;
+    if (open.length) html += `<h2>${isPreview() ? "On the calendar" : "Still to be decided"}</h2><div class="card"><ul class="sched">${open.map(schedItem).join("")}</ul></div>`;
     if (done.length) html += `<h2>Decided</h2><div class="card"><ul class="sched">${done.map(schedItem).join("")}</ul></div>`;
     return html;
   }
@@ -245,8 +293,12 @@
         const det = c.detail[p] || {};
         return `<li class="${c.points_awarded[p] ? "scored" : ""}"><span class="who">${esc(playerName(p))}</span><span class="pick">${pickText(c, c.picks[p])}<span class="sub2">${det.score !== undefined ? det.score + " spots off" : esc(det.error || "")}</span></span>${ptsBadge(c.points_awarded[p])}</li>`;
       }).join("");
+      const caps = state.data.market_caps || {};
+      const capText = (t) => (caps[t] ? ` <span class="cap">$${(caps[t] / 1e12).toFixed(2)}T</span>` : "");
+      const capsNote = Object.keys(caps).length && state.data.prices_as_of
+        ? `<div class="meta">Market caps as of ${esc(fmtStamp(state.data.prices_as_of))}</div>` : "";
       return `<div class="card"><div class="cat-head"><h3>${esc(c.name)}</h3>${chip(c.status)}</div>
-        ${order ? `<div class="meta">${c.status === "final" ? "Final" : "Current"} order by market cap:</div><ol class="order">${order.map((t) => `<li>${esc(t)}</li>`).join("")}</ol>` : ""}
+        ${order ? `<div class="meta">${c.status === "final" ? "Final" : "Current"} order by market cap:</div><ol class="order">${order.map((t) => `<li>${esc(t)}${capText(t)}</li>`).join("")}</ol>${capsNote}` : ""}
         <ul class="rows">${rows}</ul></div>`;
     }
     if (c.type !== "closest") return catCard(c);
@@ -272,9 +324,9 @@
   function historyTab() {
     const hist = state.index.history || [];
     const hof = hist.length
-      ? `<ul class="hof">${hist.map((h) => `<li><b>${esc(h.season)}</b> · ${esc(h.champions.map((c) => (state.index.players[c] || { name: c }).name).join(" & "))}${h.points ? ` · ${h.points} pts` : ""}${h.note ? `<div class="meta">${esc(h.note)}</div>` : ""}</li>`).join("")}</ul>`
+      ? `<ul class="hof">${hist.map((h) => `<li><b>${esc(h.season)}</b> · ${esc(h.champions.map((c) => (state.index.players[c] || { name: c }).name).join(" & "))}${h.points ? ` · ${h.points} pts` : ""}</li>`).join("")}</ul>`
       : `<p>Coming soon. Robert is double-checking past results before the champions go up on the wall.</p>`;
-    const seasons = state.index.seasons.map((s) => `<li><a href="#standings/${esc(s.id)}" data-season="${esc(s.id)}">${esc(s.title)}</a> <span class="meta">· ${s.status === "final" ? "settled" : "settles"} ${esc(fmtDate(s.settlement_date))}${s.status === "active" ? " (in progress)" : ""}</span></li>`).join("");
+    const seasons = state.index.seasons.map((s) => `<li><a href="#standings/${esc(s.id)}" data-season="${esc(s.id)}">${esc(s.title)}</a> <span class="meta">· ${s.status === "final" ? "settled" : "settles"} ${esc(fmtDate(s.settlement_date))}${s.status === "active" ? " (in progress)" : s.status === "planning" || s.status === "picks_open" ? " (picks coming soon)" : ""}</span></li>`).join("");
     return `<h2>Hall of Champions</h2><div class="card" style="display:flex;gap:14px;align-items:flex-start">${JACKET}<div style="flex:1">${hof}</div></div>
       <h2>Seasons</h2><div class="card"><ul class="hof">${seasons}</ul></div>`;
   }
@@ -282,8 +334,8 @@
   // ---------------------------------------------------------------- rules
   function rules() {
     return `<h2>How it works</h2><div class="card rules"><dl>
-      <dt>The tradition</dt><dd>Every year at the Big holiday lunch, everyone predicts the coming year in sports, markets and politics. At the next Big holiday lunch we add it up. The winner collects $20 from each player and wears the red jacket for a year.</dd>
-      <dt>When</dt><dd>Even years settle at Big Thanksgiving, odd years at Big Christmas. Market picks use the closing price on the last trading day before the holiday.</dd>
+      <dt>The tradition</dt><dd>Everyone predicts the coming year in sports, markets and politics. At the next Gentlemen's Luncheon we crown the winner, who (in addition to collecting $20 from each player) receives the coveted burgundy jacket.</dd>
+      <dt>When</dt><dd>Even years settle at Thanksgiving, odd years at Christmas. Market picks use the closing price on the last trading day before the holiday. Picks for next year's pool are due approx. one week after the lunch.</dd>
       <dt>Ties</dt><dd>If two or more players tie for first, they are Co-Champions.</dd></dl></div>
       <h2>Scoring</h2><div class="card rules"><table>
       <tr><th>Type</th><th>Points</th></tr>
@@ -291,7 +343,16 @@
       <tr><td>Closest number (S&amp;P 500, gold, oil, Bitcoin, stocks)</td><td>Closest gets <b>5</b>, next <b>3</b>, next <b>1</b>. Over or under both count. Ties share the points, and the next-closest still gets the next tier.</td></tr>
       <tr><td>Ranking (e.g., the Magnificent 7 by market cap)</td><td>Add up how many spots off you are for each company. Lowest total gets <b>5</b>, then <b>3</b>, then <b>1</b>.</td></tr>
       <tr><td>Right answer (elections, props)</td><td><b>3</b> for everyone who gets it right</td></tr>
-      <tr><td>Super Bowl coin flip</td><td><b>1</b></td></tr></table></div>`;
+      <tr><td>Super Bowl coin flip</td><td><b>1</b></td></tr></table></div>
+      <h2>How the Mag 7 ranking is scored</h2><div class="card rules">
+      <p>You rank the seven companies from largest market cap (1st) to smallest (7th). On settlement day we line up the real order.</p>
+      <ol>
+        <li><b>Count how far off each company is.</b> If you put Nvidia 2nd and it actually finishes 5th, that's 3 spots off. A company you placed exactly right is 0.</li>
+        <li><b>Add up all seven.</b> That total is your score. Lower is better, and a perfect ranking scores 0.</li>
+        <li><b>Lowest score gets 5 points</b>, second lowest gets 3, third lowest gets 1. If players tie, they get the same points, and the next score still gets the next tier.</li>
+      </ol>
+      <p class="note"><b>Example.</b> Actual order: AAPL, NVDA, MSFT, GOOG, AMZN, META, TSLA. You picked NVDA, AAPL, MSFT, GOOG, AMZN, TSLA, META.
+      NVDA and AAPL are each 1 spot off, and TSLA and META are each 1 spot off. Everything else is exact, so your score is 1 + 1 + 1 + 1 = <b>4</b>.</p></div>`;
   }
 
   // ---------------------------------------------------------------- events

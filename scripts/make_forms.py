@@ -121,7 +121,7 @@ def make_sheet(season, today, form_url, out):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(season['title'])}: Picks</title>
 <style>
-  :root {{ --green:#0f4d2e; --red:#a3162b; --line:#cfc8b4; }}
+  :root {{ --green:#0f4d2e; --burgundy:#7b1e30; --line:#cfc8b4; }}
   body {{ font: 12.5px/1.35 Georgia, 'Times New Roman', serif; color:#1f2420; margin: 24px; background:#fff; }}
   header {{ display:flex; justify-content:space-between; align-items:flex-start; gap:16px; border-bottom:3px solid var(--green); padding-bottom:8px; }}
   h1 {{ margin:0; font-size:22px; color:var(--green); }}
@@ -149,7 +149,7 @@ def make_sheet(season, today, form_url, out):
 <p class="rules"><b>Scoring:</b> Pick the champion: 5 if your pick wins, 3 if it's the runner-up (ties for 2nd all count).
 Closest number: 5 / 3 / 1 for the three closest, over or under; ties share the points.
 Ranking: add up how many spots off you are for each company; lowest total wins 5 / 3 / 1.
-Right answer: points as listed. Ties for first overall are Co-Champions. Winner gets $20 from everyone and the red jacket.
+Right answer: points as listed. Ties for first overall are Co-Champions. Winner gets $20 from everyone and the burgundy jacket.
 "Today" values are for reference; official starting prices are locked when the form closes.</p>
 </body></html>"""
     (out / "picks_sheet.html").write_text(page, encoding="utf-8")

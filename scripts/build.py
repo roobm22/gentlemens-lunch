@@ -8,8 +8,12 @@ Prints a flag report (picks that could not be scored) for Robert to review.
 from __future__ import annotations
 
 import datetime as dt
+import shutil
 
 from glcore import ROOT, SEASONS, load_json, save_json, score_season, to_number
+from make_forms import today_values
+
+PREVIEW = ("planning", "picks_open")
 
 SITE_DATA = ROOT / "site" / "data"
 
@@ -61,11 +65,19 @@ def main():
             "standings_projected": scored["standings_projected"],
             "prices_as_of": (scored["prices"] or {}).get("as_of"),
             "prices_start_date": ((scored["prices"] or {}).get("start") or {}).get("date"),
+            "market_caps": (scored["prices"] or {}).get("market_caps") or {},
+            "today": today_values(season, scored["prices"]),
         }
+        sheet = ROOT / "forms" / sid / "picks_sheet.html"
+        if sheet.exists():  # printable sheet, linked from the next-season preview
+            (ROOT / "site" / "sheets").mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(sheet, ROOT / "site" / "sheets" / f"{sid}.html")
+            out["sheet_url"] = f"sheets/{sid}.html"
         save_json(SITE_DATA / f"{sid}.json", out)
         seasons_meta.append({"id": sid, "title": season.get("title", sid), "status": season.get("status"),
                              "settlement_date": season.get("settlement_date")})
-        all_flags += flags_for(scored, players)
+        if season.get("status") not in PREVIEW:
+            all_flags += flags_for(scored, players)
 
     save_json(SITE_DATA / "index.json", {
         "generated_at": now, "active": index["active"], "seasons": seasons_meta,

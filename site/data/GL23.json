@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:45+00:00",
+  "generated_at": "2026-11-09T23:34+00:00",
   "season": {
     "id": "GL23",
     "year": 2023,
@@ -1493,5 +1493,7 @@
     }
   ],
   "prices_as_of": null,
-  "prices_start_date": null
+  "prices_start_date": null,
+  "market_caps": {},
+  "today": {}
 }

@@ -73,6 +73,19 @@ def close_on(symbols: list[str], date: str) -> dict:
     return {s: round(float(row[s].iloc[0]), 4) for s in symbols if s in row and row[s].notna().iloc[0]}, str(row.index[-1].date())
 
 
+def refresh_latest(sid: str) -> None:
+    season = load_json(SEASONS / sid / "season.json")
+    syms, cap_tickers = season_symbols(season)
+    path = SEASONS / sid / "prices.json"
+    prices = load_json(path, {}) or {}
+    prices["latest"] = latest_prices(syms)
+    prices["market_caps"] = market_caps(cap_tickers)
+    prices["as_of"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+    prices["source"] = "Yahoo Finance (yfinance), interim only"
+    save_json(path, prices)
+    print(f"Updated {path.relative_to(SEASONS.parent)}")
+
+
 def active_season() -> str:
     idx = load_json(SEASONS / "index.json")
     return idx["active"]
@@ -84,6 +97,15 @@ def main():
     ap.add_argument("--start", help="record starting prices as the close on this date")
     ap.add_argument("--close-on", help="print closes for this date (no file changes)")
     args = ap.parse_args()
+
+    if not args.season and not args.start and not args.close_on:
+        # Daily refresh: the active season plus any next-season preview (for its "Today" values).
+        idx = load_json(SEASONS / "index.json")
+        for sid in idx["seasons"]:
+            st = (load_json(SEASONS / sid / "season.json") or {}).get("status")
+            if sid == idx["active"] or st in ("planning", "picks_open"):
+                refresh_latest(sid)
+        return
 
     sid = args.season or active_season()
     season = load_json(SEASONS / sid / "season.json")

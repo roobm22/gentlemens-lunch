@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-09T22:45+00:00",
+  "generated_at": "2026-11-09T23:34+00:00",
   "active": "GL26",
   "seasons": [
+    {
+      "id": "GL27",
+      "title": "Gentlemen's Lunch 2027",
+      "status": "planning",
+      "settlement_date": "2027-12-23"
+    },
     {
       "id": "GL26",
       "title": "Gentlemen's Lunch 2026",

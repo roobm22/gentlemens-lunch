@@ -7,8 +7,8 @@
   --green: #0f4d2e;
   --green-2: #1d6b43;
   --green-soft: #e4efe7;
-  --red: #a3162b;
-  --red-soft: #f9e6e8;
+  --burgundy: #7b1e30;
+  --burgundy-soft: #f5e6e9;
   --gold: #8a6416;
   --gold-soft: #f6ecd4;
   --radius: 14px;
@@ -37,7 +37,7 @@ button, select { font: inherit; color: inherit; }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
 .crest {
   flex: none; width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center;
-  background: var(--red); color: #fff; font: 700 1.2rem Georgia, serif; letter-spacing: .5px;
+  background: var(--burgundy); color: #fff; font: 700 1.2rem Georgia, serif; letter-spacing: .5px;
   box-shadow: inset 0 0 0 2px rgba(255,255,255,.25);
 }
 .top h1 { font-size: 1.45rem; }
@@ -70,9 +70,9 @@ main { padding-top: 8px; padding-bottom: 32px; outline: none; }
 .note { color: var(--muted); font-size: .92rem; margin: .5rem 0 0; }
 
 /* leader */
-.leader { display: flex; gap: 14px; align-items: center; border-left: 6px solid var(--red); margin-top: 12px; }
+.leader { display: flex; gap: 14px; align-items: center; border-left: 6px solid var(--burgundy); margin-top: 12px; }
 .jacket { flex: none; width: 54px; height: 54px; }
-.leader .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; color: var(--red); font-weight: 700; }
+.leader .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; color: var(--burgundy); font-weight: 700; }
 .leader .who { font: 700 1.5rem Georgia, serif; }
 .leader .pts-big { color: var(--muted); }
 
@@ -87,7 +87,7 @@ table { width: 100%; border-collapse: collapse; }
 .standings .big { font-weight: 700; font-size: 1.1rem; }
 .bar { height: 6px; background: var(--green-soft); border-radius: 99px; margin-top: 6px; overflow: hidden; }
 .bar > span { display: block; height: 100%; background: var(--green-2); border-radius: 99px; }
-.star { color: var(--red); }
+.star { color: var(--burgundy); }
 
 /* chips & badges */
 .chip { display: inline-block; font-size: .75rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; vertical-align: middle; letter-spacing: .02em; }
@@ -125,7 +125,7 @@ table { width: 100%; border-collapse: collapse; }
 /* player chips */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
 .chips button { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 8px 14px; min-height: 44px; cursor: pointer; font-weight: 600; }
-.chips button[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+.chips button[aria-pressed="true"] { background: var(--burgundy); border-color: var(--burgundy); color: #fff; }
 
 /* full grid */
 .scroll { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); box-shadow: var(--shadow); }
@@ -152,7 +152,7 @@ table { width: 100%; border-collapse: collapse; }
 .mk-top { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; margin: 6px 0 4px; }
 .mk-now { font: 700 1.5rem Georgia, serif; }
 .up { color: var(--green-2); font-weight: 700; }
-.down { color: var(--red); font-weight: 700; }
+.down { color: var(--burgundy); font-weight: 700; }
 .order { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; padding: 0; list-style: none; counter-reset: o; }
 .order li { counter-increment: o; background: #f3f0e6; border-radius: 8px; padding: 4px 10px; font-weight: 700; font-size: .9rem; }
 .order li::before { content: counter(o) ". "; color: var(--muted); font-weight: 600; }
@@ -177,3 +177,14 @@ table { width: 100%; border-collapse: collapse; }
   body { background: #fff; }
   .card { box-shadow: none; break-inside: avoid; }
 }
+
+/* next-season preview */
+.uc { text-align: center; padding: 24px 16px; margin-top: 12px; }
+.uc h2 { margin: 8px 0; }
+.construction { width: 220px; max-width: 80%; height: auto; }
+.preview-banner p { margin: 6px 0 0; }
+.rows.tpl li { grid-template-columns: 2em 1fr auto; }
+.rows.tpl .num { color: var(--muted); font-weight: 700; }
+.order .cap { color: var(--muted); font-weight: 600; font-size: .82rem; }
+.rules ol { margin: 8px 0 0; padding-left: 1.3em; }
+.rules ol li { margin: 6px 0; }
