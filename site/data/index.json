@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-11-09T22:39+00:00",
+  "active": "GL26",
+  "seasons": [
+    {
+      "id": "GL26",
+      "title": "Gentlemen's Lunch 2026",
+      "status": "active",
+      "settlement_date": "2026-11-25"
+    },
+    {
+      "id": "GL25",
+      "title": "Gentlemen's Lunch 2025",
+      "status": "final",
+      "settlement_date": "2025-12-24"
+    },
+    {
+      "id": "GL24",
+      "title": "Gentlemen's Lunch 2024",
+      "status": "final",
+      "settlement_date": "2024-11-27"
+    },
+    {
+      "id": "GL23",
+      "title": "Gentlemen's Lunch 2023",
+      "status": "final",
+      "settlement_date": "2023-12-22"
+    }
+  ],
+  "players": {
+    "robert": {
+      "name": "Robert",
+      "role": "Commissioner"
+    },
+    "carlos": {
+      "name": "Carlos"
+    },
+    "jack": {
+      "name": "Jack"
+    },
+    "bob": {
+      "name": "Bob"
+    },
+    "pablo": {
+      "name": "Pablo",
+      "role": "Founder"
+    },
+    "max": {
+      "name": "Max"
+    },
+    "tony": {
+      "name": "Tony"
+    },
+    "jose": {
+      "name": "Jose"
+    }
+  },
+  "history": [
+    {
+      "season": "GL25",
+      "champions": [
+        "bob"
+      ],
+      "points": 32,
+      "note": "Confirmed by Robert 2026-11-09"
+    },
+    {
+      "season": "GL24",
+      "champions": [
+        "jack"
+      ],
+      "points": 52,
+      "note": "Confirmed by Robert 2026-11-09 (Bob 51, Max 50)"
+    },
+    {
+      "season": "GL23",
+      "champions": [
+        "robert"
+      ],
+      "points": 40,
+      "note": "Confirmed by Robert 2026-11-09 (Pablo 37, Jack 33)"
+    },
+    {
+      "season": "GL22",
+      "champions": [
+        "jack"
+      ],
+      "points": 40,
+      "note": "From Robert's 2022 standings workbook (Pablo and Carlos 37)"
+    }
+  ]
+}

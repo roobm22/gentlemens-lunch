@@ -1,0 +1,17 @@
+{
+  "start": {
+    "date": "2024-12-27",
+    "source": "GL25 workbook 'Stocks' tab (12/27/2024 1:11 pm ET)",
+    "values": {
+      "^GSPC": 5948.64,
+      "GC=F": 2631.9,
+      "CL=F": 70.33,
+      "BTC-USD": 94288.0,
+      "TGT": 135.37,
+      "TSLA": 433.2,
+      "COIN": 265.28,
+      "CMG": 60.6,
+      "AAPL": 254.41
+    }
+  }
+}

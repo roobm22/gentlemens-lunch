@@ -1,0 +1,139 @@
+{
+  "super_bowl": {
+    "status": "final",
+    "winner": "Philadelphia Eagles",
+    "runner_up": "Kansas City Chiefs",
+    "date": "2025-02-09",
+    "source": "GL25 workbook (Robert)"
+  },
+  "sb_coin_flip": {
+    "status": "final",
+    "answer": "Tails",
+    "date": "2025-02-09",
+    "source": "GL25 workbook (Robert)"
+  },
+  "cfp": {
+    "status": "final",
+    "winner": "Ohio State",
+    "runner_up": "Notre Dame",
+    "date": "2025-01-20",
+    "source": "GL25 workbook (Robert)"
+  },
+  "march_madness": {
+    "status": "final",
+    "winner": "Florida",
+    "runner_up": "Houston",
+    "date": "2025-04-07",
+    "source": "GL25 workbook (Robert)"
+  },
+  "masters": {
+    "status": "final",
+    "winner": "Rory McIlroy",
+    "runner_up": "Justin Rose",
+    "date": "2025-04-13",
+    "source": "GL25 workbook (Robert)"
+  },
+  "stanley_cup": {
+    "status": "final",
+    "winner": "Florida Panthers",
+    "runner_up": "Edmonton Oilers",
+    "date": "2025-06-17",
+    "source": "GL25 workbook (Robert)"
+  },
+  "nba": {
+    "status": "final",
+    "winner": "Oklahoma City Thunder",
+    "runner_up": "Indiana Pacers",
+    "date": "2025-06-22",
+    "source": "GL25 workbook (Robert)"
+  },
+  "ucl": {
+    "status": "final",
+    "winner": "Paris Saint-Germain",
+    "runner_up": "Inter Milan",
+    "date": "2025-05-31",
+    "source": "GL25 workbook (Robert)"
+  },
+  "wimbledon": {
+    "status": "final",
+    "winner": "Jannik Sinner",
+    "runner_up": "Carlos Alcaraz",
+    "date": "2025-07-13",
+    "source": "GL25 workbook (Robert)"
+  },
+  "world_series": {
+    "status": "final",
+    "winner": "Los Angeles Dodgers",
+    "runner_up": "Toronto Blue Jays",
+    "date": "2025-11-01",
+    "source": "GL25 workbook (Robert)"
+  },
+  "sp500": {
+    "status": "final",
+    "value": 6932.05,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "gold": {
+    "status": "final",
+    "value": 4502.8,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "oil": {
+    "status": "final",
+    "value": 58.35,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "bitcoin": {
+    "status": "final",
+    "value": 87611.96,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance BTC-USD daily close (00:00 UTC next day = 7 pm ET); settlement time TBD (CLAUDE.md §12 #2)"
+  },
+  "tgt": {
+    "status": "final",
+    "value": 96.53,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "tsla": {
+    "status": "final",
+    "value": 485.4,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "coin": {
+    "status": "final",
+    "value": 239.73,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "cmg": {
+    "status": "final",
+    "value": 37.9,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "aapl": {
+    "status": "final",
+    "value": 273.81,
+    "date": "2025-12-24",
+    "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+  },
+  "approval": {
+    "status": "final",
+    "value": 0.45,
+    "date": "2025-12-24",
+    "source": "Rasmussen Reports daily tracking poll, archived 2025-12-24 (web.archive.org)",
+    "note": "Robert's Dec-16 workbook had 47%; the 12/24 daily reading was 45%"
+  },
+  "top_mcap": {
+    "status": "final",
+    "answer": "Nvidia",
+    "date": "2025-12-24",
+    "source": "companiesmarketcap.com (archived 2025-12-25); Yahoo close x SEC shares",
+    "note": "Nvidia ~$4.59T vs Apple ~$4.06T"
+  }
+}

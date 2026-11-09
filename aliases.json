@@ -1,0 +1,251 @@
+{
+  "_note": "Canonical answer -> other spellings that should count as the same pick. Matching is case-insensitive. Add to this when a pick or result is spelled differently; ask Robert if a mapping is debatable.",
+  "Scottie Scheffler": [
+    "Scheffler",
+    "Scottie Schefler",
+    "Scotty Scheffler"
+  ],
+  "Rory McIlroy": [
+    "McIlroy",
+    "Rory"
+  ],
+  "Brooks Koepka": [
+    "Koepka"
+  ],
+  "Viktor Hovland": [
+    "Hovland"
+  ],
+  "Ludvig Aberg": [
+    "Ludvig Åberg",
+    "Aberg",
+    "Åberg"
+  ],
+  "Carlos Alcaraz": [
+    "Alcaraz",
+    "Alcaraz Garfia"
+  ],
+  "Jannik Sinner": [
+    "Sinner"
+  ],
+  "Novak Djokovic": [
+    "Djokovic"
+  ],
+  "Casper Ruud": [
+    "Ruud"
+  ],
+  "Oklahoma City Thunder": [
+    "OKC Thunder",
+    "OKC",
+    "Thunder"
+  ],
+  "Indiana Pacers": [
+    "Pacers"
+  ],
+  "Milwaukee Bucks": [
+    "Bucks"
+  ],
+  "Boston Celtics": [
+    "Celtics"
+  ],
+  "Los Angeles Dodgers": [
+    "LA Dodgers",
+    "Dodgers"
+  ],
+  "Los Angeles Rams": [
+    "LA Rams",
+    "Rams"
+  ],
+  "New York Yankees": [
+    "NY Yankees",
+    "Yankees"
+  ],
+  "New York Rangers": [
+    "NY Rangers"
+  ],
+  "Philadelphia Eagles": [
+    "PHI Eagles",
+    "Eagles"
+  ],
+  "Kansas City Chiefs": [
+    "Chiefs",
+    "KC Chiefs"
+  ],
+  "San Francisco 49ers": [
+    "SF 49ers",
+    "49ers",
+    "Niners"
+  ],
+  "Toronto Blue Jays": [
+    "Blue Jays"
+  ],
+  "Paris Saint-Germain": [
+    "PSG",
+    "Paris Saint Germain"
+  ],
+  "Inter Milan": [
+    "Inter",
+    "Internazionale"
+  ],
+  "Indiana": [
+    "Indiana Hoosiers"
+  ],
+  "Michigan": [
+    "Michigan Wolverines"
+  ],
+  "Ohio State": [
+    "Ohio State Buckeyes"
+  ],
+  "Houston": [
+    "Houston Cougars"
+  ],
+  "Arizona": [
+    "Arizona Wildcats"
+  ],
+  "United States": [
+    "USA",
+    "US",
+    "U.S.",
+    "Team USA"
+  ],
+  "Democrat": [
+    "Democrats",
+    "Democratic",
+    "Dem",
+    "Dem.",
+    "D"
+  ],
+  "Republican": [
+    "Republicans",
+    "Rep",
+    "Rep.",
+    "R",
+    "GOP"
+  ],
+  "Donald Trump": [
+    "Trump"
+  ],
+  "Nvidia": [
+    "NVDA"
+  ],
+  "Apple": [
+    "AAPL"
+  ],
+  "Microsoft": [
+    "MSFT"
+  ],
+  "Google": [
+    "Alphabet",
+    "GOOG",
+    "GOOGL"
+  ],
+  "UConn": [
+    "Connecticut",
+    "UConn Huskies",
+    "Connecticut Huskies"
+  ],
+  "JD Vance": [
+    "J.D. Vance",
+    "Vance"
+  ],
+  "Borussia Dortmund": [
+    "Dortmund"
+  ],
+  "Kristi Noem": [
+    "Noem"
+  ],
+  "Buffalo Bills": [
+    "Bills"
+  ],
+  "Dallas Cowboys": [
+    "Cowboys"
+  ],
+  "Green Bay Packers": [
+    "GB Packers",
+    "Packers"
+  ],
+  "Georgia": [
+    "Georgia Bulldogs"
+  ],
+  "Virginia": [
+    "UVA"
+  ],
+  "North Carolina": [
+    "UNC"
+  ],
+  "Jon Rahm": [
+    "John Rahm",
+    "Rahm"
+  ],
+  "Collin Morikawa": [
+    "Morikawa"
+  ],
+  "Xander Schauffele": [
+    "Schauffele"
+  ],
+  "Will Zalatoris": [
+    "Zalatoris"
+  ],
+  "Justin Thomas": [],
+  "Daniil Medvedev": [
+    "Medvedev"
+  ],
+  "Carolina Hurricanes": [
+    "Hurricane",
+    "Hurricanes"
+  ],
+  "Colorado Avalanche": [
+    "Avalanche"
+  ],
+  "Boston Bruins": [
+    "Bruins"
+  ],
+  "Tampa Bay Lightning": [
+    "Lightning"
+  ],
+  "Golden State Warriors": [
+    "Golden State",
+    "Warriors"
+  ],
+  "Phoenix Suns": [
+    "Suns"
+  ],
+  "Denver Nuggets": [
+    "Nuggets"
+  ],
+  "Miami Heat": [
+    "Heat"
+  ],
+  "Vegas Golden Knights": [
+    "Golden Knights"
+  ],
+  "Real Madrid": [
+    "Real"
+  ],
+  "Manchester City": [
+    "Man City"
+  ],
+  "Atlanta Braves": [
+    "Braves"
+  ],
+  "Philadelphia Phillies": [
+    "Phillies"
+  ],
+  "New York Mets": [
+    "Mets",
+    "NY Mets"
+  ],
+  "Houston Astros": [
+    "Astros"
+  ],
+  "Texas Rangers": [],
+  "Arizona Diamondbacks": [
+    "D-backs",
+    "Diamondbacks"
+  ],
+  "Raphael Warnock": [
+    "Warnock"
+  ],
+  "Herschel Walker": [
+    "Walker"
+  ]
+}

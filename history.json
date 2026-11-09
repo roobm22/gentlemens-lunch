@@ -1,0 +1,34 @@
+[
+  {
+    "season": "GL25",
+    "champions": [
+      "bob"
+    ],
+    "points": 32,
+    "note": "Confirmed by Robert 2026-11-09"
+  },
+  {
+    "season": "GL24",
+    "champions": [
+      "jack"
+    ],
+    "points": 52,
+    "note": "Confirmed by Robert 2026-11-09 (Bob 51, Max 50)"
+  },
+  {
+    "season": "GL23",
+    "champions": [
+      "robert"
+    ],
+    "points": 40,
+    "note": "Confirmed by Robert 2026-11-09 (Pablo 37, Jack 33)"
+  },
+  {
+    "season": "GL22",
+    "champions": [
+      "jack"
+    ],
+    "points": 40,
+    "note": "From Robert's 2022 standings workbook (Pablo and Carlos 37)"
+  }
+]

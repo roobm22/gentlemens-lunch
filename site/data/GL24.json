@@ -1,0 +1,1501 @@
+{
+  "generated_at": "2026-11-09T22:39+00:00",
+  "season": {
+    "id": "GL24",
+    "year": 2024,
+    "title": "Gentlemen's Lunch 2024",
+    "status": "final",
+    "picks_made_at": "Big Christmas 2023",
+    "picks_close": "2024-01-04",
+    "settlement_date": "2024-11-27",
+    "settlement_holiday": "Big Thanksgiving 2024",
+    "players": [
+      "robert",
+      "carlos",
+      "jack",
+      "bob",
+      "pablo",
+      "max",
+      "tony",
+      "jose"
+    ],
+    "notes": [
+      "NVDA split 10-for-1 on 2024-06-10; all NVDA picks predate it and are divided by 10 (ranking unchanged)."
+    ]
+  },
+  "players": [
+    {
+      "id": "robert",
+      "name": "Robert",
+      "role": "Commissioner"
+    },
+    {
+      "id": "carlos",
+      "name": "Carlos"
+    },
+    {
+      "id": "jack",
+      "name": "Jack"
+    },
+    {
+      "id": "bob",
+      "name": "Bob"
+    },
+    {
+      "id": "pablo",
+      "name": "Pablo",
+      "role": "Founder"
+    },
+    {
+      "id": "max",
+      "name": "Max"
+    },
+    {
+      "id": "tony",
+      "name": "Tony"
+    },
+    {
+      "id": "jose",
+      "name": "Jose"
+    }
+  ],
+  "categories": [
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LVIII",
+      "question": "Winner of the 2024 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-02-11",
+      "status": "final",
+      "result": {
+        "winner": "Kansas City Chiefs",
+        "runner_up": "San Francisco 49ers"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 3,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Baltimore Ravens",
+        "carlos": "Baltimore Ravens",
+        "jack": "Baltimore Ravens",
+        "bob": "Baltimore Ravens",
+        "pablo": "Baltimore Ravens",
+        "max": "San Francisco 49ers",
+        "tony": "Baltimore Ravens",
+        "jose": "Baltimore Ravens"
+      },
+      "result_meta": {
+        "date": "2024-02-11",
+        "score": "25-22 OT",
+        "source": "wikipedia.org; sports.yahoo.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2024-02-11",
+      "choices": [
+        "Heads",
+        "Tails"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Heads"
+      },
+      "points_awarded": {
+        "robert": 1,
+        "carlos": 1,
+        "jack": 1,
+        "bob": 0,
+        "pablo": 0,
+        "max": 1,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Heads",
+        "carlos": "Heads",
+        "jack": "Heads",
+        "bob": "Tails",
+        "pablo": "Tails",
+        "max": "Heads",
+        "tony": "Tails",
+        "jose": "Tails"
+      },
+      "result_meta": {
+        "date": "2024-02-11",
+        "source": "foxsports.com; fansided.com",
+        "note": "Opening toss (49ers called tails)"
+      },
+      "market": {}
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2024",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-01-08",
+      "status": "final",
+      "result": {
+        "winner": "Michigan",
+        "runner_up": "Washington"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 5,
+        "max": 0,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Washington",
+        "carlos": "Alabama",
+        "jack": "Alabama",
+        "bob": "Michigan",
+        "pablo": "Michigan",
+        "max": "Alabama",
+        "tony": "Michigan",
+        "jose": "Alabama"
+      },
+      "result_meta": {
+        "date": "2024-01-08",
+        "score": "34-13",
+        "source": "collegefootballplayoff.com; ncaa.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2024 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-04-08",
+      "status": "final",
+      "result": {
+        "winner": "UConn",
+        "runner_up": "Purdue"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 3,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Marquette",
+        "carlos": "Purdue",
+        "jack": "Arizona",
+        "bob": "Kansas",
+        "pablo": "Purdue",
+        "max": "Kansas",
+        "tony": "Houston",
+        "jose": "Kentucky"
+      },
+      "result_meta": {
+        "date": "2024-04-08",
+        "score": "75-60",
+        "source": "wikipedia.org; ncaa.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2024 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-04-14",
+      "status": "final",
+      "result": {
+        "winner": "Scottie Scheffler",
+        "runner_up": "Ludvig Aberg"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 0,
+        "max": 5,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Viktor Hovland",
+        "carlos": "Rory McIlroy",
+        "jack": "Viktor Hovland",
+        "bob": "Scottie Scheffler",
+        "pablo": "Brooks Koepka",
+        "max": "Scottie Scheffler",
+        "tony": "Brooks Koepka",
+        "jose": "Scottie Scheffler"
+      },
+      "result_meta": {
+        "date": "2024-04-14",
+        "score": "-11, by four (Aberg solo 2nd)",
+        "source": "golfchannel.com; skysports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2024 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-24",
+      "status": "final",
+      "result": {
+        "winner": "Florida Panthers",
+        "runner_up": "Edmonton Oilers"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 5,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "New York Rangers",
+        "carlos": "New York Rangers",
+        "jack": "Boston Bruins",
+        "bob": "Colorado Avalanche",
+        "pablo": "Colorado Avalanche",
+        "max": "Florida Panthers",
+        "tony": "Florida Panthers",
+        "jose": "Colorado Avalanche"
+      },
+      "result_meta": {
+        "date": "2024-06-24",
+        "score": "4-3 series",
+        "source": "nhl.com; tsn.ca"
+      },
+      "market": {}
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2024 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-17",
+      "status": "final",
+      "result": {
+        "winner": "Boston Celtics",
+        "runner_up": "Dallas Mavericks"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 5,
+        "bob": 5,
+        "pablo": 5,
+        "max": 0,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Denver Nuggets",
+        "carlos": "Boston Celtics",
+        "jack": "Boston Celtics",
+        "bob": "Boston Celtics",
+        "pablo": "Boston Celtics",
+        "max": "Milwaukee Bucks",
+        "tony": "Philadelphia 76ers",
+        "jose": "Boston Celtics"
+      },
+      "result_meta": {
+        "date": "2024-06-17",
+        "score": "4-1 series",
+        "source": "cbssports.com; dallasnews.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2024 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-01",
+      "status": "final",
+      "result": {
+        "winner": "Real Madrid",
+        "runner_up": "Borussia Dortmund"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 5,
+        "bob": 0,
+        "pablo": 5,
+        "max": 5,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Manchester City",
+        "carlos": "Manchester City",
+        "jack": "Real Madrid",
+        "bob": "Bayern Munich",
+        "pablo": "Real Madrid",
+        "max": "Real Madrid",
+        "tony": "Bayern Munich",
+        "jose": "Real Madrid"
+      },
+      "result_meta": {
+        "date": "2024-06-01",
+        "score": "2-0",
+        "source": "wikipedia.org; AP via foxsports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2024 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-07-14",
+      "status": "final",
+      "result": {
+        "winner": "Carlos Alcaraz",
+        "runner_up": "Novak Djokovic"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 5,
+        "bob": 3,
+        "pablo": 5,
+        "max": 5,
+        "tony": 3,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Casper Ruud",
+        "carlos": "Novak Djokovic",
+        "jack": "Carlos Alcaraz",
+        "bob": "Novak Djokovic",
+        "pablo": "Carlos Alcaraz",
+        "max": "Carlos Alcaraz",
+        "tony": "Novak Djokovic",
+        "jose": "Carlos Alcaraz"
+      },
+      "result_meta": {
+        "date": "2024-07-14",
+        "score": "6-2, 6-2, 7-6",
+        "source": "time.com; olympics.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "euro",
+      "name": "Men's Euro",
+      "question": "2024 Men's soccer Euro winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-07-14",
+      "status": "final",
+      "result": {
+        "winner": "Spain",
+        "runner_up": "England"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 3,
+        "pablo": 0,
+        "max": 0,
+        "tony": 3,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "England",
+        "carlos": "France",
+        "jack": "France",
+        "bob": "England",
+        "pablo": "France",
+        "max": "Portugal",
+        "tony": "England",
+        "jose": "Spain"
+      },
+      "result_meta": {
+        "date": "2024-07-14",
+        "score": "2-1",
+        "source": "khaleejtimes.com; flashscore.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2024 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-10-30",
+      "status": "final",
+      "result": {
+        "winner": "Los Angeles Dodgers",
+        "runner_up": "New York Yankees"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 5,
+        "bob": 5,
+        "pablo": 5,
+        "max": 5,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Baltimore Orioles",
+        "carlos": "Los Angeles Dodgers",
+        "jack": "Los Angeles Dodgers",
+        "bob": "Los Angeles Dodgers",
+        "pablo": "Los Angeles Dodgers",
+        "max": "Los Angeles Dodgers",
+        "tony": "Baltimore Orioles",
+        "jose": "Baltimore Orioles"
+      },
+      "result_meta": {
+        "date": "2024-10-30",
+        "score": "4-1 series",
+        "source": "abc7news.com; foxnews.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "gop_vp",
+      "name": "GOP VP nominee",
+      "question": "Republican VP nominee",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-07-15",
+      "status": "final",
+      "result": {
+        "answer": "JD Vance"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Kristi Noem",
+        "carlos": "Nikki Haley",
+        "jack": "Kristi Noem",
+        "bob": "Kristi Noem",
+        "pablo": "Vivek Ramaswamy",
+        "max": "Kristi Noem",
+        "tony": "Kristi Noem",
+        "jose": "Nikki Haley"
+      },
+      "result_meta": {
+        "date": "2024-07-15",
+        "source": "PBS/AP; washingtontimes.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "gop_nominee",
+      "name": "GOP nominee",
+      "question": "Republican presidential nominee",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-07-15",
+      "status": "final",
+      "result": {
+        "answer": "Donald Trump"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 0,
+        "pablo": 3,
+        "max": 3,
+        "tony": 3,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Donald Trump",
+        "carlos": "Nikki Haley",
+        "jack": "Donald Trump",
+        "bob": "Nikki Haley",
+        "pablo": "Donald Trump",
+        "max": "Donald Trump",
+        "tony": "Donald Trump",
+        "jose": "Donald Trump"
+      },
+      "result_meta": {
+        "date": "2024-07-15",
+        "source": "PBS/AP; lasvegassun.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "president_elect",
+      "name": "President-elect",
+      "question": "President-elect of the United States",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-06",
+      "status": "final",
+      "result": {
+        "answer": "Donald Trump"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Joe Biden",
+        "carlos": "Joe Biden",
+        "jack": "Donald Trump",
+        "bob": "Nikki Haley",
+        "pablo": "Joe Biden",
+        "max": "Joe Biden",
+        "tony": "Joe Biden",
+        "jose": "Joe Biden"
+      },
+      "result_meta": {
+        "date": "2024-11-06",
+        "source": "NPR; AP via newser.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "senate",
+      "name": "Senate majority",
+      "question": "Senate majority: D or R",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-06",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Republican"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 3,
+        "max": 3,
+        "tony": 3,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Republican",
+        "carlos": "Republican",
+        "jack": "Republican",
+        "bob": "Republican",
+        "pablo": "Republican",
+        "max": "Republican",
+        "tony": "Republican",
+        "jose": "Republican"
+      },
+      "result_meta": {
+        "date": "2024-11-06",
+        "source": "AP via wtop.com; cbsnews.com",
+        "note": "53-47"
+      },
+      "market": {}
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      },
+      "status": "final",
+      "result": {
+        "value": 5998.74
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 1,
+        "pablo": 0,
+        "max": 5,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {
+        "robert": {
+          "distance": 700.7399999999998
+        },
+        "carlos": {
+          "distance": 798.7399999999998
+        },
+        "jack": {
+          "distance": 1017.9299999999994
+        },
+        "bob": {
+          "distance": 653.7399999999998
+        },
+        "pablo": {
+          "distance": 1815.7399999999998
+        },
+        "max": {
+          "distance": 398.7399999999998
+        },
+        "tony": {
+          "distance": 878.7399999999998
+        },
+        "jose": {
+          "distance": 598.7399999999998
+        }
+      },
+      "picks": {
+        "robert": 5298,
+        "carlos": 5200,
+        "jack": 4980.81,
+        "bob": 5345,
+        "pablo": 4183,
+        "max": 5600,
+        "tony": 5120,
+        "jose": 5400
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      },
+      "status": "final",
+      "result": {
+        "value": 2639.9
+      },
+      "points_awarded": {
+        "robert": 5,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 3,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 338.9000000000001
+        },
+        "carlos": {
+          "distance": 389.9000000000001
+        },
+        "jack": {
+          "distance": 399.94000000000005
+        },
+        "bob": {
+          "distance": 789.9000000000001
+        },
+        "pablo": {
+          "distance": 388.9000000000001
+        },
+        "max": {
+          "distance": 464.9000000000001
+        },
+        "tony": {
+          "distance": 450.9000000000001
+        },
+        "jose": {
+          "distance": 439.9000000000001
+        }
+      },
+      "picks": {
+        "robert": 2301,
+        "carlos": 2250,
+        "jack": 2239.96,
+        "bob": 1850,
+        "pablo": 2251,
+        "max": 2175,
+        "tony": 2189,
+        "jose": 2200
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      },
+      "status": "final",
+      "result": {
+        "value": 68.72
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 0,
+        "max": 5,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {
+        "robert": {
+          "distance": 8.719999999999999
+        },
+        "carlos": {
+          "distance": 6.280000000000001
+        },
+        "jack": {
+          "distance": 29.739999999999995
+        },
+        "bob": {
+          "distance": 0.28000000000000114
+        },
+        "pablo": {
+          "distance": 12.280000000000001
+        },
+        "max": {
+          "distance": 0.28000000000000114
+        },
+        "tony": {
+          "distance": 8.280000000000001
+        },
+        "jose": {
+          "distance": 3.719999999999999
+        }
+      },
+      "picks": {
+        "robert": 60,
+        "carlos": 75,
+        "jack": 98.46,
+        "bob": 69,
+        "pablo": 81,
+        "max": 69,
+        "tony": 77,
+        "jose": 65
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      },
+      "status": "final",
+      "result": {
+        "value": 95962.53
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 1,
+        "jack": 5,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 33961.53
+        },
+        "carlos": {
+          "distance": 36462.53
+        },
+        "jack": {
+          "distance": 19613.11
+        },
+        "bob": {
+          "distance": 37962.53
+        },
+        "pablo": {
+          "distance": 67977.53
+        },
+        "max": {
+          "distance": 49962.53
+        },
+        "tony": {
+          "distance": 47061.53
+        },
+        "jose": {
+          "distance": 65962.53
+        }
+      },
+      "picks": {
+        "robert": 62001,
+        "carlos": 59500,
+        "jack": 76349.42,
+        "bob": 58000,
+        "pablo": 27985,
+        "max": 46000,
+        "tony": 48901,
+        "jose": 30000
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance BTC-USD daily close (00:00 UTC next day = 7 pm ET); settlement time TBD (CLAUDE.md §12 #2)"
+      },
+      "market": {}
+    },
+    {
+      "id": "top_mcap",
+      "name": "Top US company by market cap",
+      "question": "Top US company by market cap",
+      "group": "Markets",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-27",
+      "live": {
+        "kind": "top_market_cap",
+        "names": {
+          "NVDA": "Nvidia",
+          "AAPL": "Apple",
+          "MSFT": "Microsoft",
+          "GOOG": "Google"
+        }
+      },
+      "status": "final",
+      "result": {
+        "answer": "Apple"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 0,
+        "max": 3,
+        "tony": 3,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Microsoft",
+        "carlos": "Microsoft",
+        "jack": "Apple",
+        "bob": "Apple",
+        "pablo": "Microsoft",
+        "max": "Apple",
+        "tony": "Apple",
+        "jose": "Microsoft"
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "companiesmarketcap.com (archived 2024-11-28); Yahoo close x SEC shares",
+        "note": "Apple ~$3.55T vs Nvidia ~$3.31T vs Microsoft ~$3.14T at the close"
+      },
+      "market": {}
+    },
+    {
+      "id": "nvda",
+      "name": "Nvidia (NVDA)",
+      "question": "Nvidia stock price on 11/27/2024 (picks were pre-split; scored split-adjusted ÷10)",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "NVDA"
+      },
+      "status": "final",
+      "result": {
+        "value": 135.34
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 0,
+        "max": 1,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 90.24000000000001
+        },
+        "carlos": {
+          "distance": 75.34
+        },
+        "jack": {
+          "distance": 70.989
+        },
+        "bob": {
+          "distance": 67.84
+        },
+        "pablo": {
+          "distance": 75.54
+        },
+        "max": {
+          "distance": 74.34
+        },
+        "tony": {
+          "distance": 75.44
+        },
+        "jose": {
+          "distance": 77.84
+        }
+      },
+      "picks": {
+        "robert": 45.1,
+        "carlos": 60.0,
+        "jack": 64.351,
+        "bob": 67.5,
+        "pablo": 59.8,
+        "max": 61.0,
+        "tony": 59.9,
+        "jose": 57.5
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "pfe",
+      "name": "Pfizer (PFE)",
+      "question": "Pfizer stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "PFE"
+      },
+      "status": "final",
+      "result": {
+        "value": 25.83
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 1,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {
+        "robert": {
+          "distance": 2.1700000000000017
+        },
+        "carlos": {
+          "distance": 9.170000000000002
+        },
+        "jack": {
+          "distance": 5.460000000000001
+        },
+        "bob": {
+          "distance": 11.170000000000002
+        },
+        "pablo": {
+          "distance": 7.170000000000002
+        },
+        "max": {
+          "distance": 5.170000000000002
+        },
+        "tony": {
+          "distance": 8.740000000000002
+        },
+        "jose": {
+          "distance": 0.8299999999999983
+        }
+      },
+      "picks": {
+        "robert": 28,
+        "carlos": 35,
+        "jack": 31.29,
+        "bob": 37,
+        "pablo": 33,
+        "max": 31,
+        "tony": 34.57,
+        "jose": 25
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "cost",
+      "name": "Costco (COST)",
+      "question": "Costco stock price on 11/27/2024 (listed as 'CSCO' on the sheet)",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COST"
+      },
+      "status": "final",
+      "result": {
+        "value": 961.55
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 1,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 262.54999999999995
+        },
+        "carlos": {
+          "distance": 286.54999999999995
+        },
+        "jack": {
+          "distance": 219.14999999999998
+        },
+        "bob": {
+          "distance": 211.54999999999995
+        },
+        "pablo": {
+          "distance": 251.54999999999995
+        },
+        "max": {
+          "distance": 411.54999999999995
+        },
+        "tony": {
+          "distance": 260.54999999999995
+        },
+        "jose": {
+          "distance": 261.54999999999995
+        }
+      },
+      "picks": {
+        "robert": 699,
+        "carlos": 675,
+        "jack": 742.4,
+        "bob": 750,
+        "pablo": 710,
+        "max": 550,
+        "tony": 701,
+        "jose": 700
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "uber",
+      "name": "Uber (UBER)",
+      "question": "Uber stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "UBER"
+      },
+      "status": "final",
+      "result": {
+        "value": 71.62
+      },
+      "points_awarded": {
+        "robert": 1,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 0,
+        "pablo": 5,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 6.6200000000000045
+        },
+        "carlos": {
+          "distance": 9.620000000000005
+        },
+        "jack": {
+          "distance": 0.8900000000000006
+        },
+        "bob": {
+          "distance": 13.620000000000005
+        },
+        "pablo": {
+          "distance": 0.37999999999999545
+        },
+        "max": {
+          "distance": 23.620000000000005
+        },
+        "tony": {
+          "distance": 14.379999999999995
+        },
+        "jose": {
+          "distance": 8.379999999999995
+        }
+      },
+      "picks": {
+        "robert": 65,
+        "carlos": 62,
+        "jack": 72.51,
+        "bob": 58,
+        "pablo": 72,
+        "max": 48,
+        "tony": 86,
+        "jose": 80
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      },
+      "status": "final",
+      "result": {
+        "value": 234.93
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 5,
+        "bob": 3,
+        "pablo": 0,
+        "max": 0,
+        "tony": 1,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 54.93000000000001
+        },
+        "carlos": {
+          "distance": 14.930000000000007
+        },
+        "jack": {
+          "distance": 13.099999999999994
+        },
+        "bob": {
+          "distance": 14.930000000000007
+        },
+        "pablo": {
+          "distance": 33.93000000000001
+        },
+        "max": {
+          "distance": 54.93000000000001
+        },
+        "tony": {
+          "distance": 25.930000000000007
+        },
+        "jose": {
+          "distance": 60.93000000000001
+        }
+      },
+      "picks": {
+        "robert": 180,
+        "carlos": 220,
+        "jack": 221.83,
+        "bob": 220,
+        "pablo": 201,
+        "max": 180,
+        "tony": 209,
+        "jose": 174
+      },
+      "result_meta": {
+        "date": "2024-11-27",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {}
+    }
+  ],
+  "standings_current": [
+    {
+      "player": "jack",
+      "points": 52,
+      "rank": 1
+    },
+    {
+      "player": "bob",
+      "points": 51,
+      "rank": 2
+    },
+    {
+      "player": "max",
+      "points": 50,
+      "rank": 3
+    },
+    {
+      "player": "pablo",
+      "points": 43,
+      "rank": 4
+    },
+    {
+      "player": "jose",
+      "points": 42,
+      "rank": 5
+    },
+    {
+      "player": "carlos",
+      "points": 26,
+      "rank": 6
+    },
+    {
+      "player": "tony",
+      "points": 26,
+      "rank": 6
+    },
+    {
+      "player": "robert",
+      "points": 25,
+      "rank": 8
+    }
+  ],
+  "standings_projected": [
+    {
+      "player": "jack",
+      "points": 52,
+      "rank": 1
+    },
+    {
+      "player": "bob",
+      "points": 51,
+      "rank": 2
+    },
+    {
+      "player": "max",
+      "points": 50,
+      "rank": 3
+    },
+    {
+      "player": "pablo",
+      "points": 43,
+      "rank": 4
+    },
+    {
+      "player": "jose",
+      "points": 42,
+      "rank": 5
+    },
+    {
+      "player": "carlos",
+      "points": 26,
+      "rank": 6
+    },
+    {
+      "player": "tony",
+      "points": 26,
+      "rank": 6
+    },
+    {
+      "player": "robert",
+      "points": 25,
+      "rank": 8
+    }
+  ],
+  "prices_as_of": null,
+  "prices_start_date": null
+}

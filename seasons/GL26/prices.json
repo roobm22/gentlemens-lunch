@@ -1,0 +1,39 @@
+{
+  "latest": {
+    "AAPL": 350.97,
+    "BA": 172.55,
+    "BTC-USD": 74768.1719,
+    "CL=F": 87.03,
+    "COST": 1065.37,
+    "GC=F": 4149.5,
+    "NFLX": 63.98,
+    "UNH": 396.8,
+    "^GSPC": 7555.6602
+  },
+  "market_caps": {
+    "AAPL": 5100359934279,
+    "AMZN": 2890568211157,
+    "GOOG": 3521063054992,
+    "META": 1640444973273,
+    "MSFT": 4050840459182,
+    "NVDA": 4322071662643,
+    "TSLA": 1497699961613
+  },
+  "as_of": "2026-11-09T21:00+00:00",
+  "source": "Yahoo Finance (yfinance), interim only",
+  "start": {
+    "date": "2025-12-26",
+    "source": "Yahoo Finance daily close (yfinance)",
+    "values": {
+      "AAPL": 273.4,
+      "BA": 216.44,
+      "BTC-USD": 87301.4297,
+      "CL=F": 56.74,
+      "COST": 873.35,
+      "GC=F": 4552.7002,
+      "NFLX": 94.47,
+      "UNH": 331.83,
+      "^GSPC": 6929.9399
+    }
+  }
+}

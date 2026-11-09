@@ -1,0 +1,1597 @@
+{
+  "generated_at": "2026-11-09T22:39+00:00",
+  "season": {
+    "id": "GL26",
+    "year": 2026,
+    "title": "Gentlemen's Lunch 2026",
+    "status": "active",
+    "picks_made_at": "Big Christmas 2025",
+    "settlement_date": "2026-11-25",
+    "settlement_holiday": "Big Thanksgiving 2026",
+    "players": [
+      "robert",
+      "carlos",
+      "jack",
+      "bob",
+      "pablo",
+      "max",
+      "tony",
+      "jose"
+    ]
+  },
+  "players": [
+    {
+      "id": "robert",
+      "name": "Robert",
+      "role": "Commissioner"
+    },
+    {
+      "id": "carlos",
+      "name": "Carlos"
+    },
+    {
+      "id": "jack",
+      "name": "Jack"
+    },
+    {
+      "id": "bob",
+      "name": "Bob"
+    },
+    {
+      "id": "pablo",
+      "name": "Pablo",
+      "role": "Founder"
+    },
+    {
+      "id": "max",
+      "name": "Max"
+    },
+    {
+      "id": "tony",
+      "name": "Tony"
+    },
+    {
+      "id": "jose",
+      "name": "Jose"
+    }
+  ],
+  "categories": [
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LX",
+      "question": "Winner of the 2026 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-02-08",
+      "status": "final",
+      "result": {
+        "winner": "Seattle Seahawks",
+        "runner_up": "New England Patriots"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Buffalo Bills",
+        "carlos": "Los Angeles Rams",
+        "jack": "Los Angeles Rams",
+        "bob": "Seattle Seahawks",
+        "pablo": "Buffalo Bills",
+        "max": "Buffalo Bills",
+        "tony": "Los Angeles Rams",
+        "jose": "Seattle Seahawks"
+      },
+      "result_meta": {
+        "date": "2026-02-08",
+        "score": "29-13",
+        "source": "wikipedia.org/wiki/Super_Bowl_LX; cbssports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2026-02-08",
+      "choices": [
+        "Heads",
+        "Tails"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Heads"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 1,
+        "max": 1,
+        "tony": 1,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Tails",
+        "carlos": "Heads",
+        "jack": "Tails",
+        "bob": "Tails",
+        "pablo": "Heads",
+        "max": "Heads",
+        "tony": "Heads",
+        "jose": "Tails"
+      },
+      "result_meta": {
+        "date": "2026-02-08",
+        "source": "si.com; fansided.com",
+        "note": "Seattle called tails; Patriots won the toss and deferred"
+      },
+      "market": {}
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2026",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-01-19",
+      "status": "final",
+      "result": {
+        "winner": "Indiana",
+        "runner_up": "Miami"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 5,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Ohio State",
+        "carlos": "Indiana",
+        "jack": "Ohio State",
+        "bob": "Ohio State",
+        "pablo": "Indiana",
+        "max": "Alabama",
+        "tony": "Georgia",
+        "jose": "Georgia"
+      },
+      "result_meta": {
+        "date": "2026-01-19",
+        "score": "27-21",
+        "source": "wikipedia.org; AP via foxsports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "olympic_hockey",
+      "name": "Olympic men's hockey",
+      "question": "2026 Winter Olympics: men's ice hockey champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-02-22",
+      "status": "final",
+      "result": {
+        "winner": "United States",
+        "runner_up": "Canada"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 3,
+        "max": 5,
+        "tony": 3,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Canada",
+        "carlos": "Canada",
+        "jack": "Canada",
+        "bob": "Canada",
+        "pablo": "Canada",
+        "max": "United States",
+        "tony": "Canada",
+        "jose": "Canada"
+      },
+      "result_meta": {
+        "date": "2026-02-22",
+        "score": "2-1 OT",
+        "source": "nhl.com; wikipedia.org"
+      },
+      "market": {}
+    },
+    {
+      "id": "wbc",
+      "name": "World Baseball Classic",
+      "question": "2026 World Baseball Classic winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-03-17",
+      "status": "final",
+      "result": {
+        "winner": "Venezuela",
+        "runner_up": "United States"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 3,
+        "max": 3,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "United States",
+        "carlos": "Japan",
+        "jack": "Japan",
+        "bob": "Dominican Republic",
+        "pablo": "United States",
+        "max": "United States",
+        "tony": "Japan",
+        "jose": "Dominican Republic"
+      },
+      "result_meta": {
+        "date": "2026-03-17",
+        "score": "3-2",
+        "source": "wikipedia.org; CBS News/AP"
+      },
+      "market": {}
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2026 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-04-06",
+      "status": "final",
+      "result": {
+        "winner": "Michigan",
+        "runner_up": "UConn"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 5,
+        "bob": 0,
+        "pablo": 5,
+        "max": 5,
+        "tony": 5,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Alabama",
+        "carlos": "Michigan",
+        "jack": "Michigan",
+        "bob": "Duke",
+        "pablo": "Michigan",
+        "max": "Michigan",
+        "tony": "Michigan",
+        "jose": "Michigan"
+      },
+      "result_meta": {
+        "date": "2026-04-06",
+        "score": "69-63",
+        "source": "wikipedia.org; AP via fox13now.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2026 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-04-12",
+      "status": "final",
+      "result": {
+        "winner": "Rory McIlroy",
+        "runner_up": "Scottie Scheffler"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 3,
+        "max": 3,
+        "tony": 3,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Ludvig Aberg",
+        "carlos": "Scottie Scheffler",
+        "jack": "Scottie Scheffler",
+        "bob": "Scottie Scheffler",
+        "pablo": "Scottie Scheffler",
+        "max": "Scottie Scheffler",
+        "tony": "Scottie Scheffler",
+        "jose": "Scottie Scheffler"
+      },
+      "result_meta": {
+        "date": "2026-04-12",
+        "score": "-12, by one shot (Scheffler solo 2nd)",
+        "source": "golfchannel.com; cbsnews.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2026 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-06-15",
+      "status": "final",
+      "result": {
+        "winner": "Carolina Hurricanes",
+        "runner_up": "Vegas Golden Knights"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Colorado Avalanche",
+        "carlos": "Colorado Avalanche",
+        "jack": "Colorado Avalanche",
+        "bob": "Colorado Avalanche",
+        "pablo": "Edmonton Oilers",
+        "max": "Dallas Stars",
+        "tony": "Colorado Avalanche",
+        "jose": "Colorado Avalanche"
+      },
+      "result_meta": {
+        "date": "2026-06-14",
+        "score": "4-2 series",
+        "source": "wikipedia.org; AP via nbcsports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2026 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-06-15",
+      "status": "final",
+      "result": {
+        "winner": "New York Knicks",
+        "runner_up": "San Antonio Spurs"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 3,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Oklahoma City Thunder",
+        "carlos": "Oklahoma City Thunder",
+        "jack": "Oklahoma City Thunder",
+        "bob": "Oklahoma City Thunder",
+        "pablo": "Oklahoma City Thunder",
+        "max": "San Antonio Spurs",
+        "tony": "Oklahoma City Thunder",
+        "jose": "Oklahoma City Thunder"
+      },
+      "result_meta": {
+        "date": "2026-06-13",
+        "score": "4-1 series",
+        "source": "wikipedia.org; spectrumlocalnews.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2026 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-05-30",
+      "status": "final",
+      "result": {
+        "winner": "Paris Saint-Germain",
+        "runner_up": "Arsenal"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 0,
+        "bob": 3,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Bayern Munich",
+        "carlos": "Arsenal",
+        "jack": "Bayern Munich",
+        "bob": "Arsenal",
+        "pablo": "Bayern Munich",
+        "max": "Real Madrid",
+        "tony": "Manchester City",
+        "jose": "Arsenal"
+      },
+      "result_meta": {
+        "date": "2026-05-30",
+        "score": "1-1 aet, PSG 4-3 on penalties",
+        "source": "wikipedia.org; euronews.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2026 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-07-12",
+      "status": "final",
+      "result": {
+        "winner": "Jannik Sinner",
+        "runner_up": "Alexander Zverev"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Carlos Alcaraz",
+        "carlos": "Carlos Alcaraz",
+        "jack": "Carlos Alcaraz",
+        "bob": "Jannik Sinner",
+        "pablo": "Carlos Alcaraz",
+        "max": "Carlos Alcaraz",
+        "tony": "Carlos Alcaraz",
+        "jose": "Carlos Alcaraz"
+      },
+      "result_meta": {
+        "date": "2026-07-12",
+        "score": "6-7, 7-6, 6-3, 6-4",
+        "source": "wikipedia.org; aljazeera.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "world_cup",
+      "name": "FIFA World Cup",
+      "question": "2026 FIFA World Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-07-19",
+      "status": "final",
+      "result": {
+        "winner": "Spain",
+        "runner_up": "Argentina"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 5,
+        "bob": 5,
+        "pablo": 5,
+        "max": 5,
+        "tony": 5,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "England",
+        "carlos": "Spain",
+        "jack": "Spain",
+        "bob": "Spain",
+        "pablo": "Spain",
+        "max": "Spain",
+        "tony": "Spain",
+        "jose": "Spain"
+      },
+      "result_meta": {
+        "date": "2026-07-19",
+        "score": "1-0 aet",
+        "source": "wikipedia.org; espn.com; fifa.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2026 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-11-01",
+      "status": "final",
+      "result": {
+        "winner": "Milwaukee Brewers",
+        "runner_up": "Tampa Bay Rays"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Los Angeles Dodgers",
+        "carlos": "Los Angeles Dodgers",
+        "jack": "Los Angeles Dodgers",
+        "bob": "Los Angeles Dodgers",
+        "pablo": "Los Angeles Dodgers",
+        "max": "Philadelphia Phillies",
+        "tony": "Seattle Mariners",
+        "jose": "New York Yankees"
+      },
+      "result_meta": {
+        "date": "2026-10-28",
+        "score": "4-1 series",
+        "source": "wikipedia.org; mlb.com; cbssports.com"
+      },
+      "market": {}
+    },
+    {
+      "id": "house",
+      "name": "Midterms: House",
+      "question": "Midterm elections: House majority (Republican or Democrat)",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-03",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Democrat"
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 3,
+        "max": 3,
+        "tony": 3,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Democrat",
+        "carlos": "Democrat",
+        "jack": "Democrat",
+        "bob": "Democrat",
+        "pablo": "Democrat",
+        "max": "Democrat",
+        "tony": "Democrat",
+        "jose": "Democrat"
+      },
+      "result_meta": {
+        "date": "2026-11-04",
+        "source": "AP call via spectrumlocalnews.com; cbsnews.com",
+        "note": "Majority call final; some seats still uncalled as of 2026-11-09"
+      },
+      "market": {}
+    },
+    {
+      "id": "senate",
+      "name": "Midterms: Senate",
+      "question": "Midterm elections: Senate majority (Republican or Democrat)",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-03",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Democrat"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 3,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Republican",
+        "carlos": "Republican",
+        "jack": "Republican",
+        "bob": "Republican",
+        "pablo": "Republican",
+        "max": "Democrat",
+        "tony": "Republican",
+        "jose": "Republican"
+      },
+      "result_meta": {
+        "date": "2026-11-03",
+        "source": "AP call via spectrumlocalnews.com; pbs.org",
+        "note": "D 54 (incl. 2 independents) - R 44; AK and MS uncalled"
+      },
+      "market": {}
+    },
+    {
+      "id": "cabinet_first_out",
+      "name": "First to leave Trump's Cabinet",
+      "question": "Who will be the first to leave Trump's Cabinet?",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-25",
+      "status": "final",
+      "result": {
+        "answer": "Kristi Noem"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 3,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Nobody",
+        "carlos": "Linda McMahon",
+        "jack": "Kristi Noem",
+        "bob": "Chris Wright",
+        "pablo": "Pete Hegseth",
+        "max": "Pete Hegseth",
+        "tony": "Kristi Noem",
+        "jose": "Chris Wright"
+      },
+      "result_meta": {
+        "date": "2026-03-05",
+        "source": "kptv.com; wikipedia.org (Second cabinet of Donald Trump); ballotpedia.org",
+        "note": "Removed as DHS Secretary (announced 2026-03-05, left 2026-03-24). No Cabinet departures in 2025, so the start date doesn't matter. Next: Bondi 2026-04-02."
+      },
+      "market": {}
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      },
+      "status": "live",
+      "result": {
+        "value": 7555.6602
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 1,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 755.6602000000003
+        },
+        "carlos": {
+          "distance": 244.33979999999974
+        },
+        "jack": {
+          "distance": 395.33979999999974
+        },
+        "bob": {
+          "distance": 145.66020000000026
+        },
+        "pablo": {
+          "distance": 245.33979999999974
+        },
+        "max": {
+          "distance": 1055.6602000000003
+        },
+        "tony": {
+          "distance": 2755.6602000000003
+        },
+        "jose": {
+          "distance": 1055.6602000000003
+        }
+      },
+      "picks": {
+        "robert": 6800,
+        "carlos": 7800,
+        "jack": 7951,
+        "bob": 7410,
+        "pablo": 7801,
+        "max": 6500,
+        "tony": 4800,
+        "jose": 6500
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "^GSPC",
+        "start": 6929.9399,
+        "latest": 7555.6602
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      },
+      "status": "live",
+      "result": {
+        "value": 4149.5
+      },
+      "points_awarded": {
+        "robert": 5,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 3,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 150.5
+        },
+        "carlos": {
+          "distance": 649.5
+        },
+        "jack": {
+          "distance": 849.5
+        },
+        "bob": {
+          "distance": 750.5
+        },
+        "pablo": {
+          "distance": 651.5
+        },
+        "max": {
+          "distance": 349.5
+        },
+        "tony": {
+          "distance": 1350.5
+        },
+        "jose": {
+          "distance": 1150.5
+        }
+      },
+      "picks": {
+        "robert": 4300,
+        "carlos": 3500,
+        "jack": 4999,
+        "bob": 4900,
+        "pablo": 4801,
+        "max": 3800,
+        "tony": 5500,
+        "jose": 5300
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "GC=F",
+        "start": 4552.7002,
+        "latest": 4149.5
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (CL00, marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      },
+      "status": "live",
+      "result": {
+        "value": 87.03
+      },
+      "points_awarded": {
+        "robert": 3,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 1,
+        "jose": 5
+      },
+      "detail": {
+        "robert": {
+          "distance": 9.030000000000001
+        },
+        "carlos": {
+          "distance": 27.03
+        },
+        "jack": {
+          "distance": 35.53
+        },
+        "bob": {
+          "distance": 31.03
+        },
+        "pablo": {
+          "distance": 35.03
+        },
+        "max": {
+          "distance": 32.03
+        },
+        "tony": {
+          "distance": 27.03
+        },
+        "jose": {
+          "distance": 4.030000000000001
+        }
+      },
+      "picks": {
+        "robert": 78,
+        "carlos": 60,
+        "jack": 51.5,
+        "bob": 56,
+        "pablo": 52,
+        "max": 55,
+        "tony": 60,
+        "jose": 83
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "CL=F",
+        "start": 56.74,
+        "latest": 87.03
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      },
+      "status": "live",
+      "result": {
+        "value": 74768.1719
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 5,
+        "max": 1,
+        "tony": 3,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 105231.8281
+        },
+        "carlos": {
+          "distance": 25231.8281
+        },
+        "jack": {
+          "distance": 75231.8281
+        },
+        "bob": {
+          "distance": 53231.8281
+        },
+        "pablo": {
+          "distance": 13768.171900000001
+        },
+        "max": {
+          "distance": 16231.828099999999
+        },
+        "tony": {
+          "distance": 14768.171900000001
+        },
+        "jose": {
+          "distance": 65231.8281
+        }
+      },
+      "picks": {
+        "robert": 180000,
+        "carlos": 100000,
+        "jack": 150000,
+        "bob": 128000,
+        "pablo": 61000,
+        "max": 91000,
+        "tony": 60000,
+        "jose": 140000
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "BTC-USD",
+        "start": 87301.4297,
+        "latest": 74768.1719
+      }
+    },
+    {
+      "id": "mag7",
+      "name": "Magnificent 7 ranking",
+      "question": "Rank the Magnificent 7 from highest market cap (1) to lowest (7) on 11/25/2026",
+      "group": "Markets",
+      "type": "ranking",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "items": [
+        "AAPL",
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "live": {
+        "kind": "rank_by_market_cap"
+      },
+      "status": "live",
+      "result": {
+        "order": [
+          "AAPL",
+          "NVDA",
+          "MSFT",
+          "GOOG",
+          "AMZN",
+          "META",
+          "TSLA"
+        ]
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 1,
+        "max": 1,
+        "tony": 0,
+        "jose": 1
+      },
+      "detail": {
+        "robert": {
+          "score": 8
+        },
+        "carlos": {
+          "score": 10
+        },
+        "jack": {
+          "score": 4
+        },
+        "bob": {
+          "score": 2
+        },
+        "pablo": {
+          "score": 6
+        },
+        "max": {
+          "score": 6
+        },
+        "tony": {
+          "score": 14
+        },
+        "jose": {
+          "score": 6
+        }
+      },
+      "picks": {
+        "robert": "GOOG,NVDA,MSFT,AAPL,AMZN,TSLA,META",
+        "carlos": "NVDA,GOOG,MSFT,AAPL,TSLA,AMZN,META",
+        "jack": "NVDA,AAPL,GOOG,MSFT,AMZN,META,TSLA",
+        "bob": "AAPL,NVDA,GOOG,MSFT,AMZN,META,TSLA",
+        "pablo": "NVDA,GOOG,AAPL,MSFT,AMZN,META,TSLA",
+        "max": "NVDA,AAPL,GOOG,AMZN,MSFT,META,TSLA",
+        "tony": "MSFT,GOOG,AAPL,AMZN,META,TSLA,NVDA",
+        "jose": "MSFT,NVDA,GOOG,AAPL,AMZN,META,TSLA"
+      },
+      "result_meta": {},
+      "market": {}
+    },
+    {
+      "id": "unh",
+      "name": "UnitedHealth (UNH)",
+      "question": "UnitedHealth stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "UNH"
+      },
+      "status": "live",
+      "result": {
+        "value": 396.8
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 0,
+        "max": 1,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 107.80000000000001
+        },
+        "carlos": {
+          "distance": 43.19999999999999
+        },
+        "jack": {
+          "distance": 11.199999999999989
+        },
+        "bob": {
+          "distance": 3.1999999999999886
+        },
+        "pablo": {
+          "distance": 34.19999999999999
+        },
+        "max": {
+          "distance": 26.80000000000001
+        },
+        "tony": {
+          "distance": 91.80000000000001
+        },
+        "jose": {
+          "distance": 256.8
+        }
+      },
+      "picks": {
+        "robert": 289,
+        "carlos": 440,
+        "jack": 408,
+        "bob": 400,
+        "pablo": 431,
+        "max": 370,
+        "tony": 305,
+        "jose": 140
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "UNH",
+        "start": 331.83,
+        "latest": 396.8
+      }
+    },
+    {
+      "id": "nflx",
+      "name": "Netflix (NFLX)",
+      "question": "Netflix stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "NFLX"
+      },
+      "status": "live",
+      "result": {
+        "value": 63.98
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 1,
+        "pablo": 5,
+        "max": 0,
+        "tony": 3,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 76.02000000000001
+        },
+        "carlos": {
+          "distance": 46.02
+        },
+        "jack": {
+          "distance": 54.02
+        },
+        "bob": {
+          "distance": 23.020000000000003
+        },
+        "pablo": {
+          "distance": 17.020000000000003
+        },
+        "max": {
+          "distance": 45.02
+        },
+        "tony": {
+          "distance": 21.020000000000003
+        },
+        "jose": {
+          "distance": 66.02000000000001
+        }
+      },
+      "picks": {
+        "robert": 140,
+        "carlos": 110,
+        "jack": 118,
+        "bob": 87,
+        "pablo": 81,
+        "max": 109,
+        "tony": 85,
+        "jose": 130
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "NFLX",
+        "start": 94.47,
+        "latest": 63.98
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      },
+      "status": "live",
+      "result": {
+        "value": 350.97
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 1,
+        "jack": 1,
+        "bob": 5,
+        "pablo": 3,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 80.97000000000003
+        },
+        "carlos": {
+          "distance": 35.97000000000003
+        },
+        "jack": {
+          "distance": 35.97000000000003
+        },
+        "bob": {
+          "distance": 17.970000000000027
+        },
+        "pablo": {
+          "distance": 31.970000000000027
+        },
+        "max": {
+          "distance": 60.97000000000003
+        },
+        "tony": {
+          "distance": 120.97000000000003
+        },
+        "jose": {
+          "distance": 110.97000000000003
+        }
+      },
+      "picks": {
+        "robert": 270,
+        "carlos": 315,
+        "jack": 315,
+        "bob": 333,
+        "pablo": 319,
+        "max": 290,
+        "tony": 230,
+        "jose": 240
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "AAPL",
+        "start": 273.4,
+        "latest": 350.97
+      }
+    },
+    {
+      "id": "ba",
+      "name": "Boeing (BA)",
+      "question": "Boeing stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BA"
+      },
+      "status": "live",
+      "result": {
+        "value": 172.55
+      },
+      "points_awarded": {
+        "robert": 1,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 1,
+        "pablo": 0,
+        "max": 3,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 47.44999999999999
+        },
+        "carlos": {
+          "distance": 122.44999999999999
+        },
+        "jack": {
+          "distance": 68.44999999999999
+        },
+        "bob": {
+          "distance": 47.44999999999999
+        },
+        "pablo": {
+          "distance": 76.44999999999999
+        },
+        "max": {
+          "distance": 27.44999999999999
+        },
+        "tony": {
+          "distance": 17.44999999999999
+        },
+        "jose": {
+          "distance": 67.44999999999999
+        }
+      },
+      "picks": {
+        "robert": 220,
+        "carlos": 295,
+        "jack": 241,
+        "bob": 220,
+        "pablo": 249,
+        "max": 200,
+        "tony": 190,
+        "jose": 240
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "BA",
+        "start": 216.44,
+        "latest": 172.55
+      }
+    },
+    {
+      "id": "cost",
+      "name": "Costco (COST)",
+      "question": "Costco stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COST"
+      },
+      "status": "live",
+      "result": {
+        "value": 1065.37
+      },
+      "points_awarded": {
+        "robert": 5,
+        "carlos": 1,
+        "jack": 3,
+        "bob": 0,
+        "pablo": 3,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 15.36999999999989
+        },
+        "carlos": {
+          "distance": 115.36999999999989
+        },
+        "jack": {
+          "distance": 66.36999999999989
+        },
+        "bob": {
+          "distance": 145.3699999999999
+        },
+        "pablo": {
+          "distance": 66.36999999999989
+        },
+        "max": {
+          "distance": 140.3699999999999
+        },
+        "tony": {
+          "distance": 333.3699999999999
+        },
+        "jose": {
+          "distance": 165.3699999999999
+        }
+      },
+      "picks": {
+        "robert": 1050,
+        "carlos": 950,
+        "jack": 999,
+        "bob": 920,
+        "pablo": 999,
+        "max": 925,
+        "tony": 732,
+        "jose": 900
+      },
+      "result_meta": {},
+      "market": {
+        "symbol": "COST",
+        "start": 873.35,
+        "latest": 1065.37
+      }
+    }
+  ],
+  "standings_current": [
+    {
+      "player": "max",
+      "points": 31,
+      "rank": 1
+    },
+    {
+      "player": "carlos",
+      "points": 28,
+      "rank": 2
+    },
+    {
+      "player": "pablo",
+      "points": 28,
+      "rank": 2
+    },
+    {
+      "player": "bob",
+      "points": 27,
+      "rank": 4
+    },
+    {
+      "player": "jose",
+      "points": 27,
+      "rank": 4
+    },
+    {
+      "player": "tony",
+      "points": 23,
+      "rank": 6
+    },
+    {
+      "player": "jack",
+      "points": 22,
+      "rank": 7
+    },
+    {
+      "player": "robert",
+      "points": 9,
+      "rank": 8
+    }
+  ],
+  "standings_projected": [
+    {
+      "player": "bob",
+      "points": 49,
+      "rank": 1
+    },
+    {
+      "player": "pablo",
+      "points": 46,
+      "rank": 2
+    },
+    {
+      "player": "max",
+      "points": 40,
+      "rank": 3
+    },
+    {
+      "player": "carlos",
+      "points": 35,
+      "rank": 4
+    },
+    {
+      "player": "tony",
+      "points": 35,
+      "rank": 4
+    },
+    {
+      "player": "jose",
+      "points": 33,
+      "rank": 6
+    },
+    {
+      "player": "jack",
+      "points": 32,
+      "rank": 7
+    },
+    {
+      "player": "robert",
+      "points": 23,
+      "rank": 8
+    }
+  ],
+  "prices_as_of": "2026-11-09T21:00+00:00",
+  "prices_start_date": "2025-12-26"
+}

@@ -1,0 +1,371 @@
+{
+  "id": "GL23",
+  "year": 2023,
+  "title": "Gentlemen's Lunch 2023",
+  "status": "final",
+  "picks_made_at": "Big Thanksgiving 2022",
+  "settlement_date": "2023-12-22",
+  "settlement_holiday": "Big Christmas 2023",
+  "players": [
+    "robert",
+    "carlos",
+    "jack",
+    "bob",
+    "pablo",
+    "max",
+    "tony",
+    "jose"
+  ],
+  "categories": [
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LVII",
+      "question": "Winner of the 2023 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-02-12"
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2023-02-12",
+      "choices": [
+        "Heads",
+        "Tails"
+      ]
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2023",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-01-09"
+    },
+    {
+      "id": "world_cup",
+      "name": "FIFA World Cup (Qatar)",
+      "question": "World Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2022-12-18"
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2023 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-04-03"
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2023 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-04-09"
+    },
+    {
+      "id": "us_open_golf",
+      "name": "US Open (golf)",
+      "question": "2023 US Open golf winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-06-18"
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2023 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-06-13"
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2023 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-06-12"
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2023 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-07-16"
+    },
+    {
+      "id": "british_open",
+      "name": "The Open (British Open)",
+      "question": "2023 British Open champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-07-23"
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2023 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-06-10"
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2023 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2023-11-01"
+    },
+    {
+      "id": "approval",
+      "name": "Biden approval (Rasmussen)",
+      "question": "Joe Biden approval rating on 12/22/2023 (Rasmussen Reports, 'Total Approve')",
+      "group": "Politics",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "pct",
+      "source": "Rasmussen Reports daily tracking poll"
+    },
+    {
+      "id": "ga_runoff",
+      "name": "Georgia Senate runoff",
+      "question": "Georgia Senate runoff: Warnock or Walker",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2022-12-06",
+      "choices": [
+        "Raphael Warnock",
+        "Herschel Walker"
+      ]
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (COMEX futures) on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (marketwatch.com) on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      }
+    },
+    {
+      "id": "dis",
+      "name": "Disney (DIS)",
+      "question": "Disney stock price on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "DIS"
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      }
+    },
+    {
+      "id": "dkng",
+      "name": "DraftKings (DKNG)",
+      "question": "DraftKings stock price on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "DKNG"
+      }
+    },
+    {
+      "id": "coin",
+      "name": "Coinbase (COIN)",
+      "question": "Coinbase stock price on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COIN"
+      }
+    },
+    {
+      "id": "meta",
+      "name": "Meta (META)",
+      "question": "Facebook/Meta stock price on 12/22/2023",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2023-12-22",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "META"
+      }
+    }
+  ],
+  "source_files": [
+    "Old Example Files/Gentlemen's Luncheon 2023 Picks.docx"
+  ]
+}

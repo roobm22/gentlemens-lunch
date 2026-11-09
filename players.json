@@ -1,0 +1,11 @@
+{
+  "_note": "Public roster (display names only). Full names and emails live in private/contacts.json.",
+  "robert": {"name": "Robert", "role": "Commissioner"},
+  "carlos": {"name": "Carlos"},
+  "jack":   {"name": "Jack"},
+  "bob":    {"name": "Bob"},
+  "pablo":  {"name": "Pablo", "role": "Founder"},
+  "max":    {"name": "Max"},
+  "tony":   {"name": "Tony"},
+  "jose":   {"name": "Jose"}
+}

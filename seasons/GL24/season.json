@@ -1,0 +1,381 @@
+{
+  "id": "GL24",
+  "year": 2024,
+  "title": "Gentlemen's Lunch 2024",
+  "status": "final",
+  "picks_made_at": "Big Christmas 2023",
+  "picks_close": "2024-01-04",
+  "settlement_date": "2024-11-27",
+  "settlement_holiday": "Big Thanksgiving 2024",
+  "players": [
+    "robert",
+    "carlos",
+    "jack",
+    "bob",
+    "pablo",
+    "max",
+    "tony",
+    "jose"
+  ],
+  "categories": [
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LVIII",
+      "question": "Winner of the 2024 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-02-11"
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2024-02-11",
+      "choices": [
+        "Heads",
+        "Tails"
+      ]
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2024",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-01-08"
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2024 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-04-08"
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2024 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-04-14"
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2024 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-24"
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2024 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-17"
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2024 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-06-01"
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2024 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-07-14"
+    },
+    {
+      "id": "euro",
+      "name": "Men's Euro",
+      "question": "2024 Men's soccer Euro winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-07-14"
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2024 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2024-10-30"
+    },
+    {
+      "id": "gop_vp",
+      "name": "GOP VP nominee",
+      "question": "Republican VP nominee",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-07-15"
+    },
+    {
+      "id": "gop_nominee",
+      "name": "GOP nominee",
+      "question": "Republican presidential nominee",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-07-15"
+    },
+    {
+      "id": "president_elect",
+      "name": "President-elect",
+      "question": "President-elect of the United States",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-06"
+    },
+    {
+      "id": "senate",
+      "name": "Senate majority",
+      "question": "Senate majority: D or R",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-06",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ]
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      }
+    },
+    {
+      "id": "top_mcap",
+      "name": "Top US company by market cap",
+      "question": "Top US company by market cap",
+      "group": "Markets",
+      "type": "exact",
+      "points": 3,
+      "date": "2024-11-27",
+      "live": {
+        "kind": "top_market_cap",
+        "names": {
+          "NVDA": "Nvidia",
+          "AAPL": "Apple",
+          "MSFT": "Microsoft",
+          "GOOG": "Google"
+        }
+      }
+    },
+    {
+      "id": "nvda",
+      "name": "Nvidia (NVDA)",
+      "question": "Nvidia stock price on 11/27/2024 (picks were pre-split; scored split-adjusted ÷10)",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "NVDA"
+      }
+    },
+    {
+      "id": "pfe",
+      "name": "Pfizer (PFE)",
+      "question": "Pfizer stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "PFE"
+      }
+    },
+    {
+      "id": "cost",
+      "name": "Costco (COST)",
+      "question": "Costco stock price on 11/27/2024 (listed as 'CSCO' on the sheet)",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COST"
+      }
+    },
+    {
+      "id": "uber",
+      "name": "Uber (UBER)",
+      "question": "Uber stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "UBER"
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 11/27/2024",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2024-11-27",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      }
+    }
+  ],
+  "source_files": [
+    "Old Example Files/Gentlemen's Luncheon 2024 Picks.docx"
+  ],
+  "notes": [
+    "NVDA split 10-for-1 on 2024-06-10; all NVDA picks predate it and are divided by 10 (ranking unchanged)."
+  ]
+}

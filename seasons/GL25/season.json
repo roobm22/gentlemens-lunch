@@ -1,0 +1,341 @@
+{
+  "id": "GL25",
+  "year": 2025,
+  "title": "Gentlemen's Lunch 2025",
+  "status": "final",
+  "picks_made_at": "Big Thanksgiving 2024",
+  "picks_close": "2024-12-27",
+  "settlement_date": "2025-12-24",
+  "settlement_holiday": "Big Christmas 2025",
+  "players": [
+    "robert",
+    "carlos",
+    "jack",
+    "bob",
+    "pablo",
+    "max",
+    "tony",
+    "jose"
+  ],
+  "categories": [
+    {
+      "id": "approval",
+      "name": "Trump approval (Rasmussen)",
+      "question": "Donald Trump approval rating on 12/24/2025 (Rasmussen Reports daily tracking poll, 'Total Approve')",
+      "group": "Politics",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "pct",
+      "source": "Rasmussen Reports daily tracking poll"
+    },
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LIX",
+      "question": "Winner of the 2025 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-02-09"
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2025-02-09",
+      "choices": [
+        "Heads",
+        "Tails"
+      ]
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2025",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-01-20"
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2025 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-04-07"
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2025 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-04-13"
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2025 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-06-17"
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2025 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-06-22"
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2025 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-05-31"
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2025 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-07-13"
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2025 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-11-01"
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (CL00, marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      }
+    },
+    {
+      "id": "top_mcap",
+      "name": "Top US company by market cap",
+      "question": "Top US company by market cap on 12/24/2025",
+      "group": "Markets",
+      "type": "exact",
+      "points": 3,
+      "date": "2025-12-24",
+      "live": {
+        "kind": "top_market_cap",
+        "names": {
+          "NVDA": "Nvidia",
+          "AAPL": "Apple",
+          "MSFT": "Microsoft",
+          "GOOG": "Google"
+        }
+      }
+    },
+    {
+      "id": "tgt",
+      "name": "Target (TGT)",
+      "question": "Target stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "TGT"
+      }
+    },
+    {
+      "id": "tsla",
+      "name": "Tesla (TSLA)",
+      "question": "Tesla stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "TSLA"
+      }
+    },
+    {
+      "id": "coin",
+      "name": "Coinbase (COIN)",
+      "question": "Coinbase stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COIN"
+      }
+    },
+    {
+      "id": "cmg",
+      "name": "Chipotle (CMG)",
+      "question": "Chipotle stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CMG"
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      }
+    }
+  ],
+  "source_files": [
+    "Old Example Files/GL Standings 2025.xlsx"
+  ]
+}

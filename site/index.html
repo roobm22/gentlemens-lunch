@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light">
+  <title>Gentlemen's Lunch</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f4d2e'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-size='28' font-weight='700' fill='%23f7f4ec' text-anchor='middle'%3EGL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">
+        <span class="crest" aria-hidden="true">GL</span>
+        <div>
+          <h1>Gentlemen's Lunch</h1>
+          <p class="sub" id="sub">&nbsp;</p>
+        </div>
+      </div>
+      <label class="season-pick">
+        <span>Season</span>
+        <select id="season" aria-label="Choose a season"></select>
+      </label>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Sections">
+    <div class="wrap tabs-inner" role="tablist" id="tabs"></div>
+  </nav>
+
+  <main class="wrap" id="view" tabindex="-1">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <footer class="wrap foot" id="foot"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

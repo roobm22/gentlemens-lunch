@@ -1,0 +1,404 @@
+{
+  "id": "GL26",
+  "year": 2026,
+  "title": "Gentlemen's Lunch 2026",
+  "status": "active",
+  "picks_made_at": "Big Christmas 2025",
+  "settlement_date": "2026-11-25",
+  "settlement_holiday": "Big Thanksgiving 2026",
+  "players": [
+    "robert",
+    "carlos",
+    "jack",
+    "bob",
+    "pablo",
+    "max",
+    "tony",
+    "jose"
+  ],
+  "categories": [
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LX",
+      "question": "Winner of the 2026 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-02-08"
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2026-02-08",
+      "choices": [
+        "Heads",
+        "Tails"
+      ]
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2026",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-01-19"
+    },
+    {
+      "id": "olympic_hockey",
+      "name": "Olympic men's hockey",
+      "question": "2026 Winter Olympics: men's ice hockey champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-02-22"
+    },
+    {
+      "id": "wbc",
+      "name": "World Baseball Classic",
+      "question": "2026 World Baseball Classic winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-03-17"
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2026 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-04-06"
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2026 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-04-12"
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2026 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-06-15"
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2026 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-06-15"
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2026 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-05-30"
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2026 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-07-12"
+    },
+    {
+      "id": "world_cup",
+      "name": "FIFA World Cup",
+      "question": "2026 FIFA World Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-07-19"
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2026 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2026-11-01"
+    },
+    {
+      "id": "house",
+      "name": "Midterms: House",
+      "question": "Midterm elections: House majority (Republican or Democrat)",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-03",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ]
+    },
+    {
+      "id": "senate",
+      "name": "Midterms: Senate",
+      "question": "Midterm elections: Senate majority (Republican or Democrat)",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-03",
+      "choices": [
+        "Democrat",
+        "Republican"
+      ]
+    },
+    {
+      "id": "cabinet_first_out",
+      "name": "First to leave Trump's Cabinet",
+      "question": "Who will be the first to leave Trump's Cabinet?",
+      "group": "Politics",
+      "type": "exact",
+      "points": 3,
+      "date": "2026-11-25"
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (CL00, marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      }
+    },
+    {
+      "id": "mag7",
+      "name": "Magnificent 7 ranking",
+      "question": "Rank the Magnificent 7 from highest market cap (1) to lowest (7) on 11/25/2026",
+      "group": "Markets",
+      "type": "ranking",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "items": [
+        "AAPL",
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "live": {
+        "kind": "rank_by_market_cap"
+      }
+    },
+    {
+      "id": "unh",
+      "name": "UnitedHealth (UNH)",
+      "question": "UnitedHealth stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "UNH"
+      }
+    },
+    {
+      "id": "nflx",
+      "name": "Netflix (NFLX)",
+      "question": "Netflix stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "NFLX"
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      }
+    },
+    {
+      "id": "ba",
+      "name": "Boeing (BA)",
+      "question": "Boeing stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BA"
+      }
+    },
+    {
+      "id": "cost",
+      "name": "Costco (COST)",
+      "question": "Costco stock price on 11/25/2026",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2026-11-25",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COST"
+      }
+    }
+  ],
+  "source_files": [
+    "Old Example Files/2026 Picks.docx",
+    "Old Example Files/(Jack's own 2026 picks PDF)"
+  ]
+}

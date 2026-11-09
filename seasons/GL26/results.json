@@ -1,0 +1,126 @@
+{
+  "super_bowl": {
+    "status": "final",
+    "winner": "Seattle Seahawks",
+    "runner_up": "New England Patriots",
+    "date": "2026-02-08",
+    "score": "29-13",
+    "source": "wikipedia.org/wiki/Super_Bowl_LX; cbssports.com"
+  },
+  "sb_coin_flip": {
+    "status": "final",
+    "answer": "Heads",
+    "date": "2026-02-08",
+    "source": "si.com; fansided.com",
+    "note": "Seattle called tails; Patriots won the toss and deferred"
+  },
+  "cfp": {
+    "status": "final",
+    "winner": "Indiana",
+    "runner_up": "Miami",
+    "date": "2026-01-19",
+    "score": "27-21",
+    "source": "wikipedia.org; AP via foxsports.com"
+  },
+  "olympic_hockey": {
+    "status": "final",
+    "winner": "United States",
+    "runner_up": "Canada",
+    "date": "2026-02-22",
+    "score": "2-1 OT",
+    "source": "nhl.com; wikipedia.org"
+  },
+  "wbc": {
+    "status": "final",
+    "winner": "Venezuela",
+    "runner_up": "United States",
+    "date": "2026-03-17",
+    "score": "3-2",
+    "source": "wikipedia.org; CBS News/AP"
+  },
+  "march_madness": {
+    "status": "final",
+    "winner": "Michigan",
+    "runner_up": "UConn",
+    "date": "2026-04-06",
+    "score": "69-63",
+    "source": "wikipedia.org; AP via fox13now.com"
+  },
+  "masters": {
+    "status": "final",
+    "winner": "Rory McIlroy",
+    "runner_up": "Scottie Scheffler",
+    "date": "2026-04-12",
+    "score": "-12, by one shot (Scheffler solo 2nd)",
+    "source": "golfchannel.com; cbsnews.com"
+  },
+  "ucl": {
+    "status": "final",
+    "winner": "Paris Saint-Germain",
+    "runner_up": "Arsenal",
+    "date": "2026-05-30",
+    "score": "1-1 aet, PSG 4-3 on penalties",
+    "source": "wikipedia.org; euronews.com"
+  },
+  "stanley_cup": {
+    "status": "final",
+    "winner": "Carolina Hurricanes",
+    "runner_up": "Vegas Golden Knights",
+    "date": "2026-06-14",
+    "score": "4-2 series",
+    "source": "wikipedia.org; AP via nbcsports.com"
+  },
+  "nba": {
+    "status": "final",
+    "winner": "New York Knicks",
+    "runner_up": "San Antonio Spurs",
+    "date": "2026-06-13",
+    "score": "4-1 series",
+    "source": "wikipedia.org; spectrumlocalnews.com"
+  },
+  "wimbledon": {
+    "status": "final",
+    "winner": "Jannik Sinner",
+    "runner_up": "Alexander Zverev",
+    "date": "2026-07-12",
+    "score": "6-7, 7-6, 6-3, 6-4",
+    "source": "wikipedia.org; aljazeera.com"
+  },
+  "world_cup": {
+    "status": "final",
+    "winner": "Spain",
+    "runner_up": "Argentina",
+    "date": "2026-07-19",
+    "score": "1-0 aet",
+    "source": "wikipedia.org; espn.com; fifa.com"
+  },
+  "world_series": {
+    "status": "final",
+    "winner": "Milwaukee Brewers",
+    "runner_up": "Tampa Bay Rays",
+    "date": "2026-10-28",
+    "score": "4-1 series",
+    "source": "wikipedia.org; mlb.com; cbssports.com"
+  },
+  "house": {
+    "status": "final",
+    "answer": "Democrat",
+    "date": "2026-11-04",
+    "source": "AP call via spectrumlocalnews.com; cbsnews.com",
+    "note": "Majority call final; some seats still uncalled as of 2026-11-09"
+  },
+  "senate": {
+    "status": "final",
+    "answer": "Democrat",
+    "date": "2026-11-03",
+    "source": "AP call via spectrumlocalnews.com; pbs.org",
+    "note": "D 54 (incl. 2 independents) - R 44; AK and MS uncalled"
+  },
+  "cabinet_first_out": {
+    "status": "final",
+    "answer": "Kristi Noem",
+    "date": "2026-03-05",
+    "source": "kptv.com; wikipedia.org (Second cabinet of Donald Trump); ballotpedia.org",
+    "note": "Removed as DHS Secretary (announced 2026-03-05, left 2026-03-24). No Cabinet departures in 2025, so the start date doesn't matter. Next: Bondi 2026-04-02."
+  }
+}

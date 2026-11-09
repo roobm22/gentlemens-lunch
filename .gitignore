@@ -1,0 +1,12 @@
+# Never publish: contact list and the archive (.eml files contain everyone's email addresses)
+private/
+Old Example Files/
+# Kept local only (full names and family details); OneDrive backs these up
+CLAUDE.md
+BUILD_PLAN.md
+.claude/
+# Local tooling
+__pycache__/
+*.pyc
+.venv/
+~$*

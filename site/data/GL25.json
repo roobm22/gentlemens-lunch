@@ -1,0 +1,1390 @@
+{
+  "generated_at": "2026-11-09T22:39+00:00",
+  "season": {
+    "id": "GL25",
+    "year": 2025,
+    "title": "Gentlemen's Lunch 2025",
+    "status": "final",
+    "picks_made_at": "Big Thanksgiving 2024",
+    "picks_close": "2024-12-27",
+    "settlement_date": "2025-12-24",
+    "settlement_holiday": "Big Christmas 2025",
+    "players": [
+      "robert",
+      "carlos",
+      "jack",
+      "bob",
+      "pablo",
+      "max",
+      "tony",
+      "jose"
+    ]
+  },
+  "players": [
+    {
+      "id": "robert",
+      "name": "Robert",
+      "role": "Commissioner"
+    },
+    {
+      "id": "carlos",
+      "name": "Carlos"
+    },
+    {
+      "id": "jack",
+      "name": "Jack"
+    },
+    {
+      "id": "bob",
+      "name": "Bob"
+    },
+    {
+      "id": "pablo",
+      "name": "Pablo",
+      "role": "Founder"
+    },
+    {
+      "id": "max",
+      "name": "Max"
+    },
+    {
+      "id": "tony",
+      "name": "Tony"
+    },
+    {
+      "id": "jose",
+      "name": "Jose"
+    }
+  ],
+  "categories": [
+    {
+      "id": "approval",
+      "name": "Trump approval (Rasmussen)",
+      "question": "Donald Trump approval rating on 12/24/2025 (Rasmussen Reports daily tracking poll, 'Total Approve')",
+      "group": "Politics",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "pct",
+      "source": "Rasmussen Reports daily tracking poll",
+      "status": "final",
+      "result": {
+        "value": 0.45
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 1,
+        "bob": 1,
+        "pablo": 0,
+        "max": 0,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 0.041000000000000036
+        },
+        "carlos": {
+          "distance": 0.019999999999999962
+        },
+        "jack": {
+          "distance": 0.02999999999999997
+        },
+        "bob": {
+          "distance": 0.030000000000000027
+        },
+        "pablo": {
+          "distance": 0.09000000000000002
+        },
+        "max": {
+          "distance": 0.04999999999999999
+        },
+        "tony": {
+          "distance": 0.0
+        },
+        "jose": {
+          "distance": 0.07
+        }
+      },
+      "picks": {
+        "robert": 0.409,
+        "carlos": 0.47,
+        "jack": 0.48,
+        "bob": 0.42,
+        "pablo": 0.54,
+        "max": 0.4,
+        "tony": 0.45,
+        "jose": 0.38
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Rasmussen Reports daily tracking poll, archived 2025-12-24 (web.archive.org)",
+        "note": "Robert's Dec-16 workbook had 47%; the 12/24 daily reading was 45%"
+      },
+      "market": {}
+    },
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LIX",
+      "question": "Winner of the 2025 Super Bowl",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-02-09",
+      "status": "final",
+      "result": {
+        "winner": "Philadelphia Eagles",
+        "runner_up": "Kansas City Chiefs"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 5,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Washington Commanders",
+        "carlos": "Detroit Lions",
+        "jack": "Detroit Lions",
+        "bob": "Buffalo Bills",
+        "pablo": "Philadelphia Eagles",
+        "max": "Buffalo Bills",
+        "tony": "Buffalo Bills",
+        "jose": "Detroit Lions"
+      },
+      "result_meta": {
+        "date": "2025-02-09",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl coin flip: Heads or Tails",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2025-02-09",
+      "choices": [
+        "Heads",
+        "Tails"
+      ],
+      "status": "final",
+      "result": {
+        "answer": "Tails"
+      },
+      "points_awarded": {
+        "robert": 1,
+        "carlos": 0,
+        "jack": 1,
+        "bob": 1,
+        "pablo": 1,
+        "max": 0,
+        "tony": 0,
+        "jose": 1
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Tails",
+        "carlos": "Heads",
+        "jack": "Tails",
+        "bob": "Tails",
+        "pablo": "Tails",
+        "max": "Heads",
+        "tony": "Heads",
+        "jose": "Tails"
+      },
+      "result_meta": {
+        "date": "2025-02-09",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "NCAAF: College Football Champion 2025",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-01-20",
+      "status": "final",
+      "result": {
+        "winner": "Ohio State",
+        "runner_up": "Notre Dame"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 5,
+        "pablo": 0,
+        "max": 0,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Indiana",
+        "carlos": "Oregon",
+        "jack": "Oregon",
+        "bob": "Ohio State",
+        "pablo": "Oregon",
+        "max": "Oregon",
+        "tony": "Ohio State",
+        "jose": "Georgia"
+      },
+      "result_meta": {
+        "date": "2025-01-20",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "2025 March Madness winner (NCAA men's)",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-04-07",
+      "status": "final",
+      "result": {
+        "winner": "Florida",
+        "runner_up": "Houston"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Alabama",
+        "carlos": "Auburn",
+        "jack": "Auburn",
+        "bob": "Duke",
+        "pablo": "Duke",
+        "max": "Kansas",
+        "tony": "Duke",
+        "jose": "Florida"
+      },
+      "result_meta": {
+        "date": "2025-04-07",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "2025 Masters winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-04-13",
+      "status": "final",
+      "result": {
+        "winner": "Rory McIlroy",
+        "runner_up": "Justin Rose"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Viktor Hovland",
+        "carlos": "Scottie Scheffler",
+        "jack": "Scottie Scheffler",
+        "bob": "Scottie Scheffler",
+        "pablo": "Scottie Scheffler",
+        "max": "Ludvig Aberg",
+        "tony": "Ludvig Aberg",
+        "jose": "Scottie Scheffler"
+      },
+      "result_meta": {
+        "date": "2025-04-13",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "2025 Stanley Cup champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-06-17",
+      "status": "final",
+      "result": {
+        "winner": "Florida Panthers",
+        "runner_up": "Edmonton Oilers"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 3,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Washington Capitals",
+        "carlos": "Edmonton Oilers",
+        "jack": "Edmonton Oilers",
+        "bob": "Edmonton Oilers",
+        "pablo": "Edmonton Oilers",
+        "max": "Carolina Hurricanes",
+        "tony": "Colorado Avalanche",
+        "jose": "Winnipeg Jets"
+      },
+      "result_meta": {
+        "date": "2025-06-17",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "2025 NBA champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-06-22",
+      "status": "final",
+      "result": {
+        "winner": "Oklahoma City Thunder",
+        "runner_up": "Indiana Pacers"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Denver Nuggets",
+        "carlos": "Boston Celtics",
+        "jack": "Boston Celtics",
+        "bob": "Boston Celtics",
+        "pablo": "Boston Celtics",
+        "max": "Cleveland Cavaliers",
+        "tony": "Dallas Mavericks",
+        "jose": "Cleveland Cavaliers"
+      },
+      "result_meta": {
+        "date": "2025-06-22",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "2025 UEFA Champions League winner",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-05-31",
+      "status": "final",
+      "result": {
+        "winner": "Paris Saint-Germain",
+        "runner_up": "Inter Milan"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Arsenal",
+        "carlos": "Liverpool",
+        "jack": "Liverpool",
+        "bob": "Liverpool",
+        "pablo": "Liverpool",
+        "max": "Liverpool",
+        "tony": "Liverpool",
+        "jose": "Barcelona"
+      },
+      "result_meta": {
+        "date": "2025-05-31",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "2025 Men's Wimbledon champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-07-13",
+      "status": "final",
+      "result": {
+        "winner": "Jannik Sinner",
+        "runner_up": "Carlos Alcaraz"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 3,
+        "bob": 3,
+        "pablo": 5,
+        "max": 3,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Casper Ruud",
+        "carlos": "Carlos Alcaraz",
+        "jack": "Carlos Alcaraz",
+        "bob": "Carlos Alcaraz",
+        "pablo": "Jannik Sinner",
+        "max": "Carlos Alcaraz",
+        "tony": "Novak Djokovic",
+        "jose": "Carlos Alcaraz"
+      },
+      "result_meta": {
+        "date": "2025-07-13",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "2025 World Series champion",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2025-11-01",
+      "status": "final",
+      "result": {
+        "winner": "Los Angeles Dodgers",
+        "runner_up": "Toronto Blue Jays"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 5,
+        "jack": 5,
+        "bob": 5,
+        "pablo": 0,
+        "max": 5,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Baltimore Orioles",
+        "carlos": "Los Angeles Dodgers",
+        "jack": "Los Angeles Dodgers",
+        "bob": "Los Angeles Dodgers",
+        "pablo": "Philadelphia Phillies",
+        "max": "Los Angeles Dodgers",
+        "tony": "Philadelphia Phillies",
+        "jose": "Baltimore Orioles"
+      },
+      "result_meta": {
+        "date": "2025-11-01",
+        "source": "GL25 workbook (Robert)"
+      },
+      "market": {}
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 close on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      },
+      "status": "final",
+      "result": {
+        "value": 6932.05
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 0,
+        "max": 0,
+        "tony": 1,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 1433.0500000000002
+        },
+        "carlos": {
+          "distance": 832.0500000000002
+        },
+        "jack": {
+          "distance": 68.94999999999982
+        },
+        "bob": {
+          "distance": 32.05000000000018
+        },
+        "pablo": {
+          "distance": 410.0500000000002
+        },
+        "max": {
+          "distance": 282.0500000000002
+        },
+        "tony": {
+          "distance": 122.05000000000018
+        },
+        "jose": {
+          "distance": 932.0500000000002
+        }
+      },
+      "picks": {
+        "robert": 5499.0,
+        "carlos": 6100.0,
+        "jack": 7001.0,
+        "bob": 6900.0,
+        "pablo": 6522.0,
+        "max": 6650.0,
+        "tony": 6810.0,
+        "jose": 6000.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "^GSPC",
+        "start": 5948.64,
+        "latest": null
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      },
+      "status": "final",
+      "result": {
+        "value": 4502.8
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 1,
+        "bob": 0,
+        "pablo": 0,
+        "max": 5,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {
+        "robert": {
+          "distance": 1901.8000000000002
+        },
+        "carlos": {
+          "distance": 1502.8000000000002
+        },
+        "jack": {
+          "distance": 1552.8000000000002
+        },
+        "bob": {
+          "distance": 2152.8
+        },
+        "pablo": {
+          "distance": 2253.8
+        },
+        "max": {
+          "distance": 1452.8000000000002
+        },
+        "tony": {
+          "distance": 1568.8000000000002
+        },
+        "jose": {
+          "distance": 1502.8000000000002
+        }
+      },
+      "picks": {
+        "robert": 2601.0,
+        "carlos": 3000.0,
+        "jack": 2950.0,
+        "bob": 2350.0,
+        "pablo": 2249.0,
+        "max": 3050.0,
+        "tony": 2934.0,
+        "jose": 3000.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "GC=F",
+        "start": 2631.9,
+        "latest": null
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (CL00, marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      },
+      "status": "final",
+      "result": {
+        "value": 58.35
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 1,
+        "tony": 5,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 15.880000000000003
+        },
+        "carlos": {
+          "distance": 1.6499999999999986
+        },
+        "jack": {
+          "distance": 8.350000000000001
+        },
+        "bob": {
+          "distance": 12.649999999999999
+        },
+        "pablo": {
+          "distance": 2.969999999999999
+        },
+        "max": {
+          "distance": 2.6499999999999986
+        },
+        "tony": {
+          "distance": 0.3500000000000014
+        },
+        "jose": {
+          "distance": 3.3500000000000014
+        }
+      },
+      "picks": {
+        "robert": 74.23,
+        "carlos": 60.0,
+        "jack": 66.7,
+        "bob": 71.0,
+        "pablo": 61.32,
+        "max": 61.0,
+        "tony": 58.0,
+        "jose": 55.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "CL=F",
+        "start": 70.33,
+        "latest": null
+      }
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      },
+      "status": "final",
+      "result": {
+        "value": 87611.96
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 3,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 1,
+        "max": 5,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 192388.03999999998
+        },
+        "carlos": {
+          "distance": 17388.039999999994
+        },
+        "jack": {
+          "distance": 82389.04
+        },
+        "bob": {
+          "distance": 62388.03999999999
+        },
+        "pablo": {
+          "distance": 36611.96000000001
+        },
+        "max": {
+          "distance": 1611.9600000000064
+        },
+        "tony": {
+          "distance": 57388.03999999999
+        },
+        "jose": {
+          "distance": 37611.96000000001
+        }
+      },
+      "picks": {
+        "robert": 280000.0,
+        "carlos": 105000.0,
+        "jack": 170001.0,
+        "bob": 150000.0,
+        "pablo": 51000.0,
+        "max": 86000.0,
+        "tony": 145000.0,
+        "jose": 50000.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance BTC-USD daily close (00:00 UTC next day = 7 pm ET); settlement time TBD (CLAUDE.md §12 #2)"
+      },
+      "market": {
+        "symbol": "BTC-USD",
+        "start": 94288.0,
+        "latest": null
+      }
+    },
+    {
+      "id": "top_mcap",
+      "name": "Top US company by market cap",
+      "question": "Top US company by market cap on 12/24/2025",
+      "group": "Markets",
+      "type": "exact",
+      "points": 3,
+      "date": "2025-12-24",
+      "live": {
+        "kind": "top_market_cap",
+        "names": {
+          "NVDA": "Nvidia",
+          "AAPL": "Apple",
+          "MSFT": "Microsoft",
+          "GOOG": "Google"
+        }
+      },
+      "status": "final",
+      "result": {
+        "answer": "Nvidia"
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 3
+      },
+      "detail": {},
+      "picks": {
+        "robert": "Google",
+        "carlos": "Microsoft",
+        "jack": "Apple",
+        "bob": "Apple",
+        "pablo": "Apple",
+        "max": "Apple",
+        "tony": "Microsoft",
+        "jose": "Nvidia"
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "companiesmarketcap.com (archived 2025-12-25); Yahoo close x SEC shares",
+        "note": "Nvidia ~$4.59T vs Apple ~$4.06T"
+      },
+      "market": {}
+    },
+    {
+      "id": "tgt",
+      "name": "Target (TGT)",
+      "question": "Target stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "TGT"
+      },
+      "status": "final",
+      "result": {
+        "value": 96.53
+      },
+      "points_awarded": {
+        "robert": 5,
+        "carlos": 1,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 3,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 38.46000000000001
+        },
+        "carlos": {
+          "distance": 48.47
+        },
+        "jack": {
+          "distance": 82.47
+        },
+        "bob": {
+          "distance": 53.47
+        },
+        "pablo": {
+          "distance": 74.47
+        },
+        "max": {
+          "distance": 58.47
+        },
+        "tony": {
+          "distance": 45.47
+        },
+        "jose": {
+          "distance": 78.47
+        }
+      },
+      "picks": {
+        "robert": 134.99,
+        "carlos": 145.0,
+        "jack": 179.0,
+        "bob": 150.0,
+        "pablo": 171.0,
+        "max": 155.0,
+        "tony": 142.0,
+        "jose": 175.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "TGT",
+        "start": 135.37,
+        "latest": null
+      }
+    },
+    {
+      "id": "tsla",
+      "name": "Tesla (TSLA)",
+      "question": "Tesla stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "TSLA"
+      },
+      "status": "final",
+      "result": {
+        "value": 485.4
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 1,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {
+        "robert": {
+          "distance": 183.40999999999997
+        },
+        "carlos": {
+          "distance": 85.39999999999998
+        },
+        "jack": {
+          "distance": 41.60000000000002
+        },
+        "bob": {
+          "distance": 81.60000000000002
+        },
+        "pablo": {
+          "distance": 196.39999999999998
+        },
+        "max": {
+          "distance": 224.39999999999998
+        },
+        "tony": {
+          "distance": 164.39999999999998
+        },
+        "jose": {
+          "distance": 14.600000000000023
+        }
+      },
+      "picks": {
+        "robert": 301.99,
+        "carlos": 400.0,
+        "jack": 527.0,
+        "bob": 567.0,
+        "pablo": 289.0,
+        "max": 261.0,
+        "tony": 321.0,
+        "jose": 500.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "TSLA",
+        "start": 433.2,
+        "latest": null
+      }
+    },
+    {
+      "id": "coin",
+      "name": "Coinbase (COIN)",
+      "question": "Coinbase stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "COIN"
+      },
+      "status": "final",
+      "result": {
+        "value": 239.73
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 3,
+        "pablo": 5,
+        "max": 1,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 180.96
+        },
+        "carlos": {
+          "distance": 110.27000000000001
+        },
+        "jack": {
+          "distance": 81.27000000000001
+        },
+        "bob": {
+          "distance": 27.72999999999999
+        },
+        "pablo": {
+          "distance": 9.27000000000001
+        },
+        "max": {
+          "distance": 36.72999999999999
+        },
+        "tony": {
+          "distance": 122.27000000000001
+        },
+        "jose": {
+          "distance": 64.72999999999999
+        }
+      },
+      "picks": {
+        "robert": 420.69,
+        "carlos": 350.0,
+        "jack": 321.0,
+        "bob": 212.0,
+        "pablo": 249.0,
+        "max": 203.0,
+        "tony": 362.0,
+        "jose": 175.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "COIN",
+        "start": 265.28,
+        "latest": null
+      }
+    },
+    {
+      "id": "cmg",
+      "name": "Chipotle (CMG)",
+      "question": "Chipotle stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CMG"
+      },
+      "status": "final",
+      "result": {
+        "value": 37.9
+      },
+      "points_awarded": {
+        "robert": 1,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 3,
+        "tony": 0,
+        "jose": 5
+      },
+      "detail": {
+        "robert": {
+          "distance": 20.800000000000004
+        },
+        "carlos": {
+          "distance": 27.1
+        },
+        "jack": {
+          "distance": 41.71
+        },
+        "bob": {
+          "distance": 38.1
+        },
+        "pablo": {
+          "distance": 32.1
+        },
+        "max": {
+          "distance": 14.100000000000001
+        },
+        "tony": {
+          "distance": 36.1
+        },
+        "jose": {
+          "distance": 12.100000000000001
+        }
+      },
+      "picks": {
+        "robert": 58.7,
+        "carlos": 65.0,
+        "jack": 79.61,
+        "bob": 76.0,
+        "pablo": 70.0,
+        "max": 52.0,
+        "tony": 74.0,
+        "jose": 50.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "CMG",
+        "start": 60.6,
+        "latest": null
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price on 12/24/2025",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2025-12-24",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      },
+      "status": "final",
+      "result": {
+        "value": 273.81
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 3,
+        "bob": 5,
+        "pablo": 0,
+        "max": 0,
+        "tony": 1,
+        "jose": 0
+      },
+      "detail": {
+        "robert": {
+          "distance": 94.61000000000001
+        },
+        "carlos": {
+          "distance": 13.810000000000002
+        },
+        "jack": {
+          "distance": 1.6499999999999773
+        },
+        "bob": {
+          "distance": 1.1899999999999977
+        },
+        "pablo": {
+          "distance": 12.810000000000002
+        },
+        "max": {
+          "distance": 81.81
+        },
+        "tony": {
+          "distance": 7.189999999999998
+        },
+        "jose": {
+          "distance": 73.81
+        }
+      },
+      "picks": {
+        "robert": 179.2,
+        "carlos": 260.0,
+        "jack": 272.16,
+        "bob": 275.0,
+        "pablo": 261.0,
+        "max": 192.0,
+        "tony": 281.0,
+        "jose": 200.0
+      },
+      "result_meta": {
+        "date": "2025-12-24",
+        "source": "Yahoo Finance daily close via yfinance (spot-check vs MarketWatch pending)"
+      },
+      "market": {
+        "symbol": "AAPL",
+        "start": 254.41,
+        "latest": null
+      }
+    }
+  ],
+  "standings_current": [
+    {
+      "player": "bob",
+      "points": 32,
+      "rank": 1
+    },
+    {
+      "player": "jose",
+      "points": 25,
+      "rank": 2
+    },
+    {
+      "player": "carlos",
+      "points": 24,
+      "rank": 3
+    },
+    {
+      "player": "jack",
+      "points": 23,
+      "rank": 4
+    },
+    {
+      "player": "max",
+      "points": 23,
+      "rank": 4
+    },
+    {
+      "player": "pablo",
+      "points": 20,
+      "rank": 6
+    },
+    {
+      "player": "tony",
+      "points": 20,
+      "rank": 6
+    },
+    {
+      "player": "robert",
+      "points": 7,
+      "rank": 8
+    }
+  ],
+  "standings_projected": [
+    {
+      "player": "bob",
+      "points": 32,
+      "rank": 1
+    },
+    {
+      "player": "jose",
+      "points": 25,
+      "rank": 2
+    },
+    {
+      "player": "carlos",
+      "points": 24,
+      "rank": 3
+    },
+    {
+      "player": "jack",
+      "points": 23,
+      "rank": 4
+    },
+    {
+      "player": "max",
+      "points": 23,
+      "rank": 4
+    },
+    {
+      "player": "pablo",
+      "points": 20,
+      "rank": 6
+    },
+    {
+      "player": "tony",
+      "points": 20,
+      "rank": 6
+    },
+    {
+      "player": "robert",
+      "points": 7,
+      "rank": 8
+    }
+  ],
+  "prices_as_of": null,
+  "prices_start_date": "2024-12-27"
+}
