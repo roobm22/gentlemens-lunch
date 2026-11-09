@@ -1,0 +1,511 @@
+{
+  "id": "GL27",
+  "year": 2027,
+  "title": "Gentlemen's Lunch 2027",
+  "status": "planning",
+  "picks_made_at": "Big Thanksgiving 2026",
+  "picks_open": "2026-11-26",
+  "picks_close": "2026-12-04T23:59:00-05:00",
+  "settlement_date": "2027-12-23",
+  "settlement_holiday": "Big Christmas 2027",
+  "players": [
+    "robert",
+    "carlos",
+    "jack",
+    "bob",
+    "pablo",
+    "max",
+    "tony",
+    "jose"
+  ],
+  "categories": [
+    {
+      "id": "cfp",
+      "name": "College Football Playoff",
+      "question": "Who will win the College Football Playoff national championship (January 2027)?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-01-25",
+      "sheet_note": "Jan 2027 title game"
+    },
+    {
+      "id": "super_bowl",
+      "name": "Super Bowl LXI",
+      "question": "Who will win Super Bowl LXI (February 2027)?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-02-14",
+      "choices": [
+        "Arizona Cardinals",
+        "Atlanta Falcons",
+        "Baltimore Ravens",
+        "Buffalo Bills",
+        "Carolina Panthers",
+        "Chicago Bears",
+        "Cincinnati Bengals",
+        "Cleveland Browns",
+        "Dallas Cowboys",
+        "Denver Broncos",
+        "Detroit Lions",
+        "Green Bay Packers",
+        "Houston Texans",
+        "Indianapolis Colts",
+        "Jacksonville Jaguars",
+        "Kansas City Chiefs",
+        "Las Vegas Raiders",
+        "Los Angeles Chargers",
+        "Los Angeles Rams",
+        "Miami Dolphins",
+        "Minnesota Vikings",
+        "New England Patriots",
+        "New Orleans Saints",
+        "New York Giants",
+        "New York Jets",
+        "Philadelphia Eagles",
+        "Pittsburgh Steelers",
+        "San Francisco 49ers",
+        "Seattle Seahawks",
+        "Tampa Bay Buccaneers",
+        "Tennessee Titans",
+        "Washington Commanders"
+      ],
+      "sheet_note": "Feb 2027"
+    },
+    {
+      "id": "sb_coin_flip",
+      "name": "Super Bowl coin flip",
+      "question": "Super Bowl LXI opening coin toss: Heads or Tails?",
+      "group": "Sports",
+      "type": "exact",
+      "points": 1,
+      "date": "2027-02-14",
+      "choices": [
+        "Heads",
+        "Tails"
+      ],
+      "sheet_note": "Opening toss"
+    },
+    {
+      "id": "march_madness",
+      "name": "March Madness",
+      "question": "Who will win the 2027 NCAA men's basketball tournament?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-04-05",
+      "sheet_note": "NCAA men's"
+    },
+    {
+      "id": "masters",
+      "name": "The Masters",
+      "question": "Who will win the 2027 Masters?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-04-11"
+    },
+    {
+      "id": "ucl",
+      "name": "Champions League",
+      "question": "Who will win the 2027 UEFA Champions League?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-05-29"
+    },
+    {
+      "id": "stanley_cup",
+      "name": "Stanley Cup",
+      "question": "Who will win the 2027 Stanley Cup?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-06-15",
+      "choices": [
+        "Anaheim Ducks",
+        "Boston Bruins",
+        "Buffalo Sabres",
+        "Calgary Flames",
+        "Carolina Hurricanes",
+        "Chicago Blackhawks",
+        "Colorado Avalanche",
+        "Columbus Blue Jackets",
+        "Dallas Stars",
+        "Detroit Red Wings",
+        "Edmonton Oilers",
+        "Florida Panthers",
+        "Los Angeles Kings",
+        "Minnesota Wild",
+        "Montreal Canadiens",
+        "Nashville Predators",
+        "New Jersey Devils",
+        "New York Islanders",
+        "New York Rangers",
+        "Ottawa Senators",
+        "Philadelphia Flyers",
+        "Pittsburgh Penguins",
+        "San Jose Sharks",
+        "Seattle Kraken",
+        "St. Louis Blues",
+        "Tampa Bay Lightning",
+        "Toronto Maple Leafs",
+        "Utah Mammoth",
+        "Vancouver Canucks",
+        "Vegas Golden Knights",
+        "Washington Capitals",
+        "Winnipeg Jets"
+      ]
+    },
+    {
+      "id": "nba",
+      "name": "NBA Finals",
+      "question": "Who will win the 2027 NBA championship?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-06-17",
+      "choices": [
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "wimbledon",
+      "name": "Men's Wimbledon",
+      "question": "Who will win 2027 Wimbledon men's singles?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-07-11"
+    },
+    {
+      "id": "ryder_cup",
+      "name": "Ryder Cup",
+      "question": "Who will win the 2027 Ryder Cup (Adare Manor, Ireland)?",
+      "group": "Sports",
+      "type": "exact",
+      "points": 3,
+      "date": "2027-09-19",
+      "choices": [
+        "USA",
+        "Europe"
+      ],
+      "reference_text": "Europe won in 2025",
+      "sheet_note": "Adare Manor, Ireland"
+    },
+    {
+      "id": "world_series",
+      "name": "World Series",
+      "question": "Who will win the 2027 World Series?",
+      "group": "Sports",
+      "type": "winner_runnerup",
+      "points": [
+        5,
+        3
+      ],
+      "date": "2027-10-31",
+      "choices": [
+        "Arizona Diamondbacks",
+        "Athletics",
+        "Atlanta Braves",
+        "Baltimore Orioles",
+        "Boston Red Sox",
+        "Chicago Cubs",
+        "Chicago White Sox",
+        "Cincinnati Reds",
+        "Cleveland Guardians",
+        "Colorado Rockies",
+        "Detroit Tigers",
+        "Houston Astros",
+        "Kansas City Royals",
+        "Los Angeles Angels",
+        "Los Angeles Dodgers",
+        "Miami Marlins",
+        "Milwaukee Brewers",
+        "Minnesota Twins",
+        "New York Mets",
+        "New York Yankees",
+        "Philadelphia Phillies",
+        "Pittsburgh Pirates",
+        "San Diego Padres",
+        "San Francisco Giants",
+        "Seattle Mariners",
+        "St. Louis Cardinals",
+        "Tampa Bay Rays",
+        "Texas Rangers",
+        "Toronto Blue Jays",
+        "Washington Nationals"
+      ]
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "question": "S&P 500 closing value on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "index",
+      "live": {
+        "kind": "price",
+        "symbol": "^GSPC"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "question": "Price of gold (GC00, marketwatch.com) at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "GC=F"
+      },
+      "sheet_note": "GC00 front-month futures"
+    },
+    {
+      "id": "oil",
+      "name": "Crude oil",
+      "question": "Price of crude oil (CL00, marketwatch.com) at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "CL=F"
+      },
+      "sheet_note": "CL00 front-month futures"
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "question": "Price of Bitcoin (marketwatch.com) at 4:00 pm ET on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "BTC-USD"
+      },
+      "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day"
+    },
+    {
+      "id": "aapl",
+      "name": "Apple (AAPL)",
+      "question": "Apple stock price at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AAPL"
+      }
+    },
+    {
+      "id": "spcx",
+      "name": "SpaceX (SPCX)",
+      "question": "SpaceX stock price at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "SPCX"
+      }
+    },
+    {
+      "id": "nke",
+      "name": "Nike (NKE)",
+      "question": "Nike stock price at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "NKE"
+      }
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "question": "AMD stock price at the close on 12/23/2027",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "usd",
+      "live": {
+        "kind": "price",
+        "symbol": "AMD"
+      }
+    },
+    {
+      "id": "mag7",
+      "name": "Magnificent 7 ranking",
+      "question": "Rank the Magnificent 7 by market cap on 12/23/2027, from largest (1st) to smallest (7th)",
+      "group": "Markets",
+      "type": "ranking",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "items": [
+        "AAPL",
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "live": {
+        "kind": "rank_by_market_cap"
+      },
+      "sheet_note": "Largest (1) to smallest (7) market cap"
+    },
+    {
+      "id": "fed_rate",
+      "name": "Fed funds rate",
+      "question": "Upper bound of the Federal Reserve's fed funds target range on 12/23/2027 (in %)",
+      "group": "Markets",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-12-23",
+      "unit": "rate",
+      "source": "Federal Reserve FOMC statement in effect on 12/23/2027",
+      "reference": 4.0,
+      "reference_text": "4.00% (range 3.75-4.00%)",
+      "sheet_note": "Upper bound of target range, in %"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic $2T over/under",
+      "question": "Anthropic (ANT) market cap at the close on 12/23/2027: over or under $2 trillion?",
+      "group": "Props",
+      "type": "exact",
+      "points": 3,
+      "date": "2027-12-23",
+      "choices": [
+        "Over",
+        "Under"
+      ],
+      "live": {
+        "kind": "market_cap_over_under",
+        "ticker": "ANT",
+        "threshold": 2000000000000.0
+      },
+      "source": "companiesmarketcap.com, cross-checked with Yahoo Finance; if not public by 12/23/2027, latest priced private valuation",
+      "reference_text": "Not public yet (private round: $965B, Jun 2026)",
+      "sheet_note": "Market cap (ticker ANT) at the 12/23/2027 close"
+    }
+  ],
+  "notes": [
+    "Event dates are estimates until confirmed; Claude refines them during monthly runs.",
+    "Starting prices = values when the form locks (2026-12-04 close)."
+  ]
+}

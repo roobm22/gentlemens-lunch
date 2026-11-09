@@ -1,0 +1,36 @@
+{
+  "Who are you?": "_player",
+  "Who will win the College Football Playoff national championship (January 2027)?": "cfp",
+  "Who will win Super Bowl LXI (February 2027)?": "super_bowl",
+  "Super Bowl LXI opening coin toss: Heads or Tails?": "sb_coin_flip",
+  "Who will win the 2027 NCAA men's basketball tournament?": "march_madness",
+  "Who will win the 2027 Masters?": "masters",
+  "Who will win the 2027 UEFA Champions League?": "ucl",
+  "Who will win the 2027 Stanley Cup?": "stanley_cup",
+  "Who will win the 2027 NBA championship?": "nba",
+  "Who will win 2027 Wimbledon men's singles?": "wimbledon",
+  "Who will win the 2027 Ryder Cup (Adare Manor, Ireland)?": "ryder_cup",
+  "Who will win the 2027 World Series?": "world_series",
+  "S&P 500 closing value on 12/23/2027": "sp500",
+  "Price of gold (GC00, marketwatch.com) at the close on 12/23/2027": "gold",
+  "Price of crude oil (CL00, marketwatch.com) at the close on 12/23/2027": "oil",
+  "Price of Bitcoin (marketwatch.com) at 4:00 pm ET on 12/23/2027": "bitcoin",
+  "Apple stock price at the close on 12/23/2027": "aapl",
+  "SpaceX stock price at the close on 12/23/2027": "spcx",
+  "Nike stock price at the close on 12/23/2027": "nke",
+  "AMD stock price at the close on 12/23/2027": "amd",
+  "Rank the Magnificent 7 by market cap on 12/23/2027, from largest (1st) to smallest (7th)": {
+    "id": "mag7",
+    "grid_rows": [
+      "1st (largest)",
+      "2nd",
+      "3rd",
+      "4th",
+      "5th",
+      "6th",
+      "7th (smallest)"
+    ]
+  },
+  "Upper bound of the Federal Reserve's fed funds target range on 12/23/2027 (in %)": "fed_rate",
+  "Anthropic (ANT) market cap at the close on 12/23/2027: over or under $2 trillion?": "anthropic"
+}

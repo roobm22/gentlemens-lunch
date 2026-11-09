@@ -10,3 +10,5 @@ __pycache__/
 *.pyc
 .venv/
 ~$*
+# Working drafts stay local
+seasons/*/DRAFT*.md
