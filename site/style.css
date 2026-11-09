@@ -183,7 +183,8 @@ table { width: 100%; border-collapse: collapse; }
 .uc h2 { margin: 8px 0; }
 .construction { width: 220px; max-width: 80%; height: auto; }
 .preview-banner p { margin: 6px 0 0; }
-.rows.tpl li { grid-template-columns: 2em 1fr auto; }
+.rows.tpl li { grid-template-columns: 2em minmax(0, 1fr); }
+.rows.tpl .pts-label { color: var(--green-2); font-weight: 600; }
 .rows.tpl .num { color: var(--muted); font-weight: 700; }
 .order .cap { color: var(--muted); font-weight: 600; font-size: .82rem; }
 .rules ol { margin: 8px 0 0; padding-left: 1.3em; }

@@ -133,18 +133,21 @@
   function previewPicks() {
     const d = state.data;
     const s = d.season;
-    const sheet = d.sheet_url ? ` <a href="${esc(d.sheet_url)}" target="_blank" rel="noopener">Printable picks sheet</a>` : "";
+    const sheet = d.sheet_url ? ` A <a href="${esc(d.sheet_url)}" target="_blank" rel="noopener">printable version</a> is available too.` : "";
     const banner = `<div class="card leader preview-banner">${JACKET}<div><div class="eyebrow">Coming soon</div>
       <div class="who">${esc(s.title)} picks</div>
-      <p>Here's this year's lineup. The picks form goes live <b>no later than this year's lunch</b>, and the survey closes
-      <b>${esc(fmtDay(s.picks_close))} at 11:59 pm ET</b>.${sheet}</p></div></div>`;
+      <p><b>New this year:</b> we're moving picks to a Google Form. The form goes live <b>no later than this year's lunch</b>,
+      and the survey closes <b>${esc(fmtDay(s.picks_close))} at 11:59 pm ET</b>.</p>
+      <p>The preliminary categories are listed below.${sheet}</p>
+      <p><b>These categories aren't final yet.</b> If you have suggestions, reach out to Robert.</p></div></div>`;
     const groups = [...new Set(d.categories.map((c) => c.group))];
     let n = 0;
     const body = groups.map((g) => `<h2>${esc(g)}</h2><div class="card"><ul class="rows tpl">${d.categories.filter((c) => c.group === g).map((c) => {
       n += 1;
       const today = (d.today || {})[c.id];
       return `<li><span class="num">${n}</span><span><b>${esc(c.name)}</b><span class="sub2">${esc(c.question)}</span>
-        ${today ? `<span class="sub2">${c.type === "closest" || c.type === "ranking" ? "Today" : "FYI"}: ${esc(today)}</span>` : ""}</span><span class="meta">${pointsLabel(c)}</span></li>`;
+        ${today ? `<span class="sub2">${c.type === "closest" || c.type === "ranking" ? "Today" : "FYI"}: ${esc(today)}</span>` : ""}
+        <span class="sub2 pts-label">${pointsLabel(c)}</span></span></li>`;
     }).join("")}</ul></div>`).join("");
     return banner + body;
   }
