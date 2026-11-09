@@ -118,6 +118,8 @@ def live_value(cat: dict, prices: dict | None):
         items = cat["items"]
         if all(t in caps for t in items):
             return sorted(items, key=lambda t: -caps[t])
+    if kind == "market_cap_over_under" and live.get("ticker") in caps:
+        return "Over" if caps[live["ticker"]] >= live["threshold"] else "Under"
     if kind == "top_market_cap" and caps:
         names = live.get("names", {})
         avail = {t: c for t, c in caps.items() if t in names}

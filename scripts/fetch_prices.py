@@ -35,6 +35,8 @@ def season_symbols(season: dict) -> tuple[list[str], list[str]]:
             caps += cat["items"]
         elif live.get("kind") == "top_market_cap":
             caps += list(live.get("names", {}).keys())
+        elif live.get("kind") == "market_cap_over_under":
+            caps.append(live["ticker"])  # e.g. ANT; no data until it lists, which is fine
     return sorted(set(prices)), sorted(set(caps))
 
 

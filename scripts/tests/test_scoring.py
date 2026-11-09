@@ -81,6 +81,18 @@ def test_ranking():
     assert "error" in sc["detail"]["short"]
 
 
+def test_market_cap_over_under():
+    cat = {"id": "anthropic", "type": "exact", "points": 3,
+           "live": {"kind": "market_cap_over_under", "ticker": "ANT", "threshold": 2e12}}
+    picks = {"a": {"anthropic": "Over"}, "b": {"anthropic": "Under"}}
+    over = score_category(cat, list(picks), picks, None, {"market_caps": {"ANT": 2.3e12}})
+    assert over["points"] == {"a": 3, "b": 0} and over["status"] == "live", over
+    under = score_category(cat, list(picks), picks, None, {"market_caps": {"ANT": 1.7e12}})
+    assert under["points"] == {"a": 0, "b": 3}, under
+    not_listed = score_category(cat, list(picks), picks, None, {"market_caps": {}})
+    assert not_listed["status"] == "pending" and not any(not_listed["points"].values())
+
+
 def test_aliases():
     assert same("OKC Thunder", "Oklahoma City Thunder")
     assert same("Scotty Scheffler", "scottie scheffler")
