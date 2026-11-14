@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:02+00:00",
+  "generated_at": "2026-11-14T01:36+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -659,7 +659,7 @@
       },
       "status": "live",
       "result": {
-        "value": 7592.3999
+        "value": 7561.6699
       },
       "points_awarded": {
         "robert": 0,
@@ -686,7 +686,7 @@
       "market": {
         "symbol": "^GSPC",
         "start": null,
-        "latest": 7592.3999
+        "latest": 7561.6699
       }
     },
     {
@@ -709,7 +709,7 @@
       "sheet_note": "GC00 front-month futures",
       "status": "live",
       "result": {
-        "value": 3915.1001
+        "value": 3887.6001
       },
       "points_awarded": {
         "robert": 0,
@@ -736,7 +736,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3915.1001
+        "latest": 3887.6001
       }
     },
     {
@@ -759,7 +759,7 @@
       "sheet_note": "CL00 front-month futures",
       "status": "live",
       "result": {
-        "value": 88.19
+        "value": 88.92
       },
       "points_awarded": {
         "robert": 0,
@@ -786,7 +786,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 88.19
+        "latest": 88.92
       }
     },
     {
@@ -809,7 +809,7 @@
       "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day",
       "status": "live",
       "result": {
-        "value": 70820.8438
+        "value": 68248.2969
       },
       "points_awarded": {
         "robert": 0,
@@ -836,7 +836,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 70820.8438
+        "latest": 68248.2969
       }
     },
     {
@@ -858,7 +858,7 @@
       },
       "status": "live",
       "result": {
-        "value": 354.88
+        "value": 356.27
       },
       "points_awarded": {
         "robert": 0,
@@ -885,7 +885,7 @@
       "market": {
         "symbol": "AAPL",
         "start": null,
-        "latest": 354.88
+        "latest": 356.27
       }
     },
     {
@@ -907,7 +907,7 @@
       },
       "status": "live",
       "result": {
-        "value": 139.94
+        "value": 139.11
       },
       "points_awarded": {
         "robert": 0,
@@ -934,7 +934,7 @@
       "market": {
         "symbol": "SPCX",
         "start": null,
-        "latest": 139.94
+        "latest": 139.11
       }
     },
     {
@@ -956,7 +956,7 @@
       },
       "status": "live",
       "result": {
-        "value": 37.76
+        "value": 37.99
       },
       "points_awarded": {
         "robert": 0,
@@ -983,7 +983,7 @@
       "market": {
         "symbol": "NKE",
         "start": null,
-        "latest": 37.76
+        "latest": 37.99
       }
     },
     {
@@ -1005,7 +1005,7 @@
       },
       "status": "live",
       "result": {
-        "value": 585.3
+        "value": 534.06
       },
       "points_awarded": {
         "robert": 0,
@@ -1032,7 +1032,7 @@
       "market": {
         "symbol": "AMD",
         "start": null,
-        "latest": 585.3
+        "latest": 534.06
       }
     },
     {
@@ -1299,27 +1299,27 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-13T02:02+00:00",
+  "prices_as_of": "2026-11-14T01:36+00:00",
   "prices_start_date": null,
   "market_caps": {
-    "AAPL": 5157180748160,
-    "AMZN": 2891865708556,
-    "GOOG": 3631032900000,
-    "META": 1594466648332,
-    "MSFT": 3883899750696,
-    "NVDA": 4012989930000,
-    "TSLA": 1571023645637
+    "AAPL": 5177380321484,
+    "AMZN": 2883431500276,
+    "GOOG": 3596240880000,
+    "META": 1640694189587,
+    "MSFT": 3890434838162,
+    "NVDA": 3932339097381,
+    "TSLA": 1542445210513
   },
   "today": {
     "ryder_cup": "Europe won in 2025",
-    "sp500": "7,592",
-    "gold": "$3,915",
-    "oil": "$88.19",
-    "bitcoin": "$70,821",
-    "aapl": "$354.88",
-    "spcx": "$139.94",
-    "nke": "$37.76",
-    "amd": "$585.30",
+    "sp500": "7,562",
+    "gold": "$3,888",
+    "oil": "$88.92",
+    "bitcoin": "$68,248",
+    "aapl": "$356.27",
+    "spcx": "$139.11",
+    "nke": "$37.99",
+    "amd": "$534.06",
     "mag7": "AAPL > NVDA > MSFT > GOOG > AMZN > META > TSLA",
     "fed_rate": "4.00% (range 3.75-4.00%)",
     "anthropic": "Not public yet (private round: $965B, Jun 2026)"
