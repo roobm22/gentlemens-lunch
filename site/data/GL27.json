@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:36+00:00",
+  "generated_at": "2026-11-15T01:12+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -709,7 +709,7 @@
       "sheet_note": "GC00 front-month futures",
       "status": "live",
       "result": {
-        "value": 3887.6001
+        "value": 3886.3
       },
       "points_awarded": {
         "robert": 0,
@@ -736,7 +736,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3887.6001
+        "latest": 3886.3
       }
     },
     {
@@ -759,7 +759,7 @@
       "sheet_note": "CL00 front-month futures",
       "status": "live",
       "result": {
-        "value": 88.92
+        "value": 88.56
       },
       "points_awarded": {
         "robert": 0,
@@ -786,7 +786,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 88.92
+        "latest": 88.56
       }
     },
     {
@@ -809,7 +809,7 @@
       "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day",
       "status": "live",
       "result": {
-        "value": 68248.2969
+        "value": 62859.5898
       },
       "points_awarded": {
         "robert": 0,
@@ -836,7 +836,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 68248.2969
+        "latest": 62859.5898
       }
     },
     {
@@ -1299,13 +1299,13 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-14T01:36+00:00",
+  "prices_as_of": "2026-11-15T01:12+00:00",
   "prices_start_date": null,
   "market_caps": {
     "AAPL": 5177380321484,
     "AMZN": 2883431500276,
-    "GOOG": 3596240880000,
-    "META": 1640694189587,
+    "GOOG": 3596240744934,
+    "META": 1640314455878,
     "MSFT": 3890434838162,
     "NVDA": 3932339097381,
     "TSLA": 1542445210513
@@ -1313,9 +1313,9 @@
   "today": {
     "ryder_cup": "Europe won in 2025",
     "sp500": "7,562",
-    "gold": "$3,888",
-    "oil": "$88.92",
-    "bitcoin": "$68,248",
+    "gold": "$3,886",
+    "oil": "$88.56",
+    "bitcoin": "$62,860",
     "aapl": "$356.27",
     "spcx": "$139.11",
     "nke": "$37.99",
