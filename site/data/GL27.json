@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T02:41+00:00",
+  "generated_at": "2026-11-22T01:29+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -709,7 +709,7 @@
       "sheet_note": "GC00 front-month futures",
       "status": "live",
       "result": {
-        "value": 3539.0
+        "value": 3515.3999
       },
       "points_awarded": {
         "robert": 0,
@@ -736,7 +736,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3539.0
+        "latest": 3515.3999
       }
     },
     {
@@ -759,7 +759,7 @@
       "sheet_note": "CL00 front-month futures",
       "status": "live",
       "result": {
-        "value": 83.62
+        "value": 83.98
       },
       "points_awarded": {
         "robert": 0,
@@ -786,7 +786,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 83.62
+        "latest": 83.98
       }
     },
     {
@@ -809,7 +809,7 @@
       "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day",
       "status": "live",
       "result": {
-        "value": 58576.4805
+        "value": 59996.0703
       },
       "points_awarded": {
         "robert": 0,
@@ -836,7 +836,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 58576.4805
+        "latest": 59996.0703
       }
     },
     {
@@ -1299,12 +1299,12 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-21T02:41+00:00",
+  "prices_as_of": "2026-11-22T01:29+00:00",
   "prices_start_date": null,
   "market_caps": {
     "AAPL": 4978144230441,
     "AMZN": 2668898875884,
-    "ANT": 1163536107990,
+    "ANT": 1188428213531,
     "GOOG": 3245616000000,
     "META": 1433642412981,
     "MSFT": 3598139702748,
@@ -1314,9 +1314,9 @@
   "today": {
     "ryder_cup": "Europe won in 2025",
     "sp500": "6,910",
-    "gold": "$3,539",
-    "oil": "$83.62",
-    "bitcoin": "$58,576",
+    "gold": "$3,515",
+    "oil": "$83.98",
+    "bitcoin": "$59,996",
     "aapl": "$342.56",
     "spcx": "$127.79",
     "nke": "$32.92",
