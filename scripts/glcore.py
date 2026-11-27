@@ -10,10 +10,12 @@ Scoring types (see CLAUDE.md §4):
   winner_runnerup  5 for the champion, 3 for the runner-up
   exact            fixed points for the right answer (coin flip, elections, props)
   closest          |pick - value|, dense rank of distinct distances -> 5/3/1
-  ranking          sum of |guessed position - true position|, lowest wins -> 5/3/1
+                   (unit "date": distance in days, e.g. MLB Opening Day)
+  ranking         sum of |guessed position - true position|, lowest wins -> 5/3/1
 """
 from __future__ import annotations
 
+import datetime as dt
 import json
 from pathlib import Path
 
@@ -80,6 +82,34 @@ def to_number(value) -> float | None:
     except ValueError:
         return None
     return n / 100 if pct else n
+
+
+DATE_FORMATS = ("%Y-%m-%d", "%m/%d/%Y", "%m/%d/%y", "%B %d, %Y", "%b %d, %Y", "%B %d %Y", "%b %d %Y")
+
+
+def to_date(value) -> dt.date | None:
+    """Parse a date pick or result (ISO, M/D/YYYY as Google Forms exports it, or 'March 24, 2027')."""
+    if value is None:
+        return None
+    if isinstance(value, dt.datetime):
+        return value.date()
+    if isinstance(value, dt.date):
+        return value
+    s = str(value).strip()
+    for f in DATE_FORMATS:
+        try:
+            return dt.datetime.strptime(s[:10] if f == "%Y-%m-%d" else s, f).date()
+        except ValueError:
+            continue
+    return None
+
+
+def closest_number(value, unit=None) -> float | None:
+    """Numeric value for a 'closest' pick: dates count as days."""
+    if unit == "date":
+        d = to_date(value)
+        return float(d.toordinal()) if d else None
+    return to_number(value)
 
 
 def parse_order(value) -> list[str]:
@@ -166,20 +196,23 @@ def score_category(cat: dict, players: list[str], picks: dict, result: dict | No
         out["result"] = {"answer": answer}
 
     elif ctype == "closest":
-        value = to_number(result.get("value"))
+        unit = cat.get("unit")
+        value = closest_number(result.get("value"), unit)
         if value is None and status != "final":
-            value = to_number(live_value(cat, prices))
+            value = closest_number(live_value(cat, prices), unit)
             if value is not None:
                 status = "live"
         if value is not None:
             dists = {}
             for p in players:
-                n = to_number(pick_of(p))
+                n = closest_number(pick_of(p), unit)
                 if n is not None:
-                    dists[p] = abs(n - value)
+                    dists[p] = abs(n - value)  # for dates: days early or late
                     out["detail"][p] = {"distance": dists[p]}
             for p, pts in dense_tier_points(dists, pts_cfg).items():
                 out["points"][p] = pts
+        if unit == "date" and value is not None:
+            value = dt.date.fromordinal(int(value)).isoformat()
         out["result"] = {"value": value}
 
     elif ctype == "ranking":

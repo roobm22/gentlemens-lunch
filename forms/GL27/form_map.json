@@ -17,8 +17,8 @@
   "Price of Bitcoin (marketwatch.com) at 4:00 pm ET on 12/23/2027": "bitcoin",
   "Apple stock price at the close on 12/23/2027": "aapl",
   "SpaceX stock price at the close on 12/23/2027": "spcx",
-  "Nike stock price at the close on 12/23/2027": "nke",
-  "AMD stock price at the close on 12/23/2027": "amd",
+  "Anthropic (ANT) stock price at the close on 12/23/2027": "ant",
+  "Nvidia (NVDA) stock price at the close on 12/23/2027": "nvda",
   "Rank the Magnificent 7 by market cap on 12/23/2027, from largest (1st) to smallest (7th)": {
     "id": "mag7",
     "grid_rows": [
@@ -32,5 +32,6 @@
     ]
   },
   "Upper bound of the Federal Reserve's fed funds target range on 12/23/2027 (in %)": "fed_rate",
-  "Anthropic (ANT) market cap at the close on 12/23/2027: over or under $2 trillion?": "anthropic"
+  "On what date will the first official game of the 2027 MLB regular season be played?": "mlb_opening",
+  "Will a Supreme Court justice step down or die between the picks deadline and 12/23/2027?": "scotus"
 }

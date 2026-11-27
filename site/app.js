@@ -28,11 +28,16 @@
   }
   function fmtValue(v, unit) {
     if (v === null || v === undefined || v === "") return "—";
+    if (unit === "date") return /^\d{4}-\d{2}-\d{2}/.test(String(v)) ? esc(fmtDate(String(v))) : esc(v);
     const n = typeof v === "number" ? v : Number(String(v).replace(/[$,]/g, ""));
     if (Number.isNaN(n)) return esc(v);
     if (unit === "pct") return (n <= 1 ? n * 100 : n).toFixed(1).replace(/\.0$/, "") + "%";
     if (unit === "usd") return "$" + (Math.abs(n) >= 1000 ? Math.round(n).toLocaleString() : n.toFixed(2).replace(/\.00$/, ""));
     return n.toLocaleString();
+  }
+  function fmtDistance(v, unit) {
+    if (unit === "date") return `${v} day${v === 1 ? "" : "s"}`;
+    return fmtValue(v, unit);
   }
   const playerName = (id) => (state.data.players.find((p) => p.id === id) || { name: id }).name;
   const ptsBadge = (n) => `<span class="pts p${n || 0}">${n ? "+" + n : "–"}</span>`;
@@ -133,7 +138,10 @@
   function previewPicks() {
     const d = state.data;
     const s = d.season;
-    const sheet = d.sheet_url ? ` A <a href="${esc(d.sheet_url)}" target="_blank" rel="noopener">printable version</a> is available too.` : "";
+    const links = [];
+    if (d.sheet_pdf_url) links.push(`<a href="${esc(d.sheet_pdf_url)}" target="_blank" rel="noopener">one-page PDF</a>`);
+    if (d.sheet_url) links.push(`<a href="${esc(d.sheet_url)}" target="_blank" rel="noopener">web version</a>`);
+    const sheet = links.length ? ` A printable sheet is available too (${links.join(" or ")}).` : "";
     const banner = `<div class="card leader preview-banner">${JACKET}<div><div class="eyebrow">Coming soon</div>
       <div class="who">${esc(s.title)} picks</div>
       <p><b>New this year:</b> we're moving picks to a Google Form. The form goes live <b>no later than this year's lunch</b>,
@@ -146,7 +154,8 @@
       n += 1;
       const today = (d.today || {})[c.id];
       return `<li><span class="num">${n}</span><span><b>${esc(c.name)}</b><span class="sub2">${esc(c.question)}</span>
-        ${today ? `<span class="sub2">${c.type === "closest" || c.type === "ranking" ? "Today" : "FYI"}: ${esc(today)}</span>` : ""}
+        ${today ? `<span class="sub2">${(c.type === "closest" && c.unit !== "date") || c.type === "ranking" ? "Today" : "FYI"}: ${esc(today)}</span>` : ""}
+        ${c.settles ? `<span class="sub2 settles"><b>How it settles:</b> ${esc(c.settles)}</span>` : ""}
         <span class="sub2 pts-label">${pointsLabel(c)}</span></span></li>`;
     }).join("")}</ul></div>`).join("");
     return banner + body;
@@ -209,7 +218,7 @@
       const pts = c.points_awarded[p] || 0;
       const det = c.detail[p] || {};
       let extra = "";
-      if (c.type === "closest" && det.distance !== undefined && c.status !== "pending") extra = `<span class="sub2">off by ${fmtValue(det.distance, c.unit)}</span>`;
+      if (c.type === "closest" && det.distance !== undefined && c.status !== "pending") extra = `<span class="sub2">off by ${fmtDistance(det.distance, c.unit)}</span>`;
       if (c.type === "ranking" && det.score !== undefined) extra = `<span class="sub2">${det.score} spots off</span>`;
       return `<li class="${pts ? "scored" : ""}"><span class="who">${esc(playerName(p))}</span><span class="pick">${pickText(c, c.picks[p])}${extra}</span>${ptsBadge(pts)}</li>`;
     }).join("");
@@ -224,6 +233,7 @@
     if (c.type === "winner_runnerup") return "5 pts winner · 3 pts runner-up";
     if (c.type === "exact") return `${c.points} pt${c.points === 1 ? "" : "s"} if right`;
     if (c.type === "ranking") return "5 / 3 / 1 for the closest rankings";
+    if (c.unit === "date") return "5 / 3 / 1 for the closest dates";
     return "5 / 3 / 1 for the closest";
   }
 
@@ -283,7 +293,7 @@
   // ---------------------------------------------------------------- markets
   function markets() {
     const d = state.data;
-    const cats = d.categories.filter((c) => c.group === "Markets" || c.type === "closest" || c.type === "ranking");
+    const cats = d.categories.filter((c) => (c.group === "Markets" || c.type === "closest" || c.type === "ranking") && c.unit !== "date");
     const asOf = d.prices_as_of && isActive() ? `<p class="note">Prices update automatically each day after the market closes (last: ${esc(fmtStamp(d.prices_as_of))}). Final numbers are locked in on ${esc(fmtDate(d.season.settlement_date))}.</p>` : "";
     const startNote = d.prices_start_date ? ` "Start" is the price on ${esc(fmtDate(d.prices_start_date))}, when picks closed.` : "";
     return `<p class="note">How close everyone is right now.${startNote}</p>${asOf}<div class="grid two" style="margin-top:12px">${cats.map(marketCard).join("")}</div>`;
@@ -316,7 +326,7 @@
       const det = c.detail[p] || {};
       const pick = Number(c.picks[p]);
       const dir = now !== undefined && now !== null && !Number.isNaN(pick) ? (pick > now ? "high" : pick < now ? "low" : "exact") : "";
-      return `<li class="${c.points_awarded[p] ? "scored" : ""}"><span class="who">${esc(playerName(p))}</span><span class="pick">${pickText(c, c.picks[p])}${det.distance !== undefined ? `<span class="sub2">off by ${fmtValue(det.distance, c.unit)}${dir && dir !== "exact" ? " (" + dir + ")" : ""}</span>` : ""}</span>${ptsBadge(c.points_awarded[p])}</li>`;
+      return `<li class="${c.points_awarded[p] ? "scored" : ""}"><span class="who">${esc(playerName(p))}</span><span class="pick">${pickText(c, c.picks[p])}${det.distance !== undefined ? `<span class="sub2">off by ${fmtDistance(det.distance, c.unit)}${dir && dir !== "exact" ? " (" + dir + ")" : ""}</span>` : ""}</span>${ptsBadge(c.points_awarded[p])}</li>`;
     }).join("");
     return `<div class="card"><div class="cat-head"><h3>${esc(c.name)}</h3>${chip(c.status)}</div>
       <div class="mk-top"><span class="mk-now">${fmtValue(now, c.unit)}</span>${change}${m.start ? `<span class="meta">start ${fmtValue(m.start, c.unit)}</span>` : ""}</div>
@@ -343,7 +353,7 @@
       <h2>Scoring</h2><div class="card rules"><table>
       <tr><th>Type</th><th>Points</th></tr>
       <tr><td>Pick the champion (Super Bowl, Masters, World Series…)</td><td><b>5</b> if your pick wins, <b>3</b> if your pick is the runner-up</td></tr>
-      <tr><td>Closest number (S&amp;P 500, gold, oil, Bitcoin, stocks)</td><td>Closest gets <b>5</b>, next <b>3</b>, next <b>1</b>. Over or under both count. Ties share the points, and the next-closest still gets the next tier.</td></tr>
+      <tr><td>Closest number or date (S&amp;P 500, gold, oil, Bitcoin, stocks, MLB Opening Day)</td><td>Closest gets <b>5</b>, next <b>3</b>, next <b>1</b>. Over or under both count. Ties share the points, and the next-closest still gets the next tier.</td></tr>
       <tr><td>Ranking (e.g., the Magnificent 7 by market cap)</td><td>Add up how many spots off you are for each company. Lowest total gets <b>5</b>, then <b>3</b>, then <b>1</b>.</td></tr>
       <tr><td>Right answer (elections, props)</td><td><b>3</b> for everyone who gets it right</td></tr>
       <tr><td>Super Bowl coin flip</td><td><b>1</b></td></tr></table></div>
@@ -355,7 +365,19 @@
         <li><b>Lowest score gets 5 points</b>, second lowest gets 3, third lowest gets 1. If players tie, they get the same points, and the next score still gets the next tier.</li>
       </ol>
       <p class="note"><b>Example.</b> Actual order: AAPL, NVDA, MSFT, GOOG, AMZN, META, TSLA. You picked NVDA, AAPL, MSFT, GOOG, AMZN, TSLA, META.
-      NVDA and AAPL are each 1 spot off, and TSLA and META are each 1 spot off. Everything else is exact, so your score is 1 + 1 + 1 + 1 = <b>4</b>.</p></div>`;
+      NVDA and AAPL are each 1 spot off, and TSLA and META are each 1 spot off. Everything else is exact, so your score is 1 + 1 + 1 + 1 = <b>4</b>.</p></div>`
+      + settlementRules();
+  }
+
+  function settlementRules() {
+    const r = state.index.settlement_rules;
+    if (!r) return "";
+    const groups = [...new Set(r.categories.map((c) => c.group))];
+    const body = groups.map((g) => `<tr class="grp"><td colspan="2"><b>${esc(g)}</b>${r.groups[g] ? `<div class="meta">${esc(r.groups[g])}</div>` : ""}</td></tr>`
+      + r.categories.filter((c) => c.group === g).map((c) => `<tr><td>${esc(c.name)}</td><td>${esc(c.settles)}</td></tr>`).join("")).join("");
+    return `<h2 id="settles">How each ${esc(r.season)} category settles</h2><div class="card rules">
+      <p>Exactly what counts for each category, including the source and the time of day. If something happens that these rules don't cover, Robert makes the call and it gets written down here.</p>
+      <table class="settle"><tr><th>Category</th><th>How it settles</th></tr>${body}</table></div>`;
   }
 
   // ---------------------------------------------------------------- events

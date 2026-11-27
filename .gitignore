@@ -12,3 +12,5 @@ __pycache__/
 ~$*
 # Working drafts stay local
 seasons/*/DRAFT*.md
+# Email drafts (may mention full names / private context)
+drafts/

@@ -15,12 +15,12 @@ var ITEMS = [
  {
   "kind": "text",
   "title": "Who will win the College Football Playoff national championship (January 2027)?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect."
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect.\nHow it settles: Winner of the CFP National Championship game (Jan 2027). Runner-up = the team that loses that game."
  },
  {
   "kind": "list",
   "title": "Who will win Super Bowl LXI (February 2027)?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.",
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.\nHow it settles: Winner of Super Bowl LXI (Feb 2027). Runner-up = the team that loses the game.",
   "choices": [
    "Arizona Cardinals",
    "Atlanta Falcons",
@@ -59,7 +59,7 @@ var ITEMS = [
  {
   "kind": "mc",
   "title": "Super Bowl LXI opening coin toss: Heads or Tails?",
-  "help": "1 point if you're right.",
+  "help": "1 point if you're right.\nHow it settles: The opening coin toss of Super Bowl LXI, as shown on the broadcast. An overtime toss doesn't count.",
   "choices": [
    "Heads",
    "Tails"
@@ -68,22 +68,22 @@ var ITEMS = [
  {
   "kind": "text",
   "title": "Who will win the 2027 NCAA men's basketball tournament?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect."
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect.\nHow it settles: Winner of the NCAA Division I men's championship game (Apr 2027). Runner-up = the team that loses it."
  },
  {
   "kind": "text",
   "title": "Who will win the 2027 Masters?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect."
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect.\nHow it settles: Winner of the 2027 Masters, including any playoff. Runner-up = 2nd place; if players tie for 2nd, they all count."
  },
  {
   "kind": "text",
   "title": "Who will win the 2027 UEFA Champions League?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect."
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect.\nHow it settles: Winner of the 2027 Champions League final (extra time and penalties count). Runner-up = the losing finalist."
  },
  {
   "kind": "list",
   "title": "Who will win the 2027 Stanley Cup?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.",
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.\nHow it settles: Winner of the 2027 Stanley Cup Final. Runner-up = the team that loses the Final.",
   "choices": [
    "Anaheim Ducks",
    "Boston Bruins",
@@ -122,7 +122,7 @@ var ITEMS = [
  {
   "kind": "list",
   "title": "Who will win the 2027 NBA championship?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.",
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.\nHow it settles: Winner of the 2027 NBA Finals. Runner-up = the team that loses the Finals.",
   "choices": [
    "Atlanta Hawks",
    "Boston Celtics",
@@ -159,12 +159,12 @@ var ITEMS = [
  {
   "kind": "text",
   "title": "Who will win 2027 Wimbledon men's singles?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect."
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up. Type the name; spelling doesn't need to be perfect.\nHow it settles: Winner of the 2027 Wimbledon men's singles final. Runner-up = the losing finalist (even if he retires hurt)."
  },
  {
   "kind": "mc",
   "title": "Who will win the 2027 Ryder Cup (Adare Manor, Ireland)?",
-  "help": "3 points if you're right.",
+  "help": "3 points if you're right.\nHow it settles: The team that wins the 2027 Ryder Cup at Adare Manor (Sept 2027), per the official result at rydercup.com.",
   "choices": [
    "USA",
    "Europe"
@@ -173,7 +173,7 @@ var ITEMS = [
  {
   "kind": "list",
   "title": "Who will win the 2027 World Series?",
-  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.",
+  "help": "5 points if your pick wins it all, 3 if your pick is the runner-up.\nHow it settles: Winner of the 2027 World Series. Runner-up = the team that loses the Series.",
   "choices": [
    "Arizona Diamondbacks",
    "Athletics",
@@ -214,47 +214,47 @@ var ITEMS = [
  {
   "kind": "number",
   "title": "S&P 500 closing value on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 7500. Today: 7,550."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 7500. Today: 7,274.\nHow it settles: Official S&P 500 closing value at 4:00 pm ET on 12/23/2027 (the \"Close\" on Yahoo Finance or WSJ). After-hours futures don't count."
  },
  {
   "kind": "number",
   "title": "Price of gold (GC00, marketwatch.com) at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $4,150."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $3,651.\nHow it settles: The 12/23/2027 daily close of GC00 on MarketWatch (front-month COMEX gold futures). That is the exchange's settlement price, set at about 1:30 pm ET."
  },
  {
   "kind": "number",
   "title": "Price of crude oil (CL00, marketwatch.com) at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $86.38."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $83.10.\nHow it settles: The 12/23/2027 daily close of CL00 on MarketWatch (front-month NYMEX WTI crude futures). That is the exchange's settlement price, set at about 2:30 pm ET."
  },
  {
   "kind": "number",
   "title": "Price of Bitcoin (marketwatch.com) at 4:00 pm ET on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $75,023."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $60,252.\nHow it settles: The 12/23/2027 daily close of BTCUSD on MarketWatch, which is the price at 4:00 pm ET. Not midnight, and not any later trading that evening."
  },
  {
   "kind": "number",
   "title": "Apple stock price at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $350.69."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $357.18.\nHow it settles: Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
  },
  {
   "kind": "number",
   "title": "SpaceX stock price at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $142.07."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $131.50.\nHow it settles: Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
  },
  {
   "kind": "number",
-  "title": "Nike stock price at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $39.88."
+  "title": "Anthropic (ANT) stock price at the close on 12/23/2027",
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $90.78.\nHow it settles: Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
  },
  {
   "kind": "number",
-  "title": "AMD stock price at the close on 12/23/2027",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $508.58."
+  "title": "Nvidia (NVDA) stock price at the close on 12/23/2027",
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a number like 150 (no $ or commas). Today: $148.76.\nHow it settles: Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
  },
  {
   "kind": "grid",
   "title": "Rank the Magnificent 7 by market cap on 12/23/2027, from largest (1st) to smallest (7th)",
-  "help": "For each company, we count how many spots off you are. Lowest total gets 5, then 3, then 1. Use each company once. Today's order: AAPL > NVDA > MSFT > GOOG > AMZN > META > TSLA.",
+  "help": "For each company, we count how many spots off you are. Lowest total gets 5, then 3, then 1. Use each company once. Today's order: AAPL > MSFT > NVDA > GOOG > AMZN > META > TSLA.\nHow it settles: Market cap at the 4:00 pm ET close on 12/23/2027, per companiesmarketcap.com (cross-checked with Yahoo Finance). Alphabet counts all share classes.",
   "rows": [
    "1st (largest)",
    "2nd",
@@ -277,19 +277,24 @@ var ITEMS = [
  {
   "kind": "number",
   "title": "Upper bound of the Federal Reserve's fed funds target range on 12/23/2027 (in %)",
-  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a percentage like 4.25. Today: 4.00% (range 3.75-4.00%)."
+  "help": "Closest guess gets 5, next closest 3, then 1. Over or under both count. Enter a percentage like 4.25. Today: 4.00% (range 3.75-4.00%).\nHow it settles: Upper bound of the Fed's federal funds target range in effect at 4:00 pm ET on 12/23/2027, per the latest FOMC statement at federalreserve.gov. A December 2027 decision counts if it's announced by then."
  },
  {
   "kind": "page",
   "title": "Props"
  },
  {
+  "kind": "date",
+  "title": "On what date will the first official game of the 2027 MLB regular season be played?",
+  "help": "Closest date gets 5, next closest 3, then 1, counting days early or late. Scheduled Wed 3/24/2027 (labor deal expires 12/1/2026).\nHow it settles: Date (Eastern time) of the first official 2027 MLB regular-season game, wherever it's played (an overseas opener counts; spring training doesn't). Scored by days off, early or late, per MLB.com."
+ },
+ {
   "kind": "mc",
-  "title": "Anthropic (ANT) market cap at the close on 12/23/2027: over or under $2 trillion?",
-  "help": "3 points if you're right.",
+  "title": "Will a Supreme Court justice step down or die between the picks deadline and 12/23/2027?",
+  "help": "3 points if you're right.\nHow it settles: Yes if any Supreme Court justice dies, leaves the Court, or publicly announces a retirement or resignation after picks close (12/4/2026) and by 12/23/2027. An announcement counts even if it takes effect later.",
   "choices": [
-   "Over",
-   "Under"
+   "Yes",
+   "No"
   ]
  }
 ];
@@ -312,6 +317,7 @@ function buildForm() {
     if (it.kind === 'page') { form.addPageBreakItem().setTitle(it.title); return; }
     var item;
     if (it.kind === 'list') item = form.addListItem().setChoiceValues(it.choices);
+    else if (it.kind === 'date') item = form.addDateItem().setIncludesYear(true);
     else if (it.kind === 'mc') item = form.addMultipleChoiceItem().setChoiceValues(it.choices);
     else if (it.kind === 'grid') {
       item = form.addGridItem().setRows(it.rows).setColumns(it.cols);

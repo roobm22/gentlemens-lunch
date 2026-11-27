@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:43+00:00",
+  "generated_at": "2026-11-27T16:46+00:00",
   "active": "GL26",
   "seasons": [
     {
@@ -94,5 +94,131 @@
       "points": 40,
       "note": "From Robert's 2022 standings workbook (Pablo and Carlos 37)"
     }
-  ]
+  ],
+  "settlement_rules": {
+    "season": "GL27",
+    "title": "Gentlemen's Lunch 2027",
+    "groups": {
+      "Sports": "Official result from the league or event organizer, confirmed with a second source. Runner-up = the losing finalist (golf: 2nd place).",
+      "Markets": "All values are taken on Thu 12/23/2027, a normal full trading day (markets are closed Fri 12/24). Close means the official 4:00 pm ET close unless the category says otherwise.",
+      "Props": "Official sources as listed for each category, confirmed with a second source."
+    },
+    "categories": [
+      {
+        "name": "College Football Playoff",
+        "group": "Sports",
+        "settles": "Winner of the CFP National Championship game (Jan 2027). Runner-up = the team that loses that game."
+      },
+      {
+        "name": "Super Bowl LXI",
+        "group": "Sports",
+        "settles": "Winner of Super Bowl LXI (Feb 2027). Runner-up = the team that loses the game."
+      },
+      {
+        "name": "Super Bowl coin flip",
+        "group": "Sports",
+        "settles": "The opening coin toss of Super Bowl LXI, as shown on the broadcast. An overtime toss doesn't count."
+      },
+      {
+        "name": "March Madness",
+        "group": "Sports",
+        "settles": "Winner of the NCAA Division I men's championship game (Apr 2027). Runner-up = the team that loses it."
+      },
+      {
+        "name": "The Masters",
+        "group": "Sports",
+        "settles": "Winner of the 2027 Masters, including any playoff. Runner-up = 2nd place; if players tie for 2nd, they all count."
+      },
+      {
+        "name": "Champions League",
+        "group": "Sports",
+        "settles": "Winner of the 2027 Champions League final (extra time and penalties count). Runner-up = the losing finalist."
+      },
+      {
+        "name": "Stanley Cup",
+        "group": "Sports",
+        "settles": "Winner of the 2027 Stanley Cup Final. Runner-up = the team that loses the Final."
+      },
+      {
+        "name": "NBA Finals",
+        "group": "Sports",
+        "settles": "Winner of the 2027 NBA Finals. Runner-up = the team that loses the Finals."
+      },
+      {
+        "name": "Men's Wimbledon",
+        "group": "Sports",
+        "settles": "Winner of the 2027 Wimbledon men's singles final. Runner-up = the losing finalist (even if he retires hurt)."
+      },
+      {
+        "name": "Ryder Cup",
+        "group": "Sports",
+        "settles": "The team that wins the 2027 Ryder Cup at Adare Manor (Sept 2027), per the official result at rydercup.com."
+      },
+      {
+        "name": "World Series",
+        "group": "Sports",
+        "settles": "Winner of the 2027 World Series. Runner-up = the team that loses the Series."
+      },
+      {
+        "name": "S&P 500",
+        "group": "Markets",
+        "settles": "Official S&P 500 closing value at 4:00 pm ET on 12/23/2027 (the \"Close\" on Yahoo Finance or WSJ). After-hours futures don't count."
+      },
+      {
+        "name": "Gold",
+        "group": "Markets",
+        "settles": "The 12/23/2027 daily close of GC00 on MarketWatch (front-month COMEX gold futures). That is the exchange's settlement price, set at about 1:30 pm ET."
+      },
+      {
+        "name": "Crude oil",
+        "group": "Markets",
+        "settles": "The 12/23/2027 daily close of CL00 on MarketWatch (front-month NYMEX WTI crude futures). That is the exchange's settlement price, set at about 2:30 pm ET."
+      },
+      {
+        "name": "Bitcoin",
+        "group": "Markets",
+        "settles": "The 12/23/2027 daily close of BTCUSD on MarketWatch, which is the price at 4:00 pm ET. Not midnight, and not any later trading that evening."
+      },
+      {
+        "name": "Apple (AAPL)",
+        "group": "Markets",
+        "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
+      },
+      {
+        "name": "SpaceX (SPCX)",
+        "group": "Markets",
+        "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
+      },
+      {
+        "name": "Anthropic (ANT)",
+        "group": "Markets",
+        "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
+      },
+      {
+        "name": "Nvidia (NVDA)",
+        "group": "Markets",
+        "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count."
+      },
+      {
+        "name": "Magnificent 7 ranking",
+        "group": "Markets",
+        "settles": "Market cap at the 4:00 pm ET close on 12/23/2027, per companiesmarketcap.com (cross-checked with Yahoo Finance). Alphabet counts all share classes."
+      },
+      {
+        "name": "Fed funds rate",
+        "group": "Markets",
+        "settles": "Upper bound of the Fed's federal funds target range in effect at 4:00 pm ET on 12/23/2027, per the latest FOMC statement at federalreserve.gov. A December 2027 decision counts if it's announced by then."
+      },
+      {
+        "name": "MLB Opening Day",
+        "group": "Props",
+        "settles": "Date (Eastern time) of the first official 2027 MLB regular-season game, wherever it's played (an overseas opener counts; spring training doesn't). Scored by days off, early or late, per MLB.com."
+      },
+      {
+        "name": "Supreme Court vacancy",
+        "group": "Props",
+        "settles": "Yes if any Supreme Court justice dies, leaves the Court, or publicly announces a retirement or resignation after picks close (12/4/2026) and by 12/23/2027. An announcement counts even if it takes effect later."
+      }
+    ]
+  }
 }

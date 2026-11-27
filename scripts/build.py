@@ -10,7 +10,7 @@ from __future__ import annotations
 import datetime as dt
 import shutil
 
-from glcore import ROOT, SEASONS, load_json, save_json, score_season, to_number
+from glcore import ROOT, SEASONS, closest_number, load_json, save_json, score_season
 from make_forms import today_values
 
 PREVIEW = ("planning", "picks_open")
@@ -37,8 +37,9 @@ def flags_for(scored: dict, players: dict) -> list[str]:
             name = players.get(pid, {}).get("name", pid)
             if pick in (None, ""):
                 out.append(f"{scored['season']['id']} {c['id']}: no pick for {name}")
-            elif c["type"] == "closest" and to_number(pick) is None:
-                out.append(f"{scored['season']['id']} {c['id']}: {name}'s pick '{pick}' is not a number")
+            elif c["type"] == "closest" and closest_number(pick, c.get("unit")) is None:
+                kind = "date" if c.get("unit") == "date" else "number"
+                out.append(f"{scored['season']['id']} {c['id']}: {name}'s pick '{pick}' is not a {kind}")
             elif c["type"] == "ranking" and "error" in c["detail"].get(pid, {}):
                 out.append(f"{scored['season']['id']} {c['id']}: {name}'s ranking '{pick}' is incomplete")
     return out
@@ -51,6 +52,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
 
     seasons_meta, all_flags = [], []
+    settlement_rules = None
     for sid in index["seasons"]:
         scored = score_season(sid)
         season = scored["season"]
@@ -68,11 +70,19 @@ def main():
             "market_caps": (scored["prices"] or {}).get("market_caps") or {},
             "today": today_values(season, scored["prices"]),
         }
-        sheet = ROOT / "forms" / sid / "picks_sheet.html"
-        if sheet.exists():  # printable sheet, linked from the next-season preview
-            (ROOT / "site" / "sheets").mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(sheet, ROOT / "site" / "sheets" / f"{sid}.html")
-            out["sheet_url"] = f"sheets/{sid}.html"
+        for ext, key in (("html", "sheet_url"), ("pdf", "sheet_pdf_url")):
+            sheet = ROOT / "forms" / sid / f"picks_sheet.{ext}"
+            if sheet.exists():  # printable sheet, linked from the next-season preview
+                (ROOT / "site" / "sheets").mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(sheet, ROOT / "site" / "sheets" / f"{sid}.{ext}")
+                out[key] = f"sheets/{sid}.{ext}"
+        if settlement_rules is None and any(c.get("settles") for c in season["categories"]):
+            # newest season with written settlement rules -> shown on the Rules tab
+            settlement_rules = {
+                "season": sid, "title": season.get("title", sid), "groups": season.get("settlement", {}),
+                "categories": [{"name": c["name"], "group": c["group"], "settles": c["settles"]}
+                               for c in season["categories"] if c.get("settles")],
+            }
         save_json(SITE_DATA / f"{sid}.json", out)
         seasons_meta.append({"id": sid, "title": season.get("title", sid), "status": season.get("status"),
                              "settlement_date": season.get("settlement_date")})
@@ -81,7 +91,7 @@ def main():
 
     save_json(SITE_DATA / "index.json", {
         "generated_at": now, "active": index["active"], "seasons": seasons_meta,
-        "players": players, "history": history,
+        "players": players, "history": history, "settlement_rules": settlement_rules,
     })
     print(f"Built site data for {', '.join(index['seasons'])} -> {SITE_DATA.relative_to(ROOT)}")
     if all_flags:

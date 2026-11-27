@@ -93,6 +93,19 @@ def test_market_cap_over_under():
     assert not_listed["status"] == "pending" and not any(not_listed["points"].values())
 
 
+def test_date_closest():
+    # MLB Opening Day: closest by days, early or late; Google Forms exports dates as M/D/YYYY
+    cat = {"id": "mlb_opening", "type": "closest", "points": [5, 3, 1], "unit": "date"}
+    picks = {"a": {"mlb_opening": "3/24/2027"}, "b": {"mlb_opening": "2027-04-07"},
+             "c": {"mlb_opening": "March 20, 2027"}, "d": {"mlb_opening": "5/25/2027"},
+             "e": {"mlb_opening": "not a date"}}
+    sc = score_category(cat, list(picks), picks, {"status": "final", "value": "2027-04-01"}, None)
+    # a: 8 days early, b: 6 late, c: 12 early, d: 54 late
+    assert {p: v["distance"] for p, v in sc["detail"].items()} == {"a": 8, "b": 6, "c": 12, "d": 54}, sc["detail"]
+    assert sc["points"] == {"a": 3, "b": 5, "c": 1, "d": 0, "e": 0}, sc["points"]
+    assert sc["result"]["value"] == "2027-04-01"
+
+
 def test_aliases():
     assert same("OKC Thunder", "Oklahoma City Thunder")
     assert same("Scotty Scheffler", "scottie scheffler")

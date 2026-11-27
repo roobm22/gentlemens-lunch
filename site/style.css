@@ -189,3 +189,7 @@ table { width: 100%; border-collapse: collapse; }
 .order .cap { color: var(--muted); font-weight: 600; font-size: .82rem; }
 .rules ol { margin: 8px 0 0; padding-left: 1.3em; }
 .rules ol li { margin: 6px 0; }
+.rules table.settle tr.grp td { background: var(--gold-soft); padding-top: 10px; }
+.rules table.settle tr:not(.grp) td:first-child { white-space: nowrap; font-weight: 600; }
+@media (max-width: 600px) { .rules table.settle tr:not(.grp) td:first-child { white-space: normal; } }
+.tpl .settles { line-height: 1.35; }

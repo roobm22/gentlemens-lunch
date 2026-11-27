@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:43+00:00",
+  "generated_at": "2026-11-27T16:46+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -22,8 +22,14 @@
     ],
     "notes": [
       "Event dates are estimates until confirmed; Claude refines them during monthly runs.",
-      "Starting prices = values when the form locks (2026-12-04 close)."
-    ]
+      "Starting prices = values when the form locks (2026-12-04 close).",
+      "Round 3 (Robert, 2026-11-27): NKE and AMD replaced by ANT and NVDA; Anthropic $2T over/under dropped; MLB Opening Day date and Supreme Court vacancy added; every category has explicit settlement text."
+    ],
+    "settlement": {
+      "Sports": "Official result from the league or event organizer, confirmed with a second source. Runner-up = the losing finalist (golf: 2nd place).",
+      "Markets": "All values are taken on Thu 12/23/2027, a normal full trading day (markets are closed Fri 12/24). Close means the official 4:00 pm ET close unless the category says otherwise.",
+      "Props": "Official sources as listed for each category, confirmed with a second source."
+    }
   },
   "players": [
     {
@@ -73,7 +79,8 @@
         3
       ],
       "date": "2027-01-25",
-      "sheet_note": "Jan 2027 title game",
+      "settles": "Winner of the CFP National Championship game (Jan 2027). Runner-up = the team that loses that game.",
+      "sheet_settles": "National Championship game, Jan 2027. Runner-up = the losing team.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -148,7 +155,8 @@
         "Tennessee Titans",
         "Washington Commanders"
       ],
-      "sheet_note": "Feb 2027",
+      "settles": "Winner of Super Bowl LXI (Feb 2027). Runner-up = the team that loses the game.",
+      "sheet_settles": "Feb 2027. Runner-up = the losing team.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -190,7 +198,8 @@
         "Heads",
         "Tails"
       ],
-      "sheet_note": "Opening toss",
+      "settles": "The opening coin toss of Super Bowl LXI, as shown on the broadcast. An overtime toss doesn't count.",
+      "sheet_settles": "Opening toss, as shown on the broadcast (not an overtime toss).",
       "status": "pending",
       "result": {
         "answer": null
@@ -230,7 +239,8 @@
         3
       ],
       "date": "2027-04-05",
-      "sheet_note": "NCAA men's",
+      "settles": "Winner of the NCAA Division I men's championship game (Apr 2027). Runner-up = the team that loses it.",
+      "sheet_settles": "NCAA men's title game, Apr 2027. Runner-up = the losing team.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -271,6 +281,8 @@
         3
       ],
       "date": "2027-04-11",
+      "settles": "Winner of the 2027 Masters, including any playoff. Runner-up = 2nd place; if players tie for 2nd, they all count.",
+      "sheet_settles": "Includes any playoff. Runner-up = 2nd place; everyone tied for 2nd counts.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -311,6 +323,8 @@
         3
       ],
       "date": "2027-05-29",
+      "settles": "Winner of the 2027 Champions League final (extra time and penalties count). Runner-up = the losing finalist.",
+      "sheet_settles": "Final, May 2027 (extra time and penalties count). Runner-up = the losing team.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -385,6 +399,8 @@
         "Washington Capitals",
         "Winnipeg Jets"
       ],
+      "settles": "Winner of the 2027 Stanley Cup Final. Runner-up = the team that loses the Final.",
+      "sheet_settles": "Runner-up = the team that loses the Final.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -457,6 +473,8 @@
         "Utah Jazz",
         "Washington Wizards"
       ],
+      "settles": "Winner of the 2027 NBA Finals. Runner-up = the team that loses the Finals.",
+      "sheet_settles": "Runner-up = the team that loses the Finals.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -497,6 +515,8 @@
         3
       ],
       "date": "2027-07-11",
+      "settles": "Winner of the 2027 Wimbledon men's singles final. Runner-up = the losing finalist (even if he retires hurt).",
+      "sheet_settles": "Runner-up = the losing finalist, even if he retires hurt.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -539,7 +559,8 @@
         "Europe"
       ],
       "reference_text": "Europe won in 2025",
-      "sheet_note": "Adare Manor, Ireland",
+      "settles": "The team that wins the 2027 Ryder Cup at Adare Manor (Sept 2027), per the official result at rydercup.com.",
+      "sheet_settles": "Adare Manor, Ireland, Sept 2027. Official result at rydercup.com.",
       "status": "pending",
       "result": {
         "answer": null
@@ -611,6 +632,8 @@
         "Toronto Blue Jays",
         "Washington Nationals"
       ],
+      "settles": "Winner of the 2027 World Series. Runner-up = the team that loses the Series.",
+      "sheet_settles": "Runner-up = the team that loses the Series.",
       "status": "pending",
       "result": {
         "winner": null,
@@ -657,9 +680,11 @@
         "kind": "price",
         "symbol": "^GSPC"
       },
+      "settles": "Official S&P 500 closing value at 4:00 pm ET on 12/23/2027 (the \"Close\" on Yahoo Finance or WSJ). After-hours futures don't count.",
+      "sheet_settles": "Official close at 4:00 pm ET.",
       "status": "live",
       "result": {
-        "value": 7182.7798
+        "value": 7273.7598
       },
       "points_awarded": {
         "robert": 0,
@@ -686,7 +711,7 @@
       "market": {
         "symbol": "^GSPC",
         "start": null,
-        "latest": 7182.7798
+        "latest": 7273.7598
       }
     },
     {
@@ -706,10 +731,11 @@
         "kind": "price",
         "symbol": "GC=F"
       },
-      "sheet_note": "GC00 front-month futures",
+      "settles": "The 12/23/2027 daily close of GC00 on MarketWatch (front-month COMEX gold futures). That is the exchange's settlement price, set at about 1:30 pm ET.",
+      "sheet_settles": "MarketWatch GC00 daily close = COMEX futures settlement, about 1:30 pm ET.",
       "status": "live",
       "result": {
-        "value": 3656.7
+        "value": 3651.3
       },
       "points_awarded": {
         "robert": 0,
@@ -736,7 +762,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3656.7
+        "latest": 3651.3
       }
     },
     {
@@ -756,10 +782,11 @@
         "kind": "price",
         "symbol": "CL=F"
       },
-      "sheet_note": "CL00 front-month futures",
+      "settles": "The 12/23/2027 daily close of CL00 on MarketWatch (front-month NYMEX WTI crude futures). That is the exchange's settlement price, set at about 2:30 pm ET.",
+      "sheet_settles": "MarketWatch CL00 daily close = NYMEX WTI futures settlement, about 2:30 pm ET.",
       "status": "live",
       "result": {
-        "value": 85.73
+        "value": 83.1
       },
       "points_awarded": {
         "robert": 0,
@@ -786,7 +813,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 85.73
+        "latest": 83.1
       }
     },
     {
@@ -806,10 +833,11 @@
         "kind": "price",
         "symbol": "BTC-USD"
       },
-      "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day",
+      "settles": "The 12/23/2027 daily close of BTCUSD on MarketWatch, which is the price at 4:00 pm ET. Not midnight, and not any later trading that evening.",
+      "sheet_settles": "MarketWatch BTCUSD at 4:00 pm ET (its daily close). Not midnight.",
       "status": "live",
       "result": {
-        "value": 61459.7305
+        "value": 60252.4492
       },
       "points_awarded": {
         "robert": 0,
@@ -836,7 +864,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 61459.7305
+        "latest": 60252.4492
       }
     },
     {
@@ -856,9 +884,11 @@
         "kind": "price",
         "symbol": "AAPL"
       },
+      "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count.",
+      "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 355.58
+        "value": 357.18
       },
       "points_awarded": {
         "robert": 0,
@@ -885,7 +915,7 @@
       "market": {
         "symbol": "AAPL",
         "start": null,
-        "latest": 355.58
+        "latest": 357.18
       }
     },
     {
@@ -905,9 +935,11 @@
         "kind": "price",
         "symbol": "SPCX"
       },
+      "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count.",
+      "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 127.44
+        "value": 131.505
       },
       "points_awarded": {
         "robert": 0,
@@ -934,13 +966,13 @@
       "market": {
         "symbol": "SPCX",
         "start": null,
-        "latest": 127.44
+        "latest": 131.505
       }
     },
     {
-      "id": "nke",
-      "name": "Nike (NKE)",
-      "question": "Nike stock price at the close on 12/23/2027",
+      "id": "ant",
+      "name": "Anthropic (ANT)",
+      "question": "Anthropic (ANT) stock price at the close on 12/23/2027",
       "group": "Markets",
       "type": "closest",
       "points": [
@@ -952,11 +984,13 @@
       "unit": "usd",
       "live": {
         "kind": "price",
-        "symbol": "NKE"
+        "symbol": "ANT"
       },
+      "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count.",
+      "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 36.66
+        "value": 90.78
       },
       "points_awarded": {
         "robert": 0,
@@ -981,15 +1015,15 @@
       },
       "result_meta": {},
       "market": {
-        "symbol": "NKE",
+        "symbol": "ANT",
         "start": null,
-        "latest": 36.66
+        "latest": 90.78
       }
     },
     {
-      "id": "amd",
-      "name": "AMD",
-      "question": "AMD stock price at the close on 12/23/2027",
+      "id": "nvda",
+      "name": "Nvidia (NVDA)",
+      "question": "Nvidia (NVDA) stock price at the close on 12/23/2027",
       "group": "Markets",
       "type": "closest",
       "points": [
@@ -1001,11 +1035,13 @@
       "unit": "usd",
       "live": {
         "kind": "price",
-        "symbol": "AMD"
+        "symbol": "NVDA"
       },
+      "settles": "Official Nasdaq closing price at 4:00 pm ET on 12/23/2027 (the \"Close\" on Nasdaq.com or Yahoo Finance). After-hours trading doesn't count.",
+      "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 406.03
+        "value": 148.7598
       },
       "points_awarded": {
         "robert": 0,
@@ -1030,9 +1066,9 @@
       },
       "result_meta": {},
       "market": {
-        "symbol": "AMD",
+        "symbol": "NVDA",
         "start": null,
-        "latest": 406.03
+        "latest": 148.7598
       }
     },
     {
@@ -1059,7 +1095,8 @@
       "live": {
         "kind": "rank_by_market_cap"
       },
-      "sheet_note": "Largest (1) to smallest (7) market cap",
+      "settles": "Market cap at the 4:00 pm ET close on 12/23/2027, per companiesmarketcap.com (cross-checked with Yahoo Finance). Alphabet counts all share classes.",
+      "sheet_settles": "Market cap at the 4:00 pm ET close (companiesmarketcap.com). Alphabet: all classes.",
       "status": "live",
       "result": {
         "order": [
@@ -1134,10 +1171,10 @@
       ],
       "date": "2027-12-23",
       "unit": "rate",
-      "source": "Federal Reserve FOMC statement in effect on 12/23/2027",
       "reference": 4.0,
       "reference_text": "4.00% (range 3.75-4.00%)",
-      "sheet_note": "Upper bound of target range, in %",
+      "settles": "Upper bound of the Fed's federal funds target range in effect at 4:00 pm ET on 12/23/2027, per the latest FOMC statement at federalreserve.gov. A December 2027 decision counts if it's announced by then.",
+      "sheet_settles": "Upper bound of the target range in effect at 4:00 pm ET, per federalreserve.gov.",
       "status": "pending",
       "result": {
         "value": null
@@ -1167,28 +1204,67 @@
       "market": {}
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic $2T over/under",
-      "question": "Anthropic (ANT) market cap at the close on 12/23/2027: over or under $2 trillion?",
+      "id": "mlb_opening",
+      "name": "MLB Opening Day",
+      "question": "On what date will the first official game of the 2027 MLB regular season be played?",
+      "group": "Props",
+      "type": "closest",
+      "points": [
+        5,
+        3,
+        1
+      ],
+      "date": "2027-03-24",
+      "unit": "date",
+      "reference_text": "Scheduled Wed 3/24/2027 (labor deal expires 12/1/2026)",
+      "settles": "Date (Eastern time) of the first official 2027 MLB regular-season game, wherever it's played (an overseas opener counts; spring training doesn't). Scored by days off, early or late, per MLB.com.",
+      "sheet_settles": "Date (ET) of the first official regular-season game, anywhere (overseas openers count). Scored by days off.",
+      "status": "pending",
+      "result": {
+        "value": null
+      },
+      "points_awarded": {
+        "robert": 0,
+        "carlos": 0,
+        "jack": 0,
+        "bob": 0,
+        "pablo": 0,
+        "max": 0,
+        "tony": 0,
+        "jose": 0
+      },
+      "detail": {},
+      "picks": {
+        "robert": null,
+        "carlos": null,
+        "jack": null,
+        "bob": null,
+        "pablo": null,
+        "max": null,
+        "tony": null,
+        "jose": null
+      },
+      "result_meta": {},
+      "market": {}
+    },
+    {
+      "id": "scotus",
+      "name": "Supreme Court vacancy",
+      "question": "Will a Supreme Court justice step down or die between the picks deadline and 12/23/2027?",
       "group": "Props",
       "type": "exact",
       "points": 3,
       "date": "2027-12-23",
       "choices": [
-        "Over",
-        "Under"
+        "Yes",
+        "No"
       ],
-      "live": {
-        "kind": "market_cap_over_under",
-        "ticker": "ANT",
-        "threshold": 2000000000000.0
-      },
-      "source": "companiesmarketcap.com, cross-checked with Yahoo Finance; if not public by 12/23/2027, latest priced private valuation",
-      "reference_text": "Not public yet (private round: $965B, Jun 2026)",
-      "sheet_note": "Market cap (ticker ANT) at the 12/23/2027 close",
-      "status": "live",
+      "reference_text": "No vacancy now; Thomas is 78, Alito 76",
+      "settles": "Yes if any Supreme Court justice dies, leaves the Court, or publicly announces a retirement or resignation after picks close (12/4/2026) and by 12/23/2027. An announcement counts even if it takes effect later.",
+      "sheet_settles": "Yes = a justice dies, leaves, or announces a retirement or resignation after 12/4/2026 and by 12/23/2027.",
+      "status": "pending",
       "result": {
-        "answer": "Under"
+        "answer": null
       },
       "points_awarded": {
         "robert": 0,
@@ -1299,31 +1375,32 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-27T03:43+00:00",
+  "prices_as_of": "2026-11-27T16:42+00:00",
   "prices_start_date": null,
   "market_caps": {
-    "AAPL": 5167353080425,
-    "AMZN": 2643055316937,
-    "ANT": 1106624326101,
-    "GOOG": 3331428255065,
-    "META": 1559026015237,
-    "MSFT": 3638315442470,
-    "NVDA": 3605147173690,
-    "TSLA": 1502601463494
+    "AAPL": 5190604660323,
+    "AMZN": 2743401392213,
+    "GOOG": 3337513725036,
+    "META": 1612393948237,
+    "MSFT": 3642919646831,
+    "NVDA": 3592102797454,
+    "TSLA": 1577051625631
   },
   "today": {
     "ryder_cup": "Europe won in 2025",
-    "sp500": "7,183",
-    "gold": "$3,657",
-    "oil": "$85.73",
-    "bitcoin": "$61,460",
-    "aapl": "$355.58",
-    "spcx": "$127.44",
-    "nke": "$36.66",
-    "amd": "$406.03",
+    "sp500": "7,274",
+    "gold": "$3,651",
+    "oil": "$83.10",
+    "bitcoin": "$60,252",
+    "aapl": "$357.18",
+    "spcx": "$131.50",
+    "ant": "$90.78",
+    "nvda": "$148.76",
     "mag7": "AAPL > MSFT > NVDA > GOOG > AMZN > META > TSLA",
     "fed_rate": "4.00% (range 3.75-4.00%)",
-    "anthropic": "Not public yet (private round: $965B, Jun 2026)"
+    "mlb_opening": "Scheduled Wed 3/24/2027 (labor deal expires 12/1/2026)",
+    "scotus": "No vacancy now; Thomas is 78, Alito 76"
   },
-  "sheet_url": "sheets/GL27.html"
+  "sheet_url": "sheets/GL27.html",
+  "sheet_pdf_url": "sheets/GL27.pdf"
 }
