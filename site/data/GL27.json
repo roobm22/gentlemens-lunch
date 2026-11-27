@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:42+00:00",
+  "generated_at": "2026-11-27T03:43+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -709,7 +709,7 @@
       "sheet_note": "GC00 front-month futures",
       "status": "live",
       "result": {
-        "value": 3605.3999
+        "value": 3656.7
       },
       "points_awarded": {
         "robert": 0,
@@ -736,7 +736,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3605.3999
+        "latest": 3656.7
       }
     },
     {
@@ -759,7 +759,7 @@
       "sheet_note": "CL00 front-month futures",
       "status": "live",
       "result": {
-        "value": 84.37
+        "value": 85.73
       },
       "points_awarded": {
         "robert": 0,
@@ -786,7 +786,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 84.37
+        "latest": 85.73
       }
     },
     {
@@ -809,7 +809,7 @@
       "source": "MarketWatch BTCUSD at 4:00 pm ET on settlement day",
       "status": "live",
       "result": {
-        "value": 60627.2695
+        "value": 61459.7305
       },
       "points_awarded": {
         "robert": 0,
@@ -836,7 +836,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 60627.2695
+        "latest": 61459.7305
       }
     },
     {
@@ -1299,7 +1299,7 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-26T03:42+00:00",
+  "prices_as_of": "2026-11-27T03:43+00:00",
   "prices_start_date": null,
   "market_caps": {
     "AAPL": 5167353080425,
@@ -1314,9 +1314,9 @@
   "today": {
     "ryder_cup": "Europe won in 2025",
     "sp500": "7,183",
-    "gold": "$3,605",
-    "oil": "$84.37",
-    "bitcoin": "$60,627",
+    "gold": "$3,657",
+    "oil": "$85.73",
+    "bitcoin": "$61,460",
     "aapl": "$355.58",
     "spcx": "$127.44",
     "nke": "$36.66",
