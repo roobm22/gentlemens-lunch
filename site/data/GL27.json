@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:46+00:00",
+  "generated_at": "2026-11-28T03:27+00:00",
   "season": {
     "id": "GL27",
     "year": 2027,
@@ -684,7 +684,7 @@
       "sheet_settles": "Official close at 4:00 pm ET.",
       "status": "live",
       "result": {
-        "value": 7273.7598
+        "value": 7297.4902
       },
       "points_awarded": {
         "robert": 0,
@@ -711,7 +711,7 @@
       "market": {
         "symbol": "^GSPC",
         "start": null,
-        "latest": 7273.7598
+        "latest": 7297.4902
       }
     },
     {
@@ -735,7 +735,7 @@
       "sheet_settles": "MarketWatch GC00 daily close = COMEX futures settlement, about 1:30 pm ET.",
       "status": "live",
       "result": {
-        "value": 3651.3
+        "value": 3668.5
       },
       "points_awarded": {
         "robert": 0,
@@ -762,7 +762,7 @@
       "market": {
         "symbol": "GC=F",
         "start": null,
-        "latest": 3651.3
+        "latest": 3668.5
       }
     },
     {
@@ -786,7 +786,7 @@
       "sheet_settles": "MarketWatch CL00 daily close = NYMEX WTI futures settlement, about 2:30 pm ET.",
       "status": "live",
       "result": {
-        "value": 83.1
+        "value": 83.08
       },
       "points_awarded": {
         "robert": 0,
@@ -813,7 +813,7 @@
       "market": {
         "symbol": "CL=F",
         "start": null,
-        "latest": 83.1
+        "latest": 83.08
       }
     },
     {
@@ -837,7 +837,7 @@
       "sheet_settles": "MarketWatch BTCUSD at 4:00 pm ET (its daily close). Not midnight.",
       "status": "live",
       "result": {
-        "value": 60252.4492
+        "value": 59865.5312
       },
       "points_awarded": {
         "robert": 0,
@@ -864,7 +864,7 @@
       "market": {
         "symbol": "BTC-USD",
         "start": null,
-        "latest": 60252.4492
+        "latest": 59865.5312
       }
     },
     {
@@ -888,7 +888,7 @@
       "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 357.18
+        "value": 358.54
       },
       "points_awarded": {
         "robert": 0,
@@ -915,7 +915,7 @@
       "market": {
         "symbol": "AAPL",
         "start": null,
-        "latest": 357.18
+        "latest": 358.54
       }
     },
     {
@@ -939,7 +939,7 @@
       "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 131.505
+        "value": 133.59
       },
       "points_awarded": {
         "robert": 0,
@@ -966,7 +966,7 @@
       "market": {
         "symbol": "SPCX",
         "start": null,
-        "latest": 131.505
+        "latest": 133.59
       }
     },
     {
@@ -990,7 +990,7 @@
       "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 90.78
+        "value": 91.88
       },
       "points_awarded": {
         "robert": 0,
@@ -1017,7 +1017,7 @@
       "market": {
         "symbol": "ANT",
         "start": null,
-        "latest": 90.78
+        "latest": 91.88
       }
     },
     {
@@ -1041,7 +1041,7 @@
       "sheet_settles": "Official Nasdaq close at 4:00 pm ET. After-hours doesn't count.",
       "status": "live",
       "result": {
-        "value": 148.7598
+        "value": 150.49
       },
       "points_awarded": {
         "robert": 0,
@@ -1068,7 +1068,7 @@
       "market": {
         "symbol": "NVDA",
         "start": null,
-        "latest": 148.7598
+        "latest": 150.49
       }
     },
     {
@@ -1375,27 +1375,27 @@
       "rank": 1
     }
   ],
-  "prices_as_of": "2026-11-27T16:42+00:00",
+  "prices_as_of": "2026-11-28T03:27+00:00",
   "prices_start_date": null,
   "market_caps": {
-    "AAPL": 5190604660323,
-    "AMZN": 2743401392213,
-    "GOOG": 3337513725036,
-    "META": 1612393948237,
-    "MSFT": 3642919646831,
-    "NVDA": 3592102797454,
-    "TSLA": 1577051625631
+    "AAPL": 5210368658456,
+    "AMZN": 2747834653522,
+    "GOOG": 3349377390014,
+    "META": 1607773554654,
+    "MSFT": 3660000030279,
+    "NVDA": 3633882162643,
+    "TSLA": 1581103178400
   },
   "today": {
     "ryder_cup": "Europe won in 2025",
-    "sp500": "7,274",
-    "gold": "$3,651",
-    "oil": "$83.10",
-    "bitcoin": "$60,252",
-    "aapl": "$357.18",
-    "spcx": "$131.50",
-    "ant": "$90.78",
-    "nvda": "$148.76",
+    "sp500": "7,297",
+    "gold": "$3,668",
+    "oil": "$83.08",
+    "bitcoin": "$59,866",
+    "aapl": "$358.54",
+    "spcx": "$133.59",
+    "ant": "$91.88",
+    "nvda": "$150.49",
     "mag7": "AAPL > MSFT > NVDA > GOOG > AMZN > META > TSLA",
     "fed_rate": "4.00% (range 3.75-4.00%)",
     "mlb_opening": "Scheduled Wed 3/24/2027 (labor deal expires 12/1/2026)",
